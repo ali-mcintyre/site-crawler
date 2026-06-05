@@ -1,6 +1,7 @@
 
 import json
 import re
+from bs4 import BeautifulSoup
 from lxml import html as lhtml
 
 def parse_jsonld(html):
@@ -17,6 +18,7 @@ def parse_jsonld(html):
         html,
         re.S | re.I
     )
+    write_log("parse_jsonld", f"Found {len(jsonld_blocks)} JSON-LD script blocks")
 
     data_list = []
 
@@ -32,6 +34,7 @@ def parse_jsonld(html):
 def chunk_html(html):
     """
     Returns one chunk per product/listing.
+    Tries both JSON-LD and DOM strategies, returning whichever finds more products.
     """
 
     try:
@@ -58,45 +61,70 @@ def chunk_html(html):
     if product_chunks:
         write_log("chunk_html", f"Found {len(product_chunks)} product chunks using JSON-LD strategy")
 
-        # safer logging (avoid index crash)
-        for i in range(min(5, len(product_chunks))):
-            write_log("chunk_html", f"Sample chunk {i}: {product_chunks[i][:500]}")
-
-        return product_chunks
-
     # --------------------------------
-    # Strategy 2: Repeating DOM nodes
+    # Strategy 2: Repeating DOM nodes (BeautifulSoup)
     # --------------------------------
 
-    xpaths = [
-        "//article",
-        "//*[contains(@class,'product')]",
-        "//*[contains(@class,'product-card')]",
-        "//*[contains(@class,'product-tile')]",
-        "//*[contains(@class,'card')]",
-        "//*[contains(@class,'tile')]",
-        "//*[contains(@data-testid,'product')]",
+    soup = BeautifulSoup(html, "html.parser")
+
+    selectors = [
+        ("article",             lambda s: s.find_all("article")),
+        ("class~product",       lambda s: s.find_all(class_=re.compile(r"product", re.I))),
+        ("class~card",          lambda s: s.find_all(class_=re.compile(r"\bcard\b", re.I))),
+        ("class~tile",          lambda s: s.find_all(class_=re.compile(r"\btile\b", re.I))),
+        ("data-testid~product", lambda s: s.find_all(attrs={"data-testid": re.compile(r"product", re.I)})),
     ]
 
-    for xpath in xpaths:
+    dom_chunks = []
 
-        nodes = doc.xpath(xpath)
+    for label, finder in selectors:
+        tags = finder(soup)
 
-        if len(nodes) >= 2:
+        if len(tags) >= 2:
+            # Keep the depth level with the most matches — this finds the individual
+            # product cards rather than their outermost container.
+            from collections import Counter
+            tag_depths = [(t, len(list(t.parents))) for t in tags]
+            depth_counts = Counter(d for _, d in tag_depths)
+            best_depth = min(d for d, count in depth_counts.items() if count >= 2)
+            tags = [t for t, d in tag_depths if d == best_depth]
 
-            chunks = []
-
-            for node in nodes:
-                try:
-                    chunks.append(
-                        lhtml.tostring(node, encoding="unicode")
-                    )
-                except Exception:
-                    pass
+            chunks = [str(tag) for tag in tags]
+            chunks = [c for c in chunks if score_chunk(c) > 0]
 
             if chunks:
-                write_log("chunk_html", f"Found {len(chunks)} product chunks using XPath: {xpath}")
-                return chunks
+                write_log("chunk_html", f"Found {len(chunks)} product chunks using selector: {label}")
+                for c in chunks:
+                    write_log("extracted_chunks", c)
+                dom_chunks = chunks
+                break
+
+    # Merge both: JSON-LD first (richer, structured), then DOM chunks for products
+    # not covered by JSON-LD. Deduplicate by SKU to avoid double-counting the
+    # products that appear in both.
+    if product_chunks or dom_chunks:
+        # Collect SKUs already covered by JSON-LD chunks
+        jsonld_skus = set()
+        for chunk in product_chunks:
+            try:
+                obj = json.loads(chunk)
+                sku = obj.get("sku") or obj.get("SKU") or obj.get("productID")
+                if sku:
+                    jsonld_skus.add(str(sku).strip().lower())
+            except Exception:
+                pass
+
+        # Only add DOM chunks that don't duplicate a JSON-LD SKU
+        merged = list(product_chunks)
+        for chunk in dom_chunks:
+            if jsonld_skus:
+                chunk_lower = chunk.lower()
+                if any(sku in chunk_lower for sku in jsonld_skus):
+                    continue
+            merged.append(chunk)
+
+        write_log("chunk_html", f"Merged {len(product_chunks)} JSON-LD + {len(dom_chunks)} DOM = {len(merged)} chunks after dedup")
+        return merged
 
     return [html]
 
@@ -242,6 +270,7 @@ def search_attributes(html, field_name):
             f'//*[@id="{field_name}"]',
             f'//*[@name="{field_name}"]',
             f'//*[@data-field="{field_name}"]',
+            f'//*[@data-testid="{field_name}"]',
         ]
 
         for xpath in xpaths:
@@ -292,6 +321,44 @@ def search_visible_text(html, field_name):
     return ""
 
 
+def search_css_class(html, aliases):
+    """
+    Find elements whose class attribute contains any of the alias terms.
+    Handles BEM-style naming like product-card__title, product-price, etc.
+    Returns the text content of the first match.
+    """
+    try:
+        soup = BeautifulSoup(html, "html.parser")
+        for alias in aliases:
+            matches = soup.find_all(class_=re.compile(alias, re.I))
+            for el in matches:
+                text = el.get_text(separator=" ").strip()
+                if text:
+                    return text
+    except Exception:
+        pass
+    return ""
+
+
+# Maps user-defined field names to the JSON-LD/schema.org keys they correspond to.
+# Each entry lists all names to try, most-specific first.
+FIELD_ALIASES = {
+    "title":       ["name", "title"],
+    "name":        ["name", "title"],
+    "price":       ["price", "lowprice"],
+    "image":       ["image", "img","photo", "thumbnail"],
+    "image_url":   ["image", "img", "photo", "thumbnail"],
+    "imageurl":   ["image", "img", "photo", "thumbnail"],
+    "description": ["description", "abstract", "descr"],
+    "brand":       ["brand", "manufacturer", "publisher"],
+    "sku":         ["sku", "productid", "mpn", "gtin13", "gtin12"],
+    "url":         ["url", "link"],
+    "rating":      ["ratingvalue", "rating"],
+    "review_count":["reviewcount", "ratingcount"],
+    "availability":["availability", "itemcondition"],
+    "color":       ["color", "colour"],
+    "category":    ["category", "breadcrumb"],
+}
 
 
 def extract_custom_field(field, html, parsed_jsonld=None):
@@ -300,6 +367,7 @@ def extract_custom_field(field, html, parsed_jsonld=None):
     """
 
     field_name = field["name"].lower()
+    aliases = FIELD_ALIASES.get(field_name, [field_name])
 
     # 0. JSON-LD — either passed in, or auto-detected when the chunk itself is JSON
     #    (chunk_html Strategy 1 returns json.dumps(product) strings, not HTML)
@@ -312,25 +380,41 @@ def extract_custom_field(field, html, parsed_jsonld=None):
             pass
 
     if parsed_jsonld:
-        value = search_jsonld(parsed_jsonld, field_name)
-        if value not in (None, "", [], {}):
-            return value if isinstance(value, str) else json.dumps(value, ensure_ascii=False)
+        for alias in aliases:
+            value = search_jsonld(parsed_jsonld, alias)
+            if value not in (None, "", [], {}):
+                return value if isinstance(value, str) else json.dumps(value, ensure_ascii=False)
 
-    # 2. Meta tags
-    value = search_meta(html, field_name)
-    if value:
-        return value
+    # 2. Meta tags — try aliases then original name
+    for name in aliases + [field_name]:
+        value = search_meta(html, name)
+        if value:
+            return value
 
     # 3. itemprop/id/name attributes
-    value = search_attributes(html, field_name)
-    if value:
-        return value
+    for name in aliases + [field_name]:
+        value = search_attributes(html, name)
+        if value:
+            return value
 
-    # 4. Visible text
+    # 4. Visible text — use original field name (human-readable label on page)
     value = search_visible_text(html, field_name)
     if value:
         return value
 
+    # 5. CSS class-based — find elements whose class contains the field name or alias
+    #    Handles BEM naming like product-card__title, product-price, etc.
+    value = search_css_class(html, aliases + [field_name])
+    if value:
+        return value
+
+    # 6. Image src — for image fields, grab the first <img> src in the chunk
+    if field_name in ("image", "image_url", "img"):
+        m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', html, re.I)
+        if m:
+            return m.group(1)
+
+    write_log("extract_custom_field", f"Could not find value for field '{field['name']}' in chunk {html}.")
     return ""
 
 def find_missing_fields(row: dict, custom_fields: list[dict]) -> list[dict]:

@@ -1010,20 +1010,61 @@ updateDownloadLabel();
         } else {
           data = await res.text();
         }
-        if (data.job_id) {
-          currentJobId = data.job_id;
-        }
 
-        els.results.textContent = typeof data === "string" ? data : JSON.stringify(data, null, 2);
         if (!res.ok) {
           setStatus(`Request failed (${res.status}). See response.`, "bad");
+          els.results.textContent = typeof data === "string" ? data : JSON.stringify(data, null, 2);
           return;
         }
-        setStatus("Success.", "ok");
+
+        if (data.job_id) {
+          currentJobId = data.job_id;
+          startPolling(data.job_id);
+        }
+
       } catch (err) {
         setStatus(err?.message || "Request failed.", "bad");
       }
     });
+
+    function startPolling(jobId) {
+      if (pollInterval) clearInterval(pollInterval);
+      startTime = Date.now();
+      els.results.textContent = `Job ID: ${jobId}\n\n`;
+
+      pollInterval = setInterval(async () => {
+        try {
+          const res = await fetch(`/api/status/${jobId}`);
+          const data = await res.json();
+
+          // Show log lines, preserving the Job ID header
+          els.results.textContent = `Job ID: ${jobId}\n\n` + (data.log || []).join("\n");
+          els.results.scrollTop = els.results.scrollHeight;
+
+          // Update status bar with progress
+          const elapsed = Math.round((Date.now() - startTime) / 1000);
+          if (data.total > 0) {
+            setStatus(`Crawling… ${data.progress} / ${data.total} pages (${elapsed}s)`);
+          } else {
+            setStatus(`Crawling… ${elapsed}s`);
+          }
+
+          if (data.status === "done") {
+            clearInterval(pollInterval);
+            pollInterval = null;
+            setStatus(`Done — ${data.progress} pages in ${elapsed}s. Ready to download.`, "ok");
+          } else if (data.status === "error") {
+            clearInterval(pollInterval);
+            pollInterval = null;
+            setStatus(`Error: ${data.error}`, "bad");
+          }
+        } catch (err) {
+          clearInterval(pollInterval);
+          pollInterval = null;
+          setStatus("Lost connection to server.", "bad");
+        }
+      }, 1500);
+    }
 
     // --- Fields sharing (export/import/share link) + autosave ---
     els.exportFieldsBtn.addEventListener("click", () => {

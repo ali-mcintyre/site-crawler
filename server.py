@@ -429,14 +429,14 @@ async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
                             ##if fields are not populated, resort to claude want to send all fields (populated and not populated)
                             missing_fields = find_missing_fields(row, custom_fields)
                             write_log(job_id, f"Found {len(missing_fields)} missing required fields in {url}")
-                            if missing_fields and claude_api_url:
-                                job["log"].append(f"  ↳ Incomplete fields — trying Claude API: {url}")
-                                try:
-                                    #send fields to claude to check
-                                    row = await cleanup_via_claude(row, missing_fields, custom_fields, claude_api_url, session)
-                                    job["log"].append(f"OK {url} (via Claude API)")
-                                except Exception as e:
-                                    job["log"].append(f"  ↳ Claude API error: {e}")
+                            # if missing_fields and claude_api_url:
+                            #     job["log"].append(f"  ↳ Incomplete fields — trying Claude API: {url}")
+                            #     try:
+                            #         #send fields to claude to check
+                            #         row = await cleanup_via_claude(row, missing_fields, custom_fields, claude_api_url, session)
+                            #         job["log"].append(f"OK {url} (via Claude API)")
+                            #     except Exception as e:
+                            #         job["log"].append(f"  ↳ Claude API error: {e}")
                         new_links = extract_internal_links(result.html, url) if result.html else []
                         job["progress"] = job.get("progress", 0) + 1
                         job["log"].append(f"OK {url}")
@@ -687,10 +687,10 @@ def build_excel(rows: list[dict],custom_fields: list[dict],filename: str) -> byt
         )
     # column widths
     ws.column_dimensions["A"].width = 50
-    ws.column_dimensions["B"].width = 120
-    ws.column_dimensions["C"].width = 120
-    ws.column_dimensions["D"].width = 120
-    ws.column_dimensions["E"].width = 120
+    ws.column_dimensions["B"].width = 50
+    ws.column_dimensions["C"].width = 50
+    ws.column_dimensions["D"].width = 50
+    ws.column_dimensions["E"].width = 50
     ws.freeze_panes = "A2"
     buf = io.BytesIO()
     wb.save(buf)
@@ -771,7 +771,7 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[d
                             row["meta_description"] = extract_meta(result.html, "description")
                             row["records"] = []
                             chunks = chunk_html(result.html)
-                            chunks=[c for c in chunks if score_chunk(c) > 0]
+                            #chunks=[c for c in chunks if score_chunk(c) > 0]
                             for chunk in chunks:
                                 record = {}
                                 for field in custom_fields:

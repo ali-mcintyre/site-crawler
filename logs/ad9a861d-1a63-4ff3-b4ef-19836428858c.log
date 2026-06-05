@@ -1,4 +1,0 @@
-[2026-06-04 15:38:08] Starting spider crawl at https://www.hp.com/us-en/shop/slp/weekly-deals/laptops with max_pages=1 and custom_fields=[]
-[2026-06-04 15:38:10] Extracted 14 chunks from https://www.hp.com/us-en/shop/slp/weekly-deals/laptops for record extraction
-[2026-06-04 15:38:10] Found 0 missing required fields in https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
-[2026-06-04 15:38:10] batch=1 pages_processed=1 max_pages=1 visited=1 queue=192

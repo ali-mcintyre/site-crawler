@@ -1,0 +1,196 @@
+[2026-06-05 15:33:15] Starting spider crawl at https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok with max_pages=1 and custom_fields=['name', 'sku', 'price', 'image']
+[2026-06-05 15:33:18] Extracted 24 chunks from https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok for record extraction
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0264677b-c726-4a85-9def-a6082a1768ad/WMNS+AIR+JORDAN+1+RETRO+HI+OG.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c5da086e-1d72-4dd4-bc3c-36a693899a31/WMNS+JORDAN+SPIZIKE+LOW.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e510b44b-9802-458a-b2ee-9e550148a50e/AIR+JORDAN+1+RETRO+LOW+OG.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0d271655-3af0-4ce7-80af-bb9d89c0fea3/WMNS+JORDAN+TRUNNER+FLOW.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fde2cc9-99ff-469a-81b3-e74ffe5be20f/AIR+JORDAN+4+RETRO.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7b9e0bd6-96af-4c15-a148-10eb2ca995a4/WMNS+JORDAN+TRUNNER+LX.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9182e205-25fa-4334-a02e-7eee463f895a/WMNS+AIR+JORDAN+OG.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8dd04efe-4caa-4279-a0ae-2188dc0764ec/WMNS+AIR+JORDAN+11+RETRO+LOW.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/41734a9a-06d5-40b0-aee7-eeb25cd4e435/WMNS+AIR+JORDAN+1+LOW.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/09c0974e-90ff-486e-9a4c-a9b08793e9b9/WMNS+AIR+JORDAN+SKYLINE+LOW.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/01f84eae-cfb0-43cb-b8c2-b353bd399fd9/WMNS+AIR+JORDAN+3+RETRO.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93c4de4f-c876-4da5-8b34-b16fb1261411/WMNS+JORDAN+TRUNNER+FLOW.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cbf96de0-99fe-4a5d-8198-4a27b2c3d252/WMNS+JORDAN+TRUNNER+O%2FS.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f100c2fc-5af1-449b-8ae9-686cdebbd9c8/WMNS+AIR+JORDAN+1+LOW+SE.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/55f8aff5-827d-427e-9185-2ec838543b59/AIR+JORDAN+3+RETRO+OG+PRM.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c971ed2d-5b91-4c38-aae6-873d9c1c01c8/WMNS+JORDAN+HEIR+SERIES+2+WNBA.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5128e770-70ac-417f-9b8a-cf930ad4dc47/WMNS+AIR+JORDAN+MULE+SE.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fzzkwm0otl7qh332zfe7/WMNS+JORDAN+MODERO+1.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/512a0ab8-0a93-4c6b-a0b8-118a4f6c9acd/JORDAN+TRIANGLE.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/faedf3c4-049c-4d1a-8336-9af1e714597c/JORDAN+TRIANGLE.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d317631a-bb0e-4a04-9e93-eef0133d8f09/WMNS+AIR+JORDAN+4+RETRO+TEX.png'
+[2026-06-05 15:33:18] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] name -> ''
+[2026-06-05 15:33:18] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] sku -> ''
+[2026-06-05 15:33:18] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:18] price -> ''
+[2026-06-05 15:33:18] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/72a02be8-5174-4cc4-9bca-85927f4da41c/WMNS+JORDAN+SPIZIKE+LOW.png'
+[2026-06-05 15:33:19] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] name -> ''
+[2026-06-05 15:33:19] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] sku -> ''
+[2026-06-05 15:33:19] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] price -> ''
+[2026-06-05 15:33:19] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/icbxjzt6qsvtyn95fgcy/WMNS+JORDAN+MODERO+1.png'
+[2026-06-05 15:33:19] Extracting field 'name' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] name -> ''
+[2026-06-05 15:33:19] Extracting field 'sku' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] sku -> ''
+[2026-06-05 15:33:19] Extracting field 'price' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] price -> ''
+[2026-06-05 15:33:19] Extracting field 'image' from chunk for https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d0967477-0e21-432c-a781-4035251c1c4a/WMNS+JORDAN+SIXTY+PLUS+LOW.png'
+[2026-06-05 15:33:19] Found 2 missing required fields in https://www.nike.com/w/womens-jordan-shoes-37eefz5e1x6zy7ok
+[2026-06-05 15:33:19] batch=1 pages_processed=1 max_pages=1 visited=1 queue=349

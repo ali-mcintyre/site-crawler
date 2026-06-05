@@ -1,2 +1,0 @@
-[2026-06-04 16:23:28] Starting spider crawl at https://www.hp.com/us-en/shop/slp/weekly-deals/laptops with max_pages=1 and custom_fields=['name', 'sku', 'price', 'image']
-[2026-06-04 16:23:31] batch=1 pages_processed=0 max_pages=1 visited=1 queue=0
