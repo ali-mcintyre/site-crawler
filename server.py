@@ -27,7 +27,7 @@ import re
 import threading
 import uuid
 from urllib.parse import urlparse
-
+import json
 import aiohttp
 from flask import Flask, jsonify, request, send_file
 from lxml import etree
@@ -35,6 +35,7 @@ from lxml import html as lhtml
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment
+from record_extraction_utils import *
 
 app = Flask(__name__)
 
@@ -147,7 +148,7 @@ async def fetch_via_scrapingbee(url: str, api_key: str,
 # Claude API fallback (Tier 4 — last resort)
 # ──────────────────────────────────────────────
 
-async def fetch_via_claude(url: str, fields: list,
+async def fetch_via_claude(url: str, custom_fields: list,
                            claude_api_url: str,
                            session: aiohttp.ClientSession) -> dict:
     """
@@ -159,14 +160,15 @@ async def fetch_via_claude(url: str, fields: list,
     api_fields = [
         {"name": "page_title", "description": "The name or title of this page or document",
          "type": "string", "required": True},
-    ]
-    if "image_url" in fields:
-        api_fields.append({
-            "name": "image",
+         {"name": "hero_image_url",
             "description": "The URL of the main graphic or hero image on this page",
             "type": "array",
             "required": False
-        })
+        },{"name": "content", "description": "The main text content of the page",
+         "type": "string", "required": True}
+    ]
+    if custom_fields:
+        api_fields.append(custom_fields)
 
     payload = {"url": url, "fields": api_fields}
     try:
@@ -181,11 +183,11 @@ async def fetch_via_claude(url: str, fields: list,
             data = await resp.json()
 
             # Extract page_title — may be top-level or nested under "fields"
-            nested = data.get("fields", {}) or {}
+            nested = data.get("custom_fields", {}) or {}
             page_title = data.get("page_title") or nested.get("page_title", "")
 
-            # Extract image — API returns an array, take first entry
-            raw_image = data.get("image") or nested.get("image", [])
+            # Extract hero image — API returns an array, take first entry
+            raw_image = data.get("hero_image") or nested.get("hero_image", [])
             if isinstance(raw_image, list):
                 image_url = raw_image[0] if raw_image else ""
             else:
@@ -197,10 +199,10 @@ async def fetch_via_claude(url: str, fields: list,
                 "url": url,
                 "content": content,
                 "title": page_title,
-                "h1": page_title,
-                "image_url": image_url,
+                #"h1": page_title,
+                "hero_image_url": image_url,
                 "meta_description": "",
-                "word_count": str(len(content.split())) if content else "0",
+                #"word_count": str(len(content.split())) if content else "0",
                 "links": "",
             }
     except Exception as e:
@@ -225,7 +227,7 @@ class PageResult:
 
 async def fetch_page(url: str, crawler: AsyncWebCrawler, config: CrawlerRunConfig,
                      api_key: str, session: aiohttp.ClientSession, job: dict,
-                     claude_api_url: str = "", fields: list = None) -> PageResult:
+                     claude_api_url: str = "", custom_fields: list = None) -> PageResult:
     """
     Four-tier fetch strategy:
       1. Direct crawl via Crawl4AI         (free)
@@ -233,8 +235,8 @@ async def fetch_page(url: str, crawler: AsyncWebCrawler, config: CrawlerRunConfi
       3. ScrapingBee with stealth_proxy    (~75 credits)
       4. Claude extraction API             (last resort — no HTML, content+title only)
     """
-    if fields is None:
-        fields = []
+    if custom_fields is None:
+        custom_fields = []
     def make_result(html):
         title_m = re.search(r'<title[^>]*>(.*?)</title>', html, re.I | re.S)
         title = re.sub(r'<[^>]+>', '', title_m.group(1)).strip() if title_m else ""
@@ -286,7 +288,7 @@ async def fetch_page(url: str, crawler: AsyncWebCrawler, config: CrawlerRunConfi
     if claude_api_url:
         try:
             job["log"].append(f"  ↳ Trying Claude API: {url}")
-            extracted = await fetch_via_claude(url, fields, claude_api_url, session)
+            extracted = await fetch_via_claude(url, custom_fields, claude_api_url, session)
             job["log"].append(f"OK {url} (via Claude API)")
             # Return a PageResult with pre-extracted fields stored in metadata
             result = PageResult(url=url, html="", metadata={"title": extracted.get("title", "")})
@@ -356,8 +358,9 @@ def extract_internal_links(html_content: str, base_url: str) -> list:
     return list(set(found))
 
 
-async def spider_crawl(job_id: str, start_url: str, fields: list,
+async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
                        max_pages: int, api_key: str, claude_api_url: str = "") -> list:
+    write_log(job_id, f"Starting spider crawl at {start_url} with max_pages={max_pages} and custom_fields={[f['name'] for f in custom_fields]}")
     job = jobs[job_id]
     job["status"] = "crawling"
     job["log"] = [f"Spider starting at: {start_url}"]
@@ -373,7 +376,7 @@ async def spider_crawl(job_id: str, start_url: str, fields: list,
         word_count_threshold=10,
         page_timeout=30000,
     )
-
+    pages_processed = 0
     visited = set()
     queue = [start_url.rstrip('/')]
     rows = []
@@ -385,12 +388,55 @@ async def spider_crawl(job_id: str, start_url: str, fields: list,
             async def crawl_one(url):
                 async with semaphore:
                     try:
-                        result = await fetch_page(url, crawler, config, api_key, session, job, claude_api_url, fields)
+                        row={}
+                        result = await fetch_page(url, crawler, config, api_key, session, job, claude_api_url, custom_fields)
                         if not result.success:
                             job["log"].append(f"SKIP {url}: {result.error_message}")
                             job["progress"] = job.get("progress", 0) + 1
                             return None, []
-                        row = {f: extract_field(f, result) for f in fields}
+                        if hasattr(result, "_extracted") and result._extracted:
+                            # This means the Claude API returned a successful response with extracted fields
+                            extracted = result._extracted
+                            row["url"] = extracted.get("url", url)
+                            row["content"] = extracted.get("content", "")
+                            row["title"] = extracted.get("title", "")
+                            row["hero_image_url"] = extracted.get("hero_image_url", "")
+                            row["meta_description"] = extracted.get("meta_description", "")
+                            row["records"] = extracted.get("records", "")
+                        else:
+                            row["url"] = url
+                            row["content"] = extract_body_text(result.html)
+                            row["title"] = result.metadata.get("title", "")
+                            row["hero_image_url"] = extract_hero_image(result.html)
+                            row["meta_description"] = extract_meta(result.html, "description")
+                            row["records"] = []
+                            chunks = chunk_html(result.html)
+                            #chunks=[c for c in chunks if score_chunk(c) > 0]
+                            write_log(job_id, f"Extracted {len(chunks)} chunks from {url} for record extraction")
+                            #write_log(job_id, chunks[:2])  # log first 2 chunks for debugging
+                            for chunk in chunks:
+                                record = {}
+                                for field in custom_fields:
+                                    write_log(job_id, f"Extracting field '{field['name']}' from chunk for {url}")
+                                    value = extract_custom_field(field, chunk)
+                                    write_log(
+                                        job_id,
+                                        f"{field['name']} -> {repr(value)}"
+                                    )
+                                    record[field["name"]] = value
+                                row["records"].append(record)
+
+                            ##if fields are not populated, resort to claude want to send all fields (populated and not populated)
+                            missing_fields = find_missing_fields(row, custom_fields)
+                            write_log(job_id, f"Found {len(missing_fields)} missing required fields in {url}")
+                            if missing_fields and claude_api_url:
+                                job["log"].append(f"  ↳ Incomplete fields — trying Claude API: {url}")
+                                try:
+                                    #send fields to claude to check
+                                    row = await cleanup_via_claude(row, missing_fields, custom_fields, claude_api_url, session)
+                                    job["log"].append(f"OK {url} (via Claude API)")
+                                except Exception as e:
+                                    job["log"].append(f"  ↳ Claude API error: {e}")
                         new_links = extract_internal_links(result.html, url) if result.html else []
                         job["progress"] = job.get("progress", 0) + 1
                         job["log"].append(f"OK {url}")
@@ -400,9 +446,9 @@ async def spider_crawl(job_id: str, start_url: str, fields: list,
                         job["log"].append(f"ERR {url}: {e}")
                         return None, []
 
-            while queue and len(visited) < max_pages:
+            while queue and pages_processed < max_pages:
                 batch = []
-                while queue and len(batch) < 10:
+                while queue and len(batch) < 10 and pages_processed + len(batch) < max_pages:
                     url = queue.pop(0)
                     if url not in visited:
                         visited.add(url)
@@ -417,11 +463,20 @@ async def spider_crawl(job_id: str, start_url: str, fields: list,
 
                 for row, new_links in results:
                     if row:
+                        pages_processed +=1
                         rows.append(row)
                     for link in new_links:
                         clean = link.rstrip('/')
                         if clean not in visited and clean not in queue:
                             queue.append(clean)
+                write_log(
+                    job_id,
+                    f"batch={len(batch)} "
+                    f"pages_processed={pages_processed} "
+                    f"max_pages={max_pages} "
+                    f"visited={len(visited)} "
+                    f"queue={len(queue)}"
+                )
 
                 job["total"] = len(visited) + len(queue)
 
@@ -494,38 +549,70 @@ def extract_body_text(html: str) -> str:
         text = re.sub(r'\s+', ' ', text)
         return text.strip()
 
+async def cleanup_via_claude(
+    row: dict,
+    missing_fields: list[dict],
+    custom_fields: list[dict],
+    claude_api_url: str,
+    session: aiohttp.ClientSession
+) -> list[dict]:
+    """
+    Ask Claude to fill only missing fields for already-extracted records.
 
-def extract_field(field_key: str, result) -> str:
-    # If this result came from the Claude API, use pre-extracted fields directly
-    if hasattr(result, "_extracted") and result._extracted:
-        return result._extracted.get(field_key, "")
+    Returns:
+        Updated records list
+    """
 
-    html = result.html or ""
-    meta = result.metadata or {}
+    payload = {
+        "page_data": row,
+        "missing_fields": missing_fields,
+        "fields": custom_fields
+    }
 
-    if field_key == "url":
-        return result.url
-    elif field_key == "title":
-        return meta.get("title", "")
-    elif field_key == "content":
-        return extract_body_text(html)
-    elif field_key == "image_url":
-        return extract_hero_image(html)
-    elif field_key == "meta_description":
-        return extract_meta(html, "description")
-    elif field_key == "h1":
-        return extract_h1(html)
-    elif field_key == "word_count":
-        body = extract_body_text(html)
-        return str(len(body.split())) if body else "0"
-    elif field_key == "links":
-        links = result.links or {}
-        internal = [l.get("href", "") for l in links.get("internal", [])]
-        return " | ".join(internal[:20])
-    else:
-        return ""
+    try:
+        async with session.post(
+            claude_api_url,
+            json=payload,
+            headers={"Content-Type": "application/json"},
+            timeout=aiohttp.ClientTimeout(total=120)
+        ) as resp:
 
+            if resp.status != 200:
+                raise RuntimeError(
+                    f"Claude API HTTP {resp.status}"
+                )
 
+            data = await resp.json()
+
+            claude_records = data.get("records", [])
+            row["records"] = claude_records
+            return row
+
+            # if not isinstance(claude_records, list):
+            #     raise RuntimeError(
+            #         "Claude response missing records array"
+            #     )
+
+            # for i, record in enumerate(claude_records):
+
+            #     if i >= len(claude_records):
+            #         continue
+
+            #     enriched_record = claude_records[i]
+
+            #     for field_name in missing_fields:
+
+            #         value = enriched_record.get(field_name)
+
+            #         if value not in [None, "", [], {}]:
+            #             record[field_name] = value
+
+            # return records
+
+    except Exception as e:
+        raise RuntimeError(
+            f"Claude API request failed: {e}"
+        )
 # ──────────────────────────────────────────────
 # Excel builder
 # ──────────────────────────────────────────────
@@ -534,57 +621,88 @@ FIELD_LABELS = {
     "url": "Page URL",
     "title": "Page Title",
     "content": "Main Content",
-    "image_url": "Hero Image URL",
-    "meta_description": "Meta Description",
-    "h1": "H1 Heading",
-    "word_count": "Word Count",
+    "hero_image_url": "Hero Image URL",
+    #"meta_description": "Meta Description",
+    #"h1": "H1 Heading",
+    #"word_count": "Word Count",
     "links": "Internal Links (first 20)",
 }
 
 
-def build_excel(rows: list, fields: list, filename: str) -> bytes:
+def build_excel(rows: list[dict],custom_fields: list[dict],filename: str) -> bytes:
     wb = openpyxl.Workbook()
     ws = wb.active
     ws.title = "Crawl Results"
-
     header_fill = PatternFill("solid", fgColor="1a1a2e")
     header_font = Font(bold=True, color="FFFFFF", size=11)
-
-    for col_idx, field in enumerate(fields, 1):
-        cell = ws.cell(row=1, column=col_idx, value=FIELD_LABELS.get(field, field))
+    # base columns (page-level fields)
+    columns = ["Page URL", "Page Title", "Content", "Hero Image URL", "records"]
+    # headers
+    for col_idx, col_name in enumerate(columns, 1):
+        cell = ws.cell(
+            row=1,
+            column=col_idx,
+            value=col_name
+        )
         cell.font = header_font
         cell.fill = header_fill
-        cell.alignment = Alignment(wrap_text=False, vertical="center")
-
-    for row_idx, row_data in enumerate(rows, 2):
-        fill = PatternFill("solid", fgColor="F8F8FC") if row_idx % 2 == 0 \
-               else PatternFill("solid", fgColor="FFFFFF")
-        for col_idx, field in enumerate(fields, 1):
-            val = row_data.get(field, "")
-            cell = ws.cell(row=row_idx, column=col_idx, value=val)
-            cell.fill = fill
-            cell.alignment = Alignment(wrap_text=True, vertical="top")
-
-    col_widths = {
-        "url": 50, "title": 40, "content": 80, "image_url": 50,
-        "meta_description": 60, "h1": 40, "word_count": 12, "links": 60,
-    }
-    for col_idx, field in enumerate(fields, 1):
-        ws.column_dimensions[openpyxl.utils.get_column_letter(col_idx)].width = \
-            col_widths.get(field, 30)
-
+        cell.alignment = Alignment(vertical="center")
+    # rows
+    for row_idx, page in enumerate(rows, 2):
+        fill = PatternFill(
+            "solid",
+            fgColor="F8F8FC" if row_idx % 2 == 0 else "FFFFFF"
+        )
+        # URL column
+        url = page.get("url", "")
+        cell = ws.cell(row=row_idx, column=1, value=url)
+        cell.fill = fill
+        cell.alignment = Alignment(vertical="top")
+        title = page.get("title", "")
+        cell = ws.cell(row=row_idx, column=2, value=title)
+        cell.fill = fill
+        cell.alignment = Alignment(vertical="top")
+        content = page.get("content", "")
+        cell = ws.cell(row=row_idx, column=3, value=content)
+        cell.fill = fill
+        cell.alignment = Alignment(vertical="top")
+        
+        image_url = page.get("hero_image_url", "")
+        cell = ws.cell(row=row_idx, column=4, value=image_url)
+        cell.fill = fill
+        cell.alignment = Alignment(vertical="top")
+        # RECORDS column (JSON blob)
+        records = page.get("records", [])
+        # make JSON Excel-safe (pretty optional)
+        records_json = json.dumps(records, ensure_ascii=False)
+        cell = ws.cell(
+            row=row_idx,
+            column=5,
+            value=records_json
+        )
+        cell.fill = fill
+        cell.alignment = Alignment(
+            wrap_text=True,
+            vertical="top"
+        )
+    # column widths
+    ws.column_dimensions["A"].width = 50
+    ws.column_dimensions["B"].width = 120
+    ws.column_dimensions["C"].width = 120
+    ws.column_dimensions["D"].width = 120
+    ws.column_dimensions["E"].width = 120
     ws.freeze_panes = "A2"
     buf = io.BytesIO()
     wb.save(buf)
     buf.seek(0)
-    return buf.read()
 
+    return buf.read()
 
 # ──────────────────────────────────────────────
 # Async job runners
 # ──────────────────────────────────────────────
 
-async def run_sitemap_crawl(job_id: str, sitemap_url: str, fields: list,
+async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[dict],
                              filename: str, api_key: str, claude_api_url: str = ""):
     job = jobs[job_id]
     job["status"] = "fetching_sitemap"
@@ -630,12 +748,48 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, fields: list,
             async def crawl_one(url):
                 async with semaphore:
                     try:
-                        result = await fetch_page(url, crawler, config, api_key, session, job, claude_api_url, fields)
+                        row={}
+                        result = await fetch_page(url, crawler, config, api_key, session, job, claude_api_url, custom_fields)
                         if not result.success:
                             job["log"].append(f"SKIP {url}: {result.error_message}")
                             job["progress"] = job.get("progress", 0) + 1
-                            return None
-                        row = {f: extract_field(f, result) for f in fields}
+                            return None, []
+                        if hasattr(result, "_extracted") and result._extracted:
+                            # This means the Claude API returned a successful response with extracted fields
+                            extracted = result._extracted
+                            row["url"] = extracted.get("url", url)
+                            row["content"] = extracted.get("content", "")
+                            row["title"] = extracted.get("title", "")
+                            row["hero_image_url"] = extracted.get("hero_image_url", "")
+                            row["meta_description"] = extracted.get("meta_description", "")
+                            row["records"] = extracted.get("records", "")
+                        else:
+                            row["url"] = url
+                            row["content"] = extract_body_text(result.html)
+                            row["title"] = result.metadata.get("title", "")
+                            row["image_url"] = extract_hero_image(result.html)
+                            row["meta_description"] = extract_meta(result.html, "description")
+                            row["records"] = []
+                            chunks = chunk_html(result.html)
+                            chunks=[c for c in chunks if score_chunk(c) > 0]
+                            for chunk in chunks:
+                                record = {}
+                                for field in custom_fields:
+                                    record[field["name"]] = extract_custom_field(field, chunk)
+                                row["records"].append(record)
+
+                            ##if fields are not populated, resort to claude want to send all fields (populated and not populated)
+                            missing_fields = find_missing_fields(row, custom_fields)
+                            job["log"].append(f"  ↳ {len(missing_fields)} incomplete fields")
+                            # if missing_fields and claude_api_url:
+                            #     job["log"].append(f"  ↳ Incomplete fields — trying Claude API: {url}")
+                            #     try:
+                            #         #send fields to claude to check
+                            #         row = await cleanup_via_claude(url, row, missing_fields, claude_api_url, session)
+                            #         job["log"].append(f"OK {url} (via Claude API)")
+                            #     except Exception as e:
+                            #         job["log"].append(f"  ↳ Claude API error: {e}")
+                        #new_links = extract_internal_links(result.html, url) if result.html else []
                         job["progress"] = job.get("progress", 0) + 1
                         job["log"].append(f"OK {url}")
                         return row
@@ -649,30 +803,31 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, fields: list,
             rows = [r for r in raw if r is not None]
 
     job["status"] = "building_excel"
-    excel_bytes = build_excel(rows, fields, filename)
+    excel_bytes = build_excel(rows, custom_fields, filename)
     job["excel"] = excel_bytes
     job["filename"] = filename if filename.endswith(".xlsx") else filename + ".xlsx"
     job["status"] = "done"
     job["log"].append(f"Done. {len(rows)} pages crawled.")
 
 
-async def run_spider_job(job_id: str, start_url: str, fields: list,
+async def run_spider_job(job_id: str, start_url: str, custom_fields: list,
                           filename: str, max_pages: int, api_key: str, claude_api_url: str = ""):
-    rows = await spider_crawl(job_id, start_url, fields, max_pages, api_key, claude_api_url)
+    rows = await spider_crawl(job_id, start_url, custom_fields, max_pages, api_key, claude_api_url)
     job = jobs[job_id]
     job["status"] = "building_excel"
-    excel_bytes = build_excel(rows, fields, filename)
+    excel_bytes = build_excel(rows, custom_fields, filename)
     job["excel"] = excel_bytes
     job["filename"] = filename if filename.endswith(".xlsx") else filename + ".xlsx"
     job["status"] = "done"
     job["log"].append(f"Done. {len(rows)} pages crawled.")
 
 
-def run_async_job(job_id, mode, url, fields, filename, max_pages, api_key, claude_api_url):
+def run_async_job(job_id, mode, url, custom_fields, filename, max_pages, api_key, claude_api_url):
     if mode == "sitemap":
-        asyncio.run(run_sitemap_crawl(job_id, url, fields, filename, api_key, claude_api_url))
+        asyncio.run(run_sitemap_crawl(job_id, url, custom_fields, filename, api_key, claude_api_url))
     else:
-        asyncio.run(run_spider_job(job_id, url, fields, filename, max_pages, api_key, claude_api_url))
+        asyncio.run(run_spider_job(job_id, url, custom_fields, filename, max_pages, api_key, claude_api_url))
+
 
 
 # ──────────────────────────────────────────────
@@ -681,7 +836,7 @@ def run_async_job(job_id, mode, url, fields, filename, max_pages, api_key, claud
 
 @app.route("/")
 def index():
-    with open("index.html", "r", encoding="utf-8") as f:
+    with open("alitest.html", "r", encoding="utf-8") as f:
         return app.response_class(
             response=f.read(),
             status=200,
@@ -692,14 +847,15 @@ def index():
 @app.route("/api/crawl", methods=["POST"])
 def start_crawl():
     data = request.json
+
     mode = data.get("mode", "sitemap")
     url = data.get("url", "").strip()
     filename = data.get("filename", "crawl_results").strip() or "crawl_results"
-    fields = data.get("fields", ["url", "title", "content", "image_url"])
+    custom_fields  = data.get("custom_fields", [])
     max_pages = int(data.get("max_pages", 300))
     # Use server-side env var if set (deployed mode), otherwise accept from UI (local mode)
-    api_key = os.environ.get("SCRAPINGBEE_API_KEY") or data.get("scrapingbee_key", "").strip()
-    claude_api_url = os.environ.get("CLAUDE_API_URL") or data.get("claude_api_url", "").strip()
+    api_key = os.environ.get("SCRAPINGBEE_API_KEY")
+    claude_api_url = os.environ.get("CLAUDE_API_URL")
 
     if not url:
         return jsonify({"error": "URL is required"}), 400
@@ -717,7 +873,7 @@ def start_crawl():
 
     t = threading.Thread(
         target=run_async_job,
-        args=(job_id, mode, url, fields, filename, max_pages, api_key, claude_api_url),
+        args=(job_id, mode, url, custom_fields, filename, max_pages, api_key, claude_api_url),
         daemon=True
     )
     t.start()

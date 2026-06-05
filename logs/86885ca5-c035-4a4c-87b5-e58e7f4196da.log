@@ -1,0 +1,60 @@
+[2026-06-04 16:01:59] Starting spider crawl at https://www.hp.com/us-en/shop/slp/weekly-deals/laptops with max_pages=1 and custom_fields=['name', 'sku', 'price', 'image']
+[2026-06-04 16:02:01] Extracted 7 chunks from https://www.hp.com/us-en/shop/slp/weekly-deals/laptops for record extraction
+[2026-06-04 16:02:01] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] name -> 'HyperX OMEN Gaming Laptop 15-gb0000, 15"'
+[2026-06-04 16:02:01] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] sku -> 'CJ9D8AV_1'
+[2026-06-04 16:02:01] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] price -> 799.99
+[2026-06-04 16:02:01] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] image -> ['https://hp.widen.net/content/vux1xxv1ic/webp/vux1xxv1ic.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/aqdzyetu6x/webp/aqdzyetu6x.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/91vhswdsi0/webp/91vhswdsi0.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/eznzcv7yzi/webp/eznzcv7yzi.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/grqrjisjld/webp/grqrjisjld.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/e4vtzeewwe/webp/e4vtzeewwe.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/20pby8jcao/webp/20pby8jcao.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/92ryi1duzh/webp/92ryi1duzh.png?dpi=72&color=ffffff00&w=270']
+[2026-06-04 16:02:01] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] name -> 'HyperX OMEN Gaming Laptop 15-gb0000, 15"'
+[2026-06-04 16:02:01] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] sku -> 'CJ9D8AV_1'
+[2026-06-04 16:02:01] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] price -> 799.99
+[2026-06-04 16:02:01] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] image -> ['https://hp.widen.net/content/vux1xxv1ic/webp/vux1xxv1ic.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/aqdzyetu6x/webp/aqdzyetu6x.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/91vhswdsi0/webp/91vhswdsi0.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/eznzcv7yzi/webp/eznzcv7yzi.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/grqrjisjld/webp/grqrjisjld.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/e4vtzeewwe/webp/e4vtzeewwe.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/20pby8jcao/webp/20pby8jcao.png?dpi=72&color=ffffff00&w=270', 'https://hp.widen.net/content/92ryi1duzh/webp/92ryi1duzh.png?dpi=72&color=ffffff00&w=270']
+[2026-06-04 16:02:01] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] name -> ''
+[2026-06-04 16:02:01] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] sku -> ''
+[2026-06-04 16:02:01] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] price -> ''
+[2026-06-04 16:02:01] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] image -> ''
+[2026-06-04 16:02:01] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] name -> ''
+[2026-06-04 16:02:01] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] sku -> ''
+[2026-06-04 16:02:01] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] price -> ''
+[2026-06-04 16:02:01] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] image -> ''
+[2026-06-04 16:02:01] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] name -> ''
+[2026-06-04 16:02:01] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] sku -> ''
+[2026-06-04 16:02:01] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] price -> ''
+[2026-06-04 16:02:01] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] image -> ''
+[2026-06-04 16:02:01] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] name -> ''
+[2026-06-04 16:02:01] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] sku -> ''
+[2026-06-04 16:02:01] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] price -> ''
+[2026-06-04 16:02:01] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] image -> ''
+[2026-06-04 16:02:01] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] name -> ''
+[2026-06-04 16:02:01] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] sku -> ''
+[2026-06-04 16:02:01] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] price -> ''
+[2026-06-04 16:02:01] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] image -> ''
+[2026-06-04 16:02:01] Found 4 missing required fields in https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:02:01] batch=1 pages_processed=1 max_pages=1 visited=1 queue=192

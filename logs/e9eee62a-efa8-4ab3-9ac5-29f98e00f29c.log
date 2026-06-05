@@ -1,0 +1,44 @@
+[2026-06-04 16:29:26] Starting spider crawl at https://www.hp.com/us-en/shop/slp/weekly-deals/laptops with max_pages=1 and custom_fields=['name', 'sku', 'price', 'image']
+[2026-06-04 16:29:28] Extracted 5 chunks from https://www.hp.com/us-en/shop/slp/weekly-deals/laptops for record extraction
+[2026-06-04 16:29:28] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] name -> ''
+[2026-06-04 16:29:28] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] sku -> ''
+[2026-06-04 16:29:28] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] price -> ''
+[2026-06-04 16:29:28] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] image -> ''
+[2026-06-04 16:29:28] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] name -> ''
+[2026-06-04 16:29:28] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] sku -> ''
+[2026-06-04 16:29:28] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] price -> ''
+[2026-06-04 16:29:28] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] image -> ''
+[2026-06-04 16:29:28] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] name -> ''
+[2026-06-04 16:29:28] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] sku -> ''
+[2026-06-04 16:29:28] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] price -> ''
+[2026-06-04 16:29:28] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] image -> ''
+[2026-06-04 16:29:28] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] name -> ''
+[2026-06-04 16:29:28] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] sku -> ''
+[2026-06-04 16:29:28] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] price -> ''
+[2026-06-04 16:29:28] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] image -> ''
+[2026-06-04 16:29:28] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] name -> ''
+[2026-06-04 16:29:28] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:28] sku -> ''
+[2026-06-04 16:29:29] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:29] price -> ''
+[2026-06-04 16:29:29] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:29] image -> ''
+[2026-06-04 16:29:29] Found 4 missing required fields in https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-04 16:29:29] batch=1 pages_processed=1 max_pages=1 visited=1 queue=192
