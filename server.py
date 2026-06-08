@@ -196,7 +196,7 @@ async def fetch_via_claude(url: str, custom_fields: list,
             records = data.get("records", [])
 
             content = data.get("text", "")
-
+#aded
             return {
                 "url": url,
                 "content": content,
