@@ -193,6 +193,8 @@ async def fetch_via_claude(url: str, custom_fields: list,
             else:
                 image_url = str(raw_image) if raw_image else ""
 
+            records = data.get("records", [])
+
             content = data.get("text", "")
 
             return {
@@ -202,6 +204,7 @@ async def fetch_via_claude(url: str, custom_fields: list,
                 #"h1": page_title,
                 "hero_image_url": image_url,
                 "meta_description": "",
+                "records": records,
                 #"word_count": str(len(content.split())) if content else "0",
                 "links": "",
             }
@@ -375,6 +378,7 @@ async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
         cache_mode=CacheMode.BYPASS,
         word_count_threshold=10,
         page_timeout=30000,
+        scan_full_page = True
     )
     pages_processed = 0
     visited = set()
@@ -414,29 +418,37 @@ async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
                             #chunks=[c for c in chunks if score_chunk(c) > 0]
                             write_log(job_id, f"Extracted {len(chunks)} chunks from {url} for record extraction")
                             #write_log(job_id, chunks[:2])  # log first 2 chunks for debugging
-                            for chunk in chunks:
-                                record = {}
-                                for field in custom_fields:
-                                    write_log(job_id, f"Extracting field '{field['name']}' from chunk for {url}")
-                                    value = extract_custom_field(field, chunk)
-                                    write_log(
-                                        job_id,
-                                        f"{field['name']} -> {repr(value)}"
-                                    )
-                                    record[field["name"]] = value
-                                row["records"].append(record)
+                            num_chunks = len(chunks)
+                            if num_chunks>1: #usually if just one chunk, it's the whole page and not a meaningful section to extract from
+                                for chunk in chunks:
+                                    record = {}
+                                    for field in custom_fields:
+                                        write_log(job_id, f"Extracting field '{field['name']}' from chunk for {url}")
+                                        value = extract_custom_field(field, chunk)
+                                        write_log(
+                                            job_id,
+                                            f"{field['name']} -> {repr(value)}"
+                                        )
+                                        record[field["name"]] = value
+                                    row["records"].append(record)
 
-                            ##if fields are not populated, resort to claude want to send all fields (populated and not populated)
-                            missing_fields = find_missing_fields(row, custom_fields)
-                            write_log(job_id, f"Found {len(missing_fields)} missing required fields in {url}")
-                            # if missing_fields and claude_api_url:
-                            #     job["log"].append(f"  ↳ Incomplete fields — trying Claude API: {url}")
-                            #     try:
-                            #         #send fields to claude to check
-                            #         row = await cleanup_via_claude(row, missing_fields, custom_fields, claude_api_url, session)
-                            #         job["log"].append(f"OK {url} (via Claude API)")
-                            #     except Exception as e:
-                            #         job["log"].append(f"  ↳ Claude API error: {e}")
+                                ##if fields are not populated, resort to claude want to send all fields (populated and not populated)
+                                missing_fields = find_missing_fields(row, custom_fields)
+                                write_log(job_id, f"Found {len(missing_fields)} missing required fields in {url}")
+                                if missing_fields and claude_api_url:
+                                    job["log"].append(f"  ↳ Incomplete fields — trying Claude API: {url}")
+                                    try:
+                                        #send fields to claude to check
+                                        row = await cleanup_via_claude(url, row, missing_fields, claude_api_url, session)
+                                        job["log"].append(f"OK {url} (via Claude API)")
+                                    except Exception as e:
+                                        job["log"].append(f"  ↳ Claude API error: {e}")
+                            else:
+                                #if no chunks extracted, still want to try claude if available, send the whole html as context--or send whole url and have it process it
+                                write_log(job_id, f"No content chunks extracted from {url}")
+                                if claude_api_url:
+                                    extracted = await fetch_via_claude(url, custom_fields, claude_api_url, session)  # fire and forget — we just want the log info if it works, but won't block on it
+                                    row["records"] = extracted.get("records", [])
                         new_links = extract_internal_links(result.html, url) if result.html else []
                         job["progress"] = job.get("progress", 0) + 1
                         job["log"].append(f"OK {url}")
@@ -528,10 +540,12 @@ def extract_h1(html: str) -> str:
 def extract_body_text(html: str) -> str:
     try:
         doc = lhtml.fromstring(html)
+
         for tag in doc.xpath('//script|//style|//noscript|//iframe|//head|//nav|//header|//footer'):
             parent = tag.getparent()
             if parent is not None:
                 parent.remove(tag)
+
         container = (
             doc.xpath('//main') or
             doc.xpath('//article') or
@@ -539,80 +553,75 @@ def extract_body_text(html: str) -> str:
             doc.xpath('//*[contains(concat(" ", @class, " "), " content ")]') or
             doc.xpath('//body')
         )
+
         node = container[0] if container else doc
         texts = node.xpath('.//text()')
         flat = ' '.join(t.strip() for t in texts if t.strip())
         flat = re.sub(r' {2,}', ' ', flat)
-        return flat.strip()
+
+        return flat.strip()[:12000]
+
     except Exception:
         text = re.sub(r'<[^>]+>', ' ', html)
         text = re.sub(r'\s+', ' ', text)
-        return text.strip()
+        return text.strip()[:12000]
 
 async def cleanup_via_claude(
+    url: str,
     row: dict,
-    missing_fields: list[dict],
-    custom_fields: list[dict],
+    missing_fields: list[dict],       # field defs for gaps only — from find_missing_fields()
     claude_api_url: str,
     session: aiohttp.ClientSession
-) -> list[dict]:
+) -> dict:
     """
-    Ask Claude to fill only missing fields for already-extracted records.
+    Fill missing fields for an already-crawled row via the Claude AI extractor.
+    Only sends missing field definitions so Claude returns a minimal schema.
+    Merges returned values back without overwriting populated fields.
+    """
+    write_log(None, f"Requesting Claude API to fill {len(missing_fields)} missing fields for {url}")
+    if not missing_fields:
+        return row
 
-    Returns:
-        Updated records list
-    """
+    records = row.get("records", [])
+    # existing_data = records[0] if records else {}
 
     payload = {
-        "page_data": row,
-        "missing_fields": missing_fields,
-        "fields": custom_fields
+        "text": row.get("content", ""),           # skip re-fetch, use what crawler already has
+        "url": url if not row.get("content") else None,
+        "fields": missing_fields,
+        "content": {"existing_records": row.get("records", [])},  # just the records for context
     }
+    #clean up none keys
+    payload = {k: v for k, v in payload.items() if v is not None}
 
-    try:
-        async with session.post(
-            claude_api_url,
-            json=payload,
-            headers={"Content-Type": "application/json"},
-            timeout=aiohttp.ClientTimeout(total=120)
-        ) as resp:
+    async with session.post(
+        claude_api_url,
+        json=payload,
+        headers={"Content-Type": "application/json"},
+        timeout=aiohttp.ClientTimeout(total=120),
+    ) as resp:
+        if resp.status != 200:
+            body = await resp.text()
+            raise RuntimeError(f"Claude API HTTP {resp.status}: {body}")
+        data = await resp.json()
 
-            if resp.status != 200:
-                raise RuntimeError(
-                    f"Claude API HTTP {resp.status}"
-                )
+    claude_records = data.get("records", [])
+    if not isinstance(claude_records, list):
+        raise RuntimeError("Claude response missing records array")
 
-            data = await resp.json()
+    missing_names = {f["name"] for f in missing_fields}
 
-            claude_records = data.get("records", [])
-            row["records"] = claude_records
-            return row
+    for i, record in enumerate(records):
+        if i >= len(claude_records):
+            break
+        enriched = claude_records[i]
+        for field_name in missing_names:
+            value = enriched.get(field_name)
+            if value not in (None, "", [], {}):
+                record[field_name] = value
 
-            # if not isinstance(claude_records, list):
-            #     raise RuntimeError(
-            #         "Claude response missing records array"
-            #     )
-
-            # for i, record in enumerate(claude_records):
-
-            #     if i >= len(claude_records):
-            #         continue
-
-            #     enriched_record = claude_records[i]
-
-            #     for field_name in missing_fields:
-
-            #         value = enriched_record.get(field_name)
-
-            #         if value not in [None, "", [], {}]:
-            #             record[field_name] = value
-
-            # return records
-
-    except Exception as e:
-        raise RuntimeError(
-            f"Claude API request failed: {e}"
-        )
+    row["records"] = records
+    return row
 # ──────────────────────────────────────────────
 # Excel builder
 # ──────────────────────────────────────────────
@@ -737,6 +746,7 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[d
         cache_mode=CacheMode.BYPASS,
         word_count_threshold=10,
         page_timeout=30000,
+        scan_full_page = True
     )
 
     rows = []
@@ -772,23 +782,32 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[d
                             row["records"] = []
                             chunks = chunk_html(result.html)
                             #chunks=[c for c in chunks if score_chunk(c) > 0]
-                            for chunk in chunks:
-                                record = {}
-                                for field in custom_fields:
-                                    record[field["name"]] = extract_custom_field(field, chunk)
-                                row["records"].append(record)
-
-                            ##if fields are not populated, resort to claude want to send all fields (populated and not populated)
-                            missing_fields = find_missing_fields(row, custom_fields)
-                            job["log"].append(f"  ↳ {len(missing_fields)} incomplete fields")
-                            # if missing_fields and claude_api_url:
-                            #     job["log"].append(f"  ↳ Incomplete fields — trying Claude API: {url}")
-                            #     try:
-                            #         #send fields to claude to check
-                            #         row = await cleanup_via_claude(url, row, missing_fields, claude_api_url, session)
-                            #         job["log"].append(f"OK {url} (via Claude API)")
-                            #     except Exception as e:
-                            #         job["log"].append(f"  ↳ Claude API error: {e}")
+                            num_chunks = len(chunks)
+                            if num_chunks>1: #usually if just one chunk, it's the whole page and not a meaningful section to extract from
+                                required_fields = [field for field in custom_fields if field.get("required")]
+                                for chunk in chunks:
+                                    record = {}
+                                    for field in custom_fields:
+                                        record[field["name"]] = extract_custom_field(field, chunk)
+                                    row["records"].append(record)
+                                row["records"] = clean_records(row["records"], required_fields)
+                                ##if fields are not populated, resort to claude want to send all fields (populated and not populated)
+                                missing_fields = find_missing_fields(row, required_fields)
+                                job["log"].append(f"  ↳ {len(missing_fields)} incomplete fields")
+                                if missing_fields and claude_api_url:
+                                    job["log"].append(f"  ↳ Incomplete fields — trying Claude API: {url}")
+                                    try:
+                                        #send fields to claude to check
+                                        row = await cleanup_via_claude(url, row, missing_fields, claude_api_url, session)
+                                        job["log"].append(f"OK {url} (via Claude API)")
+                                    except Exception as e:
+                                        job["log"].append(f"  ↳ Claude API error: {e}")
+                            else:
+                                #if no chunks extracted, still want to try claude if available, send the whole html as context--or send whole url and have it process it
+                                write_log(job_id, f"No content chunks extracted from {url}")
+                                if claude_api_url:
+                                    extracted = await fetch_via_claude(url, custom_fields, claude_api_url, session)  # fire and forget — we just want the log info if it works, but won't block on it
+                                    row["records"] = extracted.get("records", [])
                         #new_links = extract_internal_links(result.html, url) if result.html else []
                         job["progress"] = job.get("progress", 0) + 1
                         job["log"].append(f"OK {url}")
@@ -850,7 +869,7 @@ def start_crawl():
 
     mode = data.get("mode", "sitemap")
     url = data.get("url", "").strip()
-    filename = data.get("filename", "crawl_results").strip() or "crawl_results"
+    filename = data.get("output_filename", "crawl_results").strip() or "crawl_results"
     custom_fields  = data.get("custom_fields", [])
     max_pages = int(data.get("max_pages", 300))
     # Use server-side env var if set (deployed mode), otherwise accept from UI (local mode)

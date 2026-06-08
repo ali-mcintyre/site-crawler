@@ -1,0 +1,16 @@
+[2026-06-08 15:34:26] Starting spider crawl at https://www.hawksearch.com/tour with max_pages=1 and custom_fields=['name', 'image', 'description']
+[2026-06-08 15:34:34] Extracted 2 chunks from https://www.hawksearch.com/tour for record extraction
+[2026-06-08 15:34:34] Extracting field 'name' from chunk for https://www.hawksearch.com/tour
+[2026-06-08 15:34:34] name -> 'Top 3 Result Matches'
+[2026-06-08 15:34:34] Extracting field 'image' from chunk for https://www.hawksearch.com/tour
+[2026-06-08 15:34:34] image -> ''
+[2026-06-08 15:34:34] Extracting field 'description' from chunk for https://www.hawksearch.com/tour
+[2026-06-08 15:34:34] description -> ''
+[2026-06-08 15:34:34] Extracting field 'name' from chunk for https://www.hawksearch.com/tour
+[2026-06-08 15:34:34] name -> '{{html title}}'
+[2026-06-08 15:34:34] Extracting field 'image' from chunk for https://www.hawksearch.com/tour
+[2026-06-08 15:34:34] image -> '{{imageUrl}}'
+[2026-06-08 15:34:34] Extracting field 'description' from chunk for https://www.hawksearch.com/tour
+[2026-06-08 15:34:34] description -> ''
+[2026-06-08 15:34:34] Found 2 missing required fields in https://www.hawksearch.com/tour
+[2026-06-08 15:34:54] batch=1 pages_processed=1 max_pages=1 visited=1 queue=96

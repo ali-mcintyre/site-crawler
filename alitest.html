@@ -962,7 +962,7 @@ updateDownloadLabel();
 
       let req = buildRequestJson();
 
-      if (currentMode === "sitemap") {
+      if (req.mode === "sitemap") {
           const file = els.fileInput.files[0];
 
           if (!file) {
@@ -974,13 +974,13 @@ updateDownloadLabel();
 
           req.sitemap_content = sitemapContent;
       }
-      else if (currentMode === "spider") {
+      else if (req.mode === "spider") {
           if (!req.url) {
               setStatus("Please enter a starting URL.", "warn");
               return;
           }
 
-          req.mode = "spider";
+          // #req.mode = "spider";
       }
 
       if (!req.custom_fields.length) {

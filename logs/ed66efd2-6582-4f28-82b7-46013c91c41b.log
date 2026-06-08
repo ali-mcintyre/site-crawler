@@ -1,0 +1,229 @@
+[2026-06-08 14:40:33] Starting spider crawl at https://www.hp.com/us-en/shop/slp/weekly-deals/laptops with max_pages=5 and custom_fields=['name', 'price', 'image', 'sku']
+[2026-06-08 14:40:42] Extracted 19 chunks from https://www.hp.com/us-en/shop/slp/weekly-deals/laptops for record extraction
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook X Flip 2-in-1 Laptop Next Gen AI 14t-fm000, 14"'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '779.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/5pgfvgvwwh/webp/5pgfvgvwwh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/zvowgikpyh/webp/zvowgikpyh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/imyexze41s/webp/imyexze41s.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/zvowgikpyh/webp/zvowgikpyh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/qxzng4ma1s/webp/qxzng4ma1s.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/2ummkp5hx9/webp/2ummkp5hx9.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'AK4Z4AV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP Laptop 15t-fd000, 15.6"'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '399.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/xrfmzzssxz/webp/xrfmzzssxz.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/o2n0m3ed8a/webp/o2n0m3ed8a.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/ocihkb2swg/webp/ocihkb2swg.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/pquuvh4jcx/webp/pquuvh4jcx.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/3zw7cfrq3k/webp/3zw7cfrq3k.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/bybhy1f1fz/webp/bybhy1f1fz.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> '7P8K6AV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook 7 Laptop Next Gen AI PC 17t-dc000, 17.3" Touch Screen'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '739.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/ibh6hebz5t/webp/ibh6hebz5t.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/wvrn5v4gcy/webp/wvrn5v4gcy.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/rfwjnwy5t3/webp/rfwjnwy5t3.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/8v3trkb5b2/webp/8v3trkb5b2.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/zwgkoa9uoh/webp/zwgkoa9uoh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/wvrn5v4gcy/webp/wvrn5v4gcy.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/1y9uwi6yin/webp/1y9uwi6yin.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/p6nayelcbq/webp/p6nayelcbq.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'BD6A3AV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP Laptop 17t-cn300, 17.3"'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '359.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/b6nf4nqwf9/webp/b6nf4nqwf9.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/dctfn4vhka/webp/dctfn4vhka.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/cs2ckw9tjc/webp/cs2ckw9tjc.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/gwyrcpp5ld/webp/gwyrcpp5ld.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/akabd7djp0/webp/akabd7djp0.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/czicxyqal8/webp/czicxyqal8.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> '7P3Q0AV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook 7 Flip 2-in-1 Next Gen AI 16t-au000, 16" Touch screen'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '709.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/ftflkcgoj3/webp/ftflkcgoj3.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/qx7pcdppml/webp/qx7pcdppml.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/vwoqv4lsoh/webp/vwoqv4lsoh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/qruhwum7et/webp/qruhwum7et.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/7slwnlywmp/webp/7slwnlywmp.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/mlslbfc0ow/webp/mlslbfc0ow.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/wpvx8c8p0k/webp/wpvx8c8p0k.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'AK4J7AV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'OMEN MAX Gaming Laptop 16-ah0097nr 16",\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 9,\xa032GB RAM,\xa01TB SSD,\xa0NVIDIA® GeForce RTX™ 5080,\xa0WQXGA,\xa0Shadow black'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '2699.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/cpaykgeq1w/webp/cpaykgeq1w.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/dpycyehnfn/webp/dpycyehnfn.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/vhkxckwixp/webp/vhkxckwixp.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/xgazyydtgx/webp/xgazyydtgx.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/eobrstaiqm/webp/eobrstaiqm.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/3tisp3evp5/webp/3tisp3evp5.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/msrey5fbtq/webp/msrey5fbtq.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'B64BNUA#ABA'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook 5 Laptop Next Gen AI 16z-ag100, 16"'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '599.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/fp47pbagq4/webp/fp47pbagq4.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/weow4yffxj/webp/weow4yffxj.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/r7wku6bpkt/webp/r7wku6bpkt.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/pu8whalcmw/webp/pu8whalcmw.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/l1usde7awc/webp/l1usde7awc.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'AR7B2AV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook 7 Laptop Next Gen AI 17-dc0037nr 17.3",\xa0Touch screen,\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 5,\xa016GB RAM,\xa0512GB SSD,\xa0FHD,\xa0Glacier silver'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '729.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/ibh6hebz5t/webp/ibh6hebz5t.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/rfwjnwy5t3/webp/rfwjnwy5t3.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/8v3trkb5b2/webp/8v3trkb5b2.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/zwgkoa9uoh/webp/zwgkoa9uoh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/wvrn5v4gcy/webp/wvrn5v4gcy.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/1y9uwi6yin/webp/1y9uwi6yin.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/p6nayelcbq/webp/p6nayelcbq.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'BE1C5UA#ABA'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook X Laptop Next Gen AI 17-dd0047nr 17.3",\xa0Touch screen,\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa0512GB SSD,\xa0FHD,\xa0Glacier silver'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '799.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/yz1cwyyxcz/webp/yz1cwyyxcz.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/a4vwwscfe1/webp/a4vwwscfe1.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/wkf3ocdfxk/webp/wkf3ocdfxk.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/f8dxf6w3my/webp/f8dxf6w3my.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/q5x4em9gsn/webp/q5x4em9gsn.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/arwuhsocn5/webp/arwuhsocn5.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/rpnez5mhtl/webp/rpnez5mhtl.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'B88A2UA#ABA'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook 5 Laptop 16-bc1047nr 16",\xa0Windows 11 Home, \xa0AMD Ryzen™ 7,\xa016GB RAM,\xa0512GB SSD,\xa02K,\xa0Glacier silver'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '649.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/el9d40yisx/webp/el9d40yisx.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/rfwbpetf6l/webp/rfwbpetf6l.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/m9mhict3at/webp/m9mhict3at.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/n9y5bwi5or/webp/n9y5bwi5or.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/0qqyxpmk5u/webp/0qqyxpmk5u.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/kf7wafqbyp/webp/kf7wafqbyp.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/jwi6grr1dw/webp/jwi6grr1dw.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'B7NG1UA#ABA'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP Laptop AI 14t-hc000, 14"'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '399.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/47yod4ounh/webp/47yod4ounh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/it0crxdrdz/webp/it0crxdrdz.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/wun4b0vv4m/webp/wun4b0vv4m.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'B61BYAV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook 7 Laptop AI 16t-az000, 16"'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '799.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/okaik5jt1f/webp/okaik5jt1f.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/hnnlqmyw9c/webp/hnnlqmyw9c.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/ptkupe2s8i/webp/ptkupe2s8i.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/ksa7bf4pb7/webp/ksa7bf4pb7.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'BL5U8AV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook 7 Flip 2-in-1 Laptop Next Gen AI 16-au0047nr 16",\xa0Touch screen,\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa01TB SSD,\xa03K,\xa0Glacier silver'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '929.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/ftflkcgoj3/webp/ftflkcgoj3.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/qx7pcdppml/webp/qx7pcdppml.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/vwoqv4lsoh/webp/vwoqv4lsoh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/qruhwum7et/webp/qruhwum7et.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/7slwnlywmp/webp/7slwnlywmp.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/mlslbfc0ow/webp/mlslbfc0ow.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/wpvx8c8p0k/webp/wpvx8c8p0k.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'BT5B6UA#ABA'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook 7 Laptop AI 16-ay0087nr 16",\xa0Touch screen,\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa01TB SSD,\xa0NVIDIA® GeForce RTX™ 4050,\xa02K,\xa0Glacier silver'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '1349.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/okaik5jt1f/webp/okaik5jt1f.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/hnnlqmyw9c/webp/hnnlqmyw9c.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/h80kjvrk0g/webp/h80kjvrk0g.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/2jnm7iswj2/webp/2jnm7iswj2.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/tt5mx2jnxx/webp/tt5mx2jnxx.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/ksa7bf4pb7/webp/ksa7bf4pb7.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/rcbcj7yitp/webp/rcbcj7yitp.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'B87ZPUA#ABA'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP Laptop AI 15-fd2077nr 15.6",\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa0512GB SSD,\xa0FHD,\xa0Natural silver'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '649.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/blmftmztbh/webp/blmftmztbh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/9fgqoivxlh/webp/9fgqoivxlh.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/dfxobruy9y/webp/dfxobruy9y.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/lmkgldyovs/webp/lmkgldyovs.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'C88JRUA#ABA'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP OmniBook X Flip 2-in-1 Laptop Next Gen AI 16-as0047nr 16",\xa0Touch screen,\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa0512GB SSD,\xa03K,\xa0Eclipse gray'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '849.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.com/wcsstore/hpusstore/Treatment/category/images/clipperX/25c1_clipperX_eclipsegray_front_573x430.png?imwidth=270&imdensity=1", "https://hp.widen.net/content/7w9heilcok/webp/7w9heilcok.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/isk1nzzbvg/webp/isk1nzzbvg.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/gdexm3oqnb/webp/gdexm3oqnb.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'B88BZUA#ABA'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HP Laptop 15z-fc000, 15.6"'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '399.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/ns7cslhiae/webp/ns7cslhiae.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> '741Q9AV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> 'HyperX OMEN Gaming Laptop 15t-ga000, 15"'
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> '949.99'
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '["https://hp.widen.net/content/swidppotiw/webp/swidppotiw.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/um9llmdgjt/webp/um9llmdgjt.png?dpi=72&color=ffffff00&w=270", "https://hp.widen.net/content/mqlsceux7p/webp/mqlsceux7p.png?dpi=72&color=ffffff00&w=270"]'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> 'C52B1AV_1'
+[2026-06-08 14:40:42] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] name -> ''
+[2026-06-08 14:40:42] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] price -> ''
+[2026-06-08 14:40:42] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] image -> '/wcsstore/hpusstore/Treatment/SLPs/MSFT/HP-OmniBook-5-16-inch-Glacier-Silver.png'
+[2026-06-08 14:40:42] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:42] sku -> ''
+[2026-06-08 14:40:42] Found 3 missing required fields in https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-08 14:40:54] batch=1 pages_processed=1 max_pages=5 visited=1 queue=263
+[2026-06-08 14:40:59] Extracted 1 chunks from https://www.hp.com/us-en/shop/custom/hp-omnibook-7-flip-2-in-1-next-gen-ai-16t-au000-touch-screen-16-inch-intel-core-ultra-16gb-ram-512gb-ssd-AK4J7AV_228035?catEntryId=3074457345621890318 for record extraction
+[2026-06-08 14:40:59] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/custom/hp-omnibook-7-flip-2-in-1-next-gen-ai-16t-au000-touch-screen-16-inch-intel-core-ultra-16gb-ram-512gb-ssd-AK4J7AV_228035?catEntryId=3074457345621890318
+[2026-06-08 14:42:05] name -> 'void 0'
+[2026-06-08 14:42:05] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/custom/hp-omnibook-7-flip-2-in-1-next-gen-ai-16t-au000-touch-screen-16-inch-intel-core-ultra-16gb-ram-512gb-ssd-AK4J7AV_228035?catEntryId=3074457345621890318
+[2026-06-08 14:43:12] price -> 'isNaN(Number(p.price))?0:Number(p.price)'
+[2026-06-08 14:43:12] Extracting field 'image' from chunk for https://www.hp.com/us-en/shop/custom/hp-omnibook-7-flip-2-in-1-next-gen-ai-16t-au000-touch-screen-16-inch-intel-core-ultra-16gb-ram-512gb-ssd-AK4J7AV_228035?catEntryId=3074457345621890318
+[2026-06-08 14:45:08] image -> 'url(https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/freeshipping.PNG1590522816807840.png);background-size:cover;content:"";height:18px;left:0;position:absolute;width:32px}.minicart-container.new-version .mcprodcont .headline{font-family:var(--font-family-main);font-weight:400;padding-bottom:5px;text-transform:uppercase;width:100%}.minicart-container.new-version .mcprodcont .headline span{display:inline-block;font-size:12px;line-height:18px;text-align:right}.minicart-container.new-version .mcprodcont .headline span.qty{padding-right:20px;width:85%}.minicart-container.new-version .mcprodcont .headline span.total{padding-right:5px;width:15%}.minicart-container.new-version .productrow{border-bottom:1px solid #ccc}.minicart-container.new-version .productrow.first-prod{border-top:1px solid #ccc}.minicart-container.new-version .productrow .mcprodname{display:inline-block;float:none;font-family:var(--font-family-main);font-size:14px;font-weight:400;line-height:20px;width:60%}.minicart-container.new-version .productrow .mcprodname a{height:40px;line-height:20px;margin:0;overflow:hidden}.minicart-container.new-version .productrow .mcprodname a:hover{text-decoration:underline}.minicart-container.new-version .productrow .mcprodname span{color:#5a5a5a;font-size:12px;margin:0}.minicart-container.new-version .productrow .mcprodqty{display:inline-block;float:none;margin-top:5px;position:relative;vertical-align:top;width:10%}.minicart-container.new-version .productrow .mcprodqty:after{content:"\\e90c";font-family:HPIcons;font-size:12px;left:28px;position:absolute;top:6px;z-index:-1}.minicart-container.new-version .productrow .mcprodqty.free .no-select-qty{display:block;text-align:center}.minicart-container.new-version .productrow .mcprodqty.free:after{display:none}.minicart-container.new-version .productrow .mcprodqty select{padding:2px 8px}.minicart-container.new-version .productrow .mcprodqty .quantity-picker{height:25px;margin-left:0}.minicart-container.new-version .productrow .mcprodqty span{margin-left:10px}.minicart-container.new-version .productrow .mcprodprice{display:inline-block;float:none;margin-top:5px;text-align:right;vertical-align:top;width:15%}.minicart-container.new-version .productrow .mcprodprice span{display:block;float:none;font-size:14px;line-height:20px}.minicart-container.new-version .productrow .mcprodprice span.strike{color:#767676;margin-left:0;margin-right:0;text-decoration:line-through}.minicart-container.new-version .productrow .mcprodprice span.strike:before{display:none}.minicart-container.new-version .productrow .mcprodprice .remove{color:var(--color-primary);cursor:pointer;font-family:var(--font-family-main);font-weight:400;text-transform:uppercase}.minicart-container.new-version .productrow .mcprodprice .remove:hover{text-decoration:underline}.minicart-container.new-version .total-count{border-bottom:1px solid #ccc;color:var(--color-primary);font-family:var(--font-family-main);font-size:16px;font-weight:400;height:40px;line-height:40px;text-align:right;text-transform:uppercase;width:100%}.minicart-container.new-version .total-count a{color:var(--color-primary)}.minicart-container.new-version .total-count a:after{content:"\\e90a";display:inline-block;font-family:HPIcons;margin-left:10px;vertical-align:bottom}.minicart-container.new-version .total-count a:hover{text-decoration:underline}.minicart-container.new-version .mccarttotal'
+[2026-06-08 14:45:08] Extracting field 'sku' from chunk for https://www.hp.com/us-en/shop/custom/hp-omnibook-7-flip-2-in-1-next-gen-ai-16t-au000-touch-screen-16-inch-intel-core-ultra-16gb-ram-512gb-ssd-AK4J7AV_228035?catEntryId=3074457345621890318
+[2026-06-08 14:47:17] sku -> ''
+[2026-06-08 14:47:17] Found 1 missing required fields in https://www.hp.com/us-en/shop/custom/hp-omnibook-7-flip-2-in-1-next-gen-ai-16t-au000-touch-screen-16-inch-intel-core-ultra-16gb-ram-512gb-ssd-AK4J7AV_228035?catEntryId=3074457345621890318
+[2026-06-08 14:47:18] Extracted 3 chunks from https://www.hp.com/emea_middle_east-en/home.html for record extraction
+[2026-06-08 14:47:18] Extracting field 'name' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:18] name -> 'HP OmniBook 5\n\n                     \n \n \n \n \n \n                        Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                         \n \n \n \n \n \n \n \n \n Learn \n \n \n \n \n \n \n Shop'
+[2026-06-08 14:47:18] Extracting field 'price' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:18] price -> ''
+[2026-06-08 14:47:18] Extracting field 'image' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:18] image -> 'HP OmniBook 5\n\n                     \n \n \n \n \n \n                        Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                         \n \n \n \n \n \n \n \n \n Learn \n \n \n \n \n \n \n Shop \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                        HP OmniBook 5\n\n                     \n \n \n \n \n \n                        Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                         \n \n \n \n \n \n \n \n \n Learn \n \n \n \n \n \n \n Shop'
+[2026-06-08 14:47:18] Extracting field 'sku' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] sku -> ''
+[2026-06-08 14:47:19] Extracting field 'name' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] name -> 'A true family companion\n\n                 \n \n \n \n \n \n                    HP Smart Tank printers best for at-home printing with up to 3 years of HP ink included.\n\n                 \n \n \n \n \n \n \n \n \n                        A true family companion\n\n                     \n \n \n \n                        HP Smart Tank printers best for at-home printing with up to 3 years of HP ink included.\n\n                     \n \n \n \n \n \n \n Learn \n \n \n \n \n Shop'
+[2026-06-08 14:47:19] Extracting field 'price' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] price -> ''
+[2026-06-08 14:47:19] Extracting field 'image' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] image -> 'A true family companion\n\n                 \n \n \n \n \n \n                    HP Smart Tank printers best for at-home printing with up to 3 years of HP ink included.\n\n                 \n \n \n \n \n \n \n \n \n                        A true family companion\n\n                     \n \n \n \n                        HP Smart Tank printers best for at-home printing with up to 3 years of HP ink included.\n\n                     \n \n \n \n \n \n \n Learn \n \n \n \n \n Shop'
+[2026-06-08 14:47:19] Extracting field 'sku' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] sku -> ''
+[2026-06-08 14:47:19] Extracting field 'name' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] name -> 'HP OmniBook 5\n\n                     \n \n \n \n \n \n                        Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                         \n \n \n \n \n \n \n \n \n Learn \n \n \n \n \n \n \n Shop'
+[2026-06-08 14:47:19] Extracting field 'price' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] price -> ''
+[2026-06-08 14:47:19] Extracting field 'image' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] image -> 'HP OmniBook 5\n\n                     \n \n \n \n \n \n                        Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                         \n \n \n \n \n \n \n \n \n Learn \n \n \n \n \n \n \n Shop \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                        HP OmniBook 5\n\n                     \n \n \n \n \n \n                        Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            Copilot+ PCs are the fastest, most intelligent Windows PCs ever\n\n                         \n \n \n \n \n \n \n \n \n Learn \n \n \n \n \n \n \n Shop'
+[2026-06-08 14:47:19] Extracting field 'sku' from chunk for https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] sku -> ''
+[2026-06-08 14:47:19] Found 2 missing required fields in https://www.hp.com/emea_middle_east-en/home.html
+[2026-06-08 14:47:19] Extracted 2 chunks from https://www.hp.com/hu-hu/home.html for record extraction
+[2026-06-08 14:47:19] Extracting field 'name' from chunk for https://www.hp.com/hu-hu/home.html
+[2026-06-08 14:47:19] name -> 'HP OmniBook 5\n\n                     \n \n \n \n \n \n                        A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                         \n \n \n \n \n \n \n \n \n További információ \n \n \n \n \n \n \n Vásárlás'
+[2026-06-08 14:47:19] Extracting field 'price' from chunk for https://www.hp.com/hu-hu/home.html
+[2026-06-08 14:47:19] price -> ''
+[2026-06-08 14:47:19] Extracting field 'image' from chunk for https://www.hp.com/hu-hu/home.html
+[2026-06-08 14:47:19] image -> 'HP OmniBook 5\n\n                     \n \n \n \n \n \n                        A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                         \n \n \n \n \n \n \n \n \n További információ \n \n \n \n \n \n \n Vásárlás \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                        HP OmniBook 5\n\n                     \n \n \n \n \n \n                        A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                         \n \n \n \n \n \n \n \n \n További információ \n \n \n \n \n \n \n Vásárlás'
+[2026-06-08 14:47:19] Extracting field 'sku' from chunk for https://www.hp.com/hu-hu/home.html
+[2026-06-08 14:47:19] sku -> ''
+[2026-06-08 14:47:19] Extracting field 'name' from chunk for https://www.hp.com/hu-hu/home.html
+[2026-06-08 14:47:19] name -> 'HP OmniBook 5\n\n                     \n \n \n \n \n \n                        A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                         \n \n \n \n \n \n \n \n \n További információ \n \n \n \n \n \n \n Vásárlás'
+[2026-06-08 14:47:19] Extracting field 'price' from chunk for https://www.hp.com/hu-hu/home.html
+[2026-06-08 14:47:19] price -> ''
+[2026-06-08 14:47:19] Extracting field 'image' from chunk for https://www.hp.com/hu-hu/home.html
+[2026-06-08 14:47:19] image -> 'HP OmniBook 5\n\n                     \n \n \n \n \n \n                        A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                         \n \n \n \n \n \n \n \n \n További információ \n \n \n \n \n \n \n Vásárlás \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                        HP OmniBook 5\n\n                     \n \n \n \n \n \n                        A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                     \n \n \n \n \n \n \n \n \n                            HP OmniBook 5\n\n                         \n \n \n \n                            A Copilot+ PC-k a valaha volt leggyorsabb, legintelligensebb Windows PC-k\n\n                         \n \n \n \n \n \n \n \n \n További információ \n \n \n \n \n \n \n Vásárlás'
+[2026-06-08 14:47:19] Extracting field 'sku' from chunk for https://www.hp.com/hu-hu/home.html
+[2026-06-08 14:47:19] sku -> ''
+[2026-06-08 14:47:19] Found 2 missing required fields in https://www.hp.com/hu-hu/home.html
+[2026-06-08 14:47:22] Extracted 2 chunks from https://www.hp.com/se-sv/home.html for record extraction
+[2026-06-08 14:47:22] Extracting field 'name' from chunk for https://www.hp.com/se-sv/home.html
+[2026-06-08 14:47:22] name -> 'HP OmniBook X Flip\n\n             \n \n \n \n \n \n \n \n \n \n \n                Datorerna med Copilot+ är de snabbaste och mest intelligenta Windows-datorerna någonsin\n\n             \n \n \n \n \n \n \n \n \n \n \n Läs mer \n \n \n \n \n \n \n Köp nu'
+[2026-06-08 14:47:22] Extracting field 'price' from chunk for https://www.hp.com/se-sv/home.html
+[2026-06-08 14:47:22] price -> ''
+[2026-06-08 14:47:22] Extracting field 'image' from chunk for https://www.hp.com/se-sv/home.html
+[2026-06-08 14:47:22] image -> 'HP OmniBook X Flip\n\n             \n \n \n \n \n \n \n \n \n \n \n                Datorerna med Copilot+ är de snabbaste och mest intelligenta Windows-datorerna någonsin\n\n             \n \n \n \n \n \n \n \n \n \n \n Läs mer \n \n \n \n \n \n \n Köp nu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                HP OmniBook X Flip\n\n             \n \n \n \n \n \n \n \n \n \n \n                Datorerna med Copilot+ är de snabbaste och mest intelligenta Windows-datorerna någonsin\n\n             \n \n \n \n \n \n \n \n \n \n \n Läs mer \n \n \n \n \n \n \n Köp nu'
+[2026-06-08 14:47:22] Extracting field 'sku' from chunk for https://www.hp.com/se-sv/home.html
+[2026-06-08 14:47:22] sku -> ''
+[2026-06-08 14:47:22] Extracting field 'name' from chunk for https://www.hp.com/se-sv/home.html
+[2026-06-08 14:47:22] name -> 'HP OmniBook X Flip\n\n             \n \n \n \n \n \n \n \n \n \n \n                Datorerna med Copilot+ är de snabbaste och mest intelligenta Windows-datorerna någonsin\n\n             \n \n \n \n \n \n \n \n \n \n \n Läs mer \n \n \n \n \n \n \n Köp nu'
+[2026-06-08 14:47:22] Extracting field 'price' from chunk for https://www.hp.com/se-sv/home.html
+[2026-06-08 14:47:22] price -> ''
+[2026-06-08 14:47:22] Extracting field 'image' from chunk for https://www.hp.com/se-sv/home.html
+[2026-06-08 14:47:22] image -> 'HP OmniBook X Flip\n\n             \n \n \n \n \n \n \n \n \n \n \n                Datorerna med Copilot+ är de snabbaste och mest intelligenta Windows-datorerna någonsin\n\n             \n \n \n \n \n \n \n \n \n \n \n Läs mer \n \n \n \n \n \n \n Köp nu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                HP OmniBook X Flip\n\n             \n \n \n \n \n \n \n \n \n \n \n                Datorerna med Copilot+ är de snabbaste och mest intelligenta Windows-datorerna någonsin\n\n             \n \n \n \n \n \n \n \n \n \n \n Läs mer \n \n \n \n \n \n \n Köp nu'
+[2026-06-08 14:47:22] Extracting field 'sku' from chunk for https://www.hp.com/se-sv/home.html
+[2026-06-08 14:47:22] sku -> ''
+[2026-06-08 14:47:22] Found 2 missing required fields in https://www.hp.com/se-sv/home.html
+[2026-06-08 14:47:27] batch=4 pages_processed=5 max_pages=5 visited=5 queue=483

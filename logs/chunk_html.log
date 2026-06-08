@@ -1,6 +1,29 @@
-[2026-06-05 15:29:28] Found 82 product chunks using selector: class~product
-[2026-06-05 15:29:29] Merged 0 JSON-LD + 82 DOM = 82 chunks after dedup
-[2026-06-05 15:33:18] Found 24 product chunks using selector: class~product
-[2026-06-05 15:33:18] Merged 0 JSON-LD + 24 DOM = 24 chunks after dedup
-[2026-06-05 15:39:22] Found 24 product chunks using selector: class~product
-[2026-06-05 15:39:22] Merged 0 JSON-LD + 24 DOM = 24 chunks after dedup
+[2026-06-08 14:26:10] Found 5 product chunks using JSON-LD strategy
+[2026-06-08 14:26:10] Found 2 product chunks using selector: class~product
+[2026-06-08 14:26:10] Merged 5 JSON-LD + 2 DOM = 6 chunks after dedup
+[2026-06-08 14:39:08] Found 18 product chunks using JSON-LD strategy
+[2026-06-08 14:39:08] Found 2 product chunks using selector: class~product
+[2026-06-08 14:39:08] Merged 18 JSON-LD + 2 DOM = 19 chunks after dedup
+[2026-06-08 14:40:42] Found 18 product chunks using JSON-LD strategy
+[2026-06-08 14:40:42] Found 2 product chunks using selector: class~product
+[2026-06-08 14:40:42] Merged 18 JSON-LD + 2 DOM = 19 chunks after dedup
+[2026-06-08 14:47:18] Found 3 product chunks using selector: class~card
+[2026-06-08 14:47:18] Merged 0 JSON-LD + 3 DOM = 3 chunks after dedup
+[2026-06-08 14:47:19] Found 2 product chunks using selector: class~card
+[2026-06-08 14:47:19] Merged 0 JSON-LD + 2 DOM = 2 chunks after dedup
+[2026-06-08 14:47:22] Found 2 product chunks using selector: class~card
+[2026-06-08 14:47:22] Merged 0 JSON-LD + 2 DOM = 2 chunks after dedup
+[2026-06-08 15:05:56] Found 121 product chunks using selector: class~product
+[2026-06-08 15:05:56] Merged 0 JSON-LD + 121 DOM = 121 chunks after dedup
+[2026-06-08 15:21:57] Found 73 product chunks using selector: class~product
+[2026-06-08 15:21:57] Merged 0 JSON-LD + 73 DOM = 73 chunks after dedup
+[2026-06-08 15:22:28] Found 22 product chunks using JSON-LD strategy
+[2026-06-08 15:22:28] Found 2 product chunks using selector: class~product
+[2026-06-08 15:22:28] Merged 22 JSON-LD + 2 DOM = 24 chunks after dedup
+[2026-06-08 15:22:31] Found 17 product chunks using JSON-LD strategy
+[2026-06-08 15:22:31] Found 2 product chunks using selector: class~product
+[2026-06-08 15:22:31] Merged 17 JSON-LD + 2 DOM = 19 chunks after dedup
+[2026-06-08 15:34:34] Found 2 product chunks using selector: class~product
+[2026-06-08 15:34:34] Merged 0 JSON-LD + 2 DOM = 2 chunks after dedup
+[2026-06-08 15:42:43] Found 33 product chunks using selector: class~product
+[2026-06-08 15:42:43] Merged 0 JSON-LD + 33 DOM = 33 chunks after dedup

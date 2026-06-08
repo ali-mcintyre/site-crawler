@@ -1,0 +1,268 @@
+[2026-06-08 15:42:39] Starting spider crawl at https://7collection.com/collections/best-sellers with max_pages=1 and custom_fields=['name', 'image', 'description', 'Price']
+[2026-06-08 15:42:43] Extracted 33 chunks from https://7collection.com/collections/best-sellers for record extraction
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® Big Logo Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® x Toyota Racing Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® x Toyota Supra Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> '//7collection.com/cdn/shop/files/711xTOYOTASupraTEEFRONT_BLACK_1024x1024.jpg?v=1777324504'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Tokyo Haze Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® x Toyota Global Racing Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® x Lateral Vision Fishing Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Big Gulp Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® Canvas Jacket'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$70.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Reel Convenience Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-ELEVEn® Classic Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$25.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Snack Of The Day Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'After Hours Grizzly Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Crest Washed Crewneck'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$55.00\n \n Coming Soon'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® Navy Canvas Jacket'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$70.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Reel Convenience Tech Rope Hat'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® Tree Camo Cap'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$25.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® 5-Panel Camp Hat'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® Logo Technical Hat'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$25.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Retro Boonie 7-Eleven® Fishing Hat'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$30.00\n \n Sold Out'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® Knitted Zip Cardigan'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$65.00\n \n Coming Soon'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® Rugby Long Sleeve'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$40.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® Classic Fleece Sweatshirt'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> '//7collection.com/cdn/shop/products/7ELEVENCLASSICCREW_1024x1024.jpg?v=1664224080'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$35.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> '7-Eleven® Zip Hoodie'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$50.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Lost Love Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$35.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Forest Drift Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$35.00\n \n Coming Soon'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Big Dreams Tee'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$35.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Drive Eyes Hoodie'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] image -> 'Left \n Right'
+[2026-06-08 15:42:43] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] description -> ''
+[2026-06-08 15:42:43] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] Price -> '$65.00'
+[2026-06-08 15:42:43] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:43] name -> 'Where Car? Tokyo Windbreaker'
+[2026-06-08 15:42:43] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] image -> 'Left \n Right'
+[2026-06-08 15:42:44] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] description -> ''
+[2026-06-08 15:42:44] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] Price -> '$60.00\n \n Sold Out'
+[2026-06-08 15:42:44] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] name -> '7-Eleven® Classic Logo Golf Balls'
+[2026-06-08 15:42:44] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] image -> 'Left \n Right'
+[2026-06-08 15:42:44] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] description -> ''
+[2026-06-08 15:42:44] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] Price -> '$16.00'
+[2026-06-08 15:42:44] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] name -> '7-Eleven® Wood Golf Tees (Set of 50)'
+[2026-06-08 15:42:44] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] image -> '//7collection.com/cdn/shop/files/GOLF-TEES_1024x1024.jpg?v=1747353729'
+[2026-06-08 15:42:44] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] description -> ''
+[2026-06-08 15:42:44] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] Price -> '$15.00'
+[2026-06-08 15:42:44] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] name -> '7-Eleven® Striped Embroidered Socks'
+[2026-06-08 15:42:44] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] image -> 'Left \n Right'
+[2026-06-08 15:42:44] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] description -> ''
+[2026-06-08 15:42:44] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] Price -> '$15.00'
+[2026-06-08 15:42:44] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] name -> 'Half Crew Stripe Socks - White'
+[2026-06-08 15:42:44] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] image -> 'Left \n Right'
+[2026-06-08 15:42:44] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] description -> ''
+[2026-06-08 15:42:44] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] Price -> '$14.00'
+[2026-06-08 15:42:44] Extracting field 'name' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] name -> '7-Eleven® 3/4 Crew Socks'
+[2026-06-08 15:42:44] Extracting field 'image' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] image -> 'Left \n Right'
+[2026-06-08 15:42:44] Extracting field 'description' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] description -> ''
+[2026-06-08 15:42:44] Extracting field 'Price' from chunk for https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:44] Price -> '$14.00\n \n Sold Out'
+[2026-06-08 15:42:44] Found 1 missing required fields in https://7collection.com/collections/best-sellers
+[2026-06-08 15:42:53] batch=1 pages_processed=1 max_pages=1 visited=1 queue=82

@@ -417,15 +417,33 @@ def extract_custom_field(field, html, parsed_jsonld=None):
     write_log("extract_custom_field", f"Could not find value for field '{field['name']}' in chunk {html}.")
     return ""
 
-def find_missing_fields(row: dict, custom_fields: list[dict]) -> list[dict]:
+def clean_records(row:dict, required_fields:list[dict]) -> dict:
+    '''delete empty records'''
+    # required_fields = [
+    #     field
+    #     for field in custom_fields
+    #     if field.get("required")
+    # ]
+    num_required = len(required_fields)
+    num_fields_empty = 0
+    for record in row.get("records", []):
+        for field in required_fields:
+            value = record.get(field["name"], "")
+            if value in (None, "", [], {}):
+                num_fields_empty += 1
+        if num_fields_empty == num_required:
+            row["records"].remove(record)
+    return row["records"]
+
+def find_missing_fields(row: dict, required_fields: list[dict]) -> list[dict]:
     missing_fields = []
     seen = set()
 
-    required_fields = [
-        field
-        for field in custom_fields
-        if field.get("required")
-    ]
+    # required_fields = [
+    #     field
+    #     for field in custom_fields
+    #     if field.get("required")
+    # ]
 
     for record in row.get("records", []):
 
