@@ -1,0 +1,1057 @@
+[2026-06-10 10:35:21] Starting spider crawl at https://www.nike.com/w/running-shoes-37v7jzy7ok with max_pages=3 and custom_fields=['name', 'image', 'description', 'price']
+[2026-06-10 10:35:36] Extracted 49 chunks from https://www.nike.com/w/running-shoes-37v7jzy7ok for record extraction
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Pegasus 42 Men's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/690f0153-ba61-49a7-b6f0-97773df09a1c/AIR+ZOOM+PEGASUS+42.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$145'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Pegasus 42 Women's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/88f81c1a-7d4c-4391-9aea-c7acde66f54a/W+NIKE+AIR+ZOOM+PEGASUS+42.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$145'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Vomero 18 Men's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a3a48123-513c-4a5e-9d5a-2eb8d969dcd9/NIKE+VOMERO+18.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$155'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Vomero 18 Women's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fe7b657d-b790-4df9-af5b-ddb54e3d1413/W+NIKE+VOMERO+18.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$108.97 $155 29% off'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> ''
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/w_1920,c_limit/b2d3df6a-2720-4fd3-b08b-904ef654b897/image.jpg'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> ''
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Vomero Premium Men's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/71dec6df-2d2e-480c-b9ab-528b49fb4291/NIKE+VOMERO+PREMIUM.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$230'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Vomero Premium Women's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/de81b8da-83f2-4e30-881a-df0e66f9119b/W+NIKE+VOMERO+PREMIUM.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$230'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Vomero Plus Men's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8777f501-1c09-4327-be4a-f5b636813a71/NIKE+VOMERO+PLUS.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$180'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Vomero Plus Women's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/91bb0b9f-b640-44d2-9d0a-ec3b9aed1b88/W+NIKE+VOMERO+PLUS.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$180'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Pegasus Premium Men's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/41a2fa8f-5ec3-4cc2-873d-cb91e295441e/NIKE+PEGASUS+PREMIUM.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$220'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Pegasus Premium Women's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3940a722-2c80-40b3-af96-291255773955/W+NIKE+PEGASUS+PREMIUM.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$220'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Structure Plus Men's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d849d676-5f95-4822-8b04-eeea82e5fba0/NIKE+STRUCTURE+PLUS.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$170'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Structure Plus Women's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cdafa24a-09dd-4a5d-acca-2350ef3c1b32/WMNS+NIKE+STRUCTURE+PLUS.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$170'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Structure 26 Men's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d80c47ad-8c83-49c5-9e2a-22dc5dda18df/NIKE+STRUCTURE+26.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$145'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Structure 26 Women's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/da1c20cd-4f3d-4c48-a253-56ab043c4f8a/W+NIKE+STRUCTURE+26.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$145'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "ACG Zegama Trail Men's Trail Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d6c5beef-1ed9-4b35-925f-6dc63b6ae69a/NIKE+ACG+ZEGAMA+TRAIL.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$180'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "ACG Zegama Trail Women's Trail Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e0ae1089-16f9-4662-b65d-d2680d753b20/W+NIKE+ACG+ZEGAMA+TRAIL.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$180'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike ACG Pegasus Trail Men's Trail Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4c66c037-f50e-4de0-b7ae-39288003a0e0/NIKE+ACG+PEGASUS+TRAIL.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$155'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike ACG Pegasus Trail Women's Trail Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/25744b4d-0f48-4df9-9bec-133eac858d81/W+NIKE+ACG+PEGASUS+TRAIL.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$155'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> 'Nike ACG Ultrafly Trail Trail Racing Shoes'
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f29ad5d5-c0a3-4601-a6d0-5511d3acfd59/NIKE+ACG+ULTRAFLY+TRAIL.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$260'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> 'Nike Kiger 10 Trail Running Shoes'
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bd6c578b-0a45-4099-9ff1-6140b1a56a07/NIKE+TERRA+KIGER+10.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$170'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Pegasus Plus Men's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/be57a430-8d83-4546-901f-47dc2cd9de7c/PEGASUS+PLUS.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$190'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Pegasus Plus Women's Road Running Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a25c35a8-d82b-4759-bfc6-cfb9fd68fe2d/W+PEGASUS+PLUS.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$152.97 $190 19% off'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Alphafly 3 Men's Road Racing Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/033c00fe-c615-40b8-8e82-fc6e09e14c36/AIR+ZOOM+ALPHAFLY+NEXT%25+3.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$295'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Alphafly 3 SE Women's Road Racing Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3bfb831d-f21a-4786-bece-7b022ce7927c/W+AIR+ZM+ALPHAFLY+NEXT%25+3+SE.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$295'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Vaporfly 4 Men's Road Racing Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/80c08194-8ae0-42c3-a878-531a2c730f7b/ZOOMX+VAPORFLY+NEXT%25+4.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$270'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Vaporfly 4 SE Women's Road Racing Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e5fdf7a0-a71d-4b98-abef-1804c359879f/W+ZMX+VAPORFLY+NEXT%25+4+SE.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$270'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> "Nike Zoom Fly 6 Men's Road Racing Shoes"
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cc0705f3-b673-4a13-ae5b-4a0de4f5793b/ZOOM+FLY+6.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$180'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> 'Nike Zoom Fly 6 SE Women’s Road Racing Shoe'
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2bd9a151-6a87-459d-93a5-4775d5c92cfa/W+ZOOM+FLY+6+SE.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] description -> ''
+[2026-06-10 10:35:36] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] price -> '$180'
+[2026-06-10 10:35:36] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] name -> 'Nike Streakfly 2 Road Racing Shoes'
+[2026-06-10 10:35:36] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:36] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/be148d25-78b5-4323-96a5-9c0bf74eaf28/ZOOMX+STREAKFLY+2.png'
+[2026-06-10 10:35:36] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$190'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> 'Nike Dragonfly XC 2 Cross-Country Spikes'
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c752bfdc-8a3c-4a4c-b1dd-37db7d69285a/ZOOMX+DRAGONFLY+XC+2.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$170'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> 'Nike Zoom Rival XC 7 Cross-Country Spikes'
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1d28347c-b523-4efa-b91d-e3f1ffc90443/ZOOM+RIVAL+XC+7.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$80'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> 'Nike Zoom Rival Waffle 7 Road and Cross-Country Racing Shoes'
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5711f49c-4b13-498c-af37-2c247c374937/ZOOM+RIVAL+WAFFLE+7.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$75'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Pegasus Trail 5 GORE-TEX Men's Waterproof Trail Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/17766e2c-20e5-4c47-8311-493f1b1ec986/NIKE+PEGASUS+TRAIL+5+GTX.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$180'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Wildhorse 10 Men's Trail Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5978865c-fe61-4fce-9984-18075b933e03/NIKE+REACTX+WILDHORSE+10.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$115.97 $165 29% off'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Wildhorse 10 Women's Trail Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b9bf8200-12f5-440b-a62e-2ab35e0c84e1/W+NIKE+REACTX+WILDHORSE+10.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$165'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Winflo 12 Men's Road Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a5ed2be2-8cc0-4398-882c-469f493d778d/NIKE+AIR+WINFLO+12.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$110'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Winflo 12 Women's Road Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/06973869-5f59-4d06-9d5b-79a42c61e4fb/W+NIKE+AIR+WINFLO+12.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$110'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Downshifter 14 Men's Road Running Shoe"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/efed02e5-92b7-4ea0-9113-1638fd215259/NIKE+DOWNSHIFTER+14.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$64.97 $80 18% off'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Downshifter 14 Women's Road Running Shoe"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/855709f8-0f13-4b00-95c4-a3e15c39bf34/W+NIKE+DOWNSHIFTER+14.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$61.97 $80 22% off'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Revolution 8 Men's Road Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/860b8fef-9d46-4d02-aa0b-0e353708a4e5/NIKE+REVOLUTION+8.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$60.97 $75 18% off'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Revolution 8 Women's Road Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c874c75e-9c10-4183-b434-e0017f59771b/W+NIKE+REVOLUTION+8.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$75'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Pegasus Trail 5 GORE-TEX Women's Waterproof Trail Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5959662d-01f5-4e66-aa20-87691c90d0b7/W+PEGASUS+TRAIL+5+GTX.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$142.97 $180 20% off'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Run Defy Men's Road Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ba2ab3da-0d91-4ebf-8dc0-b6e858b3bcd8/NIKE+RUN+DEFY.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$65'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Run Defy Women's Road Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4e7df36d-2b9e-4b4e-93d4-ee02e17478c8/W+NIKE+RUN+DEFY.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$65'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> 'Nike x Hyperice Hyperboot Shoes'
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b58035e4-02b3-4432-bc58-4ab247ede73c/Hyperboot+by+Nike+x+Hyperice.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$799'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Stellar Ride Big Kids' Running Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3fea2e71-afc7-4623-8094-0948923299c6/NIKE+STELLAR+RIDE+%28GS%29.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$46.97 $67 29% off'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Mind 002 Men's Pregame Shoes"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/52cbfcab-f673-4e47-9dd9-2375ad774578/NIKE+MIND+002.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$145'
+[2026-06-10 10:35:37] Extracting field 'name' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] name -> "Nike Mind 001 Men's Pregame Mules"
+[2026-06-10 10:35:37] Extracting field 'image' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ef2f4720-6ad2-4457-94b5-7a2390cf3cec/NIKE+MIND+001.png'
+[2026-06-10 10:35:37] Extracting field 'description' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] description -> ''
+[2026-06-10 10:35:37] Extracting field 'price' from chunk for https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:35:37] price -> '$95'
+[2026-06-10 10:35:37] Found 3 missing required fields in https://www.nike.com/w/running-shoes-37v7jzy7ok
+[2026-06-10 10:36:01] batch=1 pages_processed=1 max_pages=3 visited=1 queue=660
+[2026-06-10 10:36:07] Extracted 72 chunks from https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1 for record extraction
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Jordan Brooklyn Men's Festival Jersey"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/75aa81a3-ab95-4152-9350-5cd2448d4585/M+J+BRK+FSTVL+JSY.png'
+[2026-06-10 10:36:07] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] description -> ''
+[2026-06-10 10:36:07] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] price -> '$100'
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Jordan Flight Fleece Chicago Men's Pants"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0d2e2e46-93c7-48bf-9027-f852482c66ef/M+J+FLT+FLC+CHI+PANT.png'
+[2026-06-10 10:36:07] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] description -> ''
+[2026-06-10 10:36:07] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] price -> '$100'
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Jordan Flight Men's Jersey Top"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5db7886d-1d0f-4503-9a0d-090c39c6dd17/M+J+FLT+JERSEY+SS+TOP.png'
+[2026-06-10 10:36:07] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] description -> ''
+[2026-06-10 10:36:07] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] price -> '$80'
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Jordan Brooklyn Men's Festival Cargo Shorts"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0357a9e6-7693-46e2-992a-dfd9455c74fe/M+J+BRK+FSTVL+CARGO+SHORT.png'
+[2026-06-10 10:36:07] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] description -> ''
+[2026-06-10 10:36:07] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] price -> '$70'
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Jordan Men's Oversized T-Shirt"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7978699-6111-41be-99e3-52930d8c17a5/M+J+96+OVERSIZED+TEE+AJ4.png'
+[2026-06-10 10:36:07] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] description -> ''
+[2026-06-10 10:36:07] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] price -> '$45'
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Jordan Flight Men's Muay Thai Shorts"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/01beee9b-36cc-4d91-8d16-cdc7ceb34835/M+J+FLT+MUAY+THAI+SHORT.png'
+[2026-06-10 10:36:07] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] description -> ''
+[2026-06-10 10:36:07] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] price -> '$90'
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Brazil 2026 Match Away Men's Jordan Aero-FIT Soccer Authentic Custom Jersey By You"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6a085fcd-0ee5-4a99-ad21-cf190f0e83c8/NK+S26+M+MATCH+AUTH+JSY+CUST.png'
+[2026-06-10 10:36:07] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] description -> ''
+[2026-06-10 10:36:07] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] price -> '$210'
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Brazil 2026 Stadium Away Men's Jordan Dri-FIT Soccer Replica Shorts"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f1d80815-b1d1-4fed-9941-40e73b4f0cfb/CBF+M+NK+DF+SHORT+STAD+AW3.png'
+[2026-06-10 10:36:07] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] description -> ''
+[2026-06-10 10:36:07] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] price -> '$70'
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Jordan Men's Polo"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b7e05194-5650-41a5-9ac6-834edaa31f00/M+J+POLO+TOP+P6.png'
+[2026-06-10 10:36:07] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] description -> ''
+[2026-06-10 10:36:07] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] price -> '$75'
+[2026-06-10 10:36:07] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:07] name -> "Jordan Men's Draft Pants"
+[2026-06-10 10:36:07] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cfd02f78-35b6-47fe-9aaa-4822d138a61f/M+J+DRAFT+PANT+P6.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$120'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Terrace Top"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6352f6bf-876d-469f-ad21-694e02c8da8e/M+J+BRK+TERRACE+SS.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$70'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Mesh Shorts"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d24b350e-5260-4d0f-bf55-651b001257ec/M+J+BRK+CHAMP+MESH+SHORT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$50'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Flight Men's T-Shirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f57b353d-9068-4c73-8f7d-c9eb74351eb6/M+J+FLT+REIS+FEAR+SS+CREW.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$45'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Essentials Men's Woven Pants"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/dcb55afd-5804-4f05-a91b-11a72b2d600e/M+J+BRK+WVN+PANT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$75'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Mesh Jersey"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/83f2a497-69e5-44c8-81d4-ff4e0c2c3faf/M+J+BRK+MESH+JERSEY.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$60'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> 'Jordan Brooklyn Men\'s 4" Shortie Shorts'
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f6bd3724-acde-4a84-90fa-a74c652a8c76/M+J+BRK+FC+SHORTIE.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$60'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Festival Shorts"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0efcf774-9125-48b9-857b-e0713342b39b/M+J+BRK+FSTVL+SHORT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$50'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Festival Men's Jacket"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/28acb2de-27a3-4320-80af-a15a8281e493/M+J+BRK+FSTVL+SVNR+JKT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$150'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Festival Pants"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f5ee850b-fbe4-4bf8-b3c6-8dedbe6ff6e4/M+J+BRK+FSTVL+PNT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$100'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's T-Shirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c7b4aee4-eb7c-45ad-bb20-0acdccb4745d/M+J+BRK+BEST+GFX+SS+CREW.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$40'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Diamond Mesh Shorts"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9705002d-a053-47d9-9fa1-834a516f84dd/M+J+BRK+FC+DMND+MESH+SHORT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$55'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Air Men's T-Shirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7efd5592-ad22-4abf-93f7-edd4c2be8388/M+J+EMB+JORDAN+AIR+CREW.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$28.97 $35 17% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Fleece Men's Oversized Full-Zip Hoodie"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9ba25009-7d51-4033-a197-19dc3591d524/M+J+BRK+OVS+FZ+HD.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$52.97 $80 33% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Sport Men's Dri-FIT Mesh Shorts"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f2433290-19f4-4647-96a5-d9be73cc71b6/M+J+DF+SPRT+MESH+SHORT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$30.97 $40 22% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Paris Saint-Germain Men's Diamond Shorts"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/807374fd-65dd-4199-89c2-50fbc966cd09/M+J+PSG+DMND+SHORT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$49.97 $55'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Collegiate Pullover Hoodie"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/19f7ce2b-0a7b-4aca-90d9-7fd604d7085b/M+J+BRK+CLLGTE+HBR+PO+HD+LB.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$48.97 $75 34% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Tatum Hoop Fleece Men's Dri-FIT Pullover Hoodie"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e2371519-8513-4a1d-b7c1-45b48b041f45/M+J+DF+SPRT+HOOP+FLC+PO+JT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$56.97 $75 24% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> 'Jordan Everyday Crew Socks (3 pairs)'
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bb072524-daa0-413b-b444-11339ce8ae78/U+J+ED+CUSH+POLY+CREW+3PR+144.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$19.97 $24 16% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Flight Men's Flannel Shirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/adcb1928-1410-4839-8c79-df6c0fdaea49/M+J+FLT+CLB+FLANNEL+SHIRT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$97.97 $150 34% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Men's Flight Cotton Core Boxer Briefs (3-Pack)"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ce6b84c2-1955-44f3-9777-2b80026e6332/JHM+FLIGHT+COTTON+CORE+3PK+BB.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$37.97 $42.50 10% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Fleece Men's Oversized Pullover Hoodie"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9cb3baa3-d979-4f79-9fd1-75d7192c9af4/M+J+BRK+OVS+PO+HD.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$50.97 $70 27% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Brazil National Team 2026 Stadium Away Men's Nike Dri-FIT Soccer Jersey"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2b99173d-1bd6-433f-935c-367eb48d01a5/CBF+M+NK+DF+JSY+SS+STAD+AW3.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$100'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Flight Fleece Men's Pants"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bcd98344-d633-436c-9517-4ad9f50ba33e/M+J+FLT+FLC+PANT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$55.97 $90 37% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan 1985 Men's T-Shirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/21dec2ca-a924-44bf-8616-43d7f7dd8a09/M+J+STMT+1985+SS+CREW+CP.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$42.97 $50 14% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> 'Nike Digital Gift Card Emailed in Approximately 2 Hours or Less'
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/21d662f0-ddba-4549-825f-c86199b77a9d/GiftCard.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> ''
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Flight Fleece Men's Diamond Shorts"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f709fee5-4135-4fe9-a75c-14a6c32ef26e/M+J+FLIGHT+FLC+DMND+SHORT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$61.97 $72 14% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Rare Air Men's Fleece Pants"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7d0c9433-2a56-414e-a31e-fead20f58f50/M+J+AIR+JDN+RAIR+FLC+PANT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$84.97 $130 34% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> 'Nike Gift Card Mailed in a Mini Nike Shoebox'
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f1811412-9714-46ff-a4c7-47108e36aa4e/GiftCard.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> ''
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Fleece Crewneck Sweatshirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ebf8fc10-a164-4339-9f42-aa2062cd6a00/M+J+BRK+AJ6+FLC+CREW.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$58.97 $75 21% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Flight Fleece Men's Pants"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/272b5390-a9c1-4932-92b0-df325de7557e/M+J+FLT+WASH+FLC+PANT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$58.97 $90 34% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan 1985 Men's T-Shirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6aa19e8c-06d0-4538-97ba-0e5f6c336def/M+J+STMT+1985+SS+CREW+L2C.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$28.97 $45 35% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's T-Shirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8884802d-4a9b-48f2-8a2a-12eccc53f01e/M+J+BRK+DRM+DUNK+GFX+SS+CRW.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$29.97 $45 33% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Flight Men's Lightweight Half-Zip Hoodie"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a087b58c-1bf1-4028-8e9f-c363cc6960a1/M+J+FLT+CLB+LTWT+HZ.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$120.97 $200 39% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Sport JAM Men's Warm-Up Pants"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7524d830-19be-4675-895e-418c511d9ae7/M+J+SPRT+JAM+WARM+UP+PANT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$75.97 $100 24% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> 'Jordan AJ12 "Taxi" Men\'s Fleece Hoodie'
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ec584f17-02b3-4f50-8cac-fa1adbe0b5e6/M+J+AJ12+TAXI+FLC+PO.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$52.97 $80 33% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Sport Crossover Men's Dri-FIT Pullover Hoodie"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/35044c7c-1aaf-4d47-931d-befe852868c9/M+J+DF+SPRT+CSVR+FLC+PO.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$54.97 $72 23% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Men's 4-Piece Basics Set"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/813ebd17-7e28-4cb1-8dcd-570cef241a13/MENS+4PC+BASICS+SET.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$49.97 $55'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Men's T-Shirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/32dd2fa7-da92-4914-943e-8f3bbe0a11b1/M+J+BRAND+DOT+MJ+SS+CREW.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$28.97 $48 39% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Cat Scratch Men's Black Cat Shorts"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/26915d01-f1f8-4f40-9b0a-c3218f42cebc/M+J+BRK+CAT+SCRATCH+SHORT+BCAT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$44.97 $55 18% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Sport Men's Therma-FIT Jacket"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/097905d2-9f2f-487c-ab25-25529e6ead39/M+J+TF+SPRT+STMT+MDWT+JKT.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$112.97 $150 24% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Men's Flight Base Tank Tops (2-Pack)"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6ff4746a-36dc-44e4-a1e3-40ff0d258cd6/FLIGHT+BASE+TANK+2PK.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$34.97 $42.50 17% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Oversized Full-Zip Hoodie"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e2c82e73-27f1-4bad-994c-cafe59e98893/M+J+BRK+VT+OVS+FZ+HD+BB.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$64.97 $85 23% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> 'Jordan Everyday Ankle Socks (3 Pairs)'
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/80ff9fd5-51f6-487f-8639-2f1bf7716712/U+J+ED+CUSH+POLY+ANKLE+3PR+144.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$19.97 $24 16% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Hike Mike Graphic Jersey"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5218e340-1cef-4927-9e59-519421ed9be9/M+J+BRK+HIKE+MIKE+GFX+JSY.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$80.97 $100 19% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Air Jordan 85 Men's Graphic T-Shirt"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b5efcafe-92af-463c-9b2c-4cc7411e0632/M+J+AIR+JDN+WM+85+AOP+SS+CR.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$39.97 $65 38% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Flight Fleece Men's Pullover Hoodie"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c387897b-a6b9-4216-9f3b-28fdbf7df973/M+J+FLT+FLC+PO.png'
+[2026-06-10 10:36:08] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] description -> ''
+[2026-06-10 10:36:08] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] price -> '$65.97 $100 34% off'
+[2026-06-10 10:36:08] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] name -> "Jordan Brooklyn Men's Hike Mike Convertible Pants"
+[2026-06-10 10:36:08] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:08] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31c2dbb2-6ef9-40a7-9bcc-3a898a577ae0/M+J+BRK+HIKE+MIKE+AOP+PNT.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$97.97 $150 34% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Flight Men's Mountainside T-Shirt"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/39497886-c5a2-4a28-9d43-649320a53cf3/M+J+FLT+MTNSIDE+GFX+SS+CREW.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$26.97 $40 32% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Sport Crossover Men's Dri-FIT Fleece Pants"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6fe88348-bb63-401f-845a-158dff32ac2d/M+J+DF+SPRT+CSVR+FLC+PANT.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$54.97 $72 23% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Flight Fleece Men's Pullover Hoodie"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/78096d45-6696-48ec-a64f-9692fe49aa2f/M+J+FLT+WASH+FLC+PO.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$65.97 $100 34% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Sport Crossover Men's Fleece Pants"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fa6c9cf2-f3c9-496e-829f-d09f5d683f50/M+J+SPRT+CSVR+GFX+FLC+PNT.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$58.97 $78 24% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> 'Jordan Everyday No-Show Socks (3 Pairs)'
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/db489471-fefc-40df-869c-502550d9a6eb/U+J+ED+CUSH+POLY+NS+3PR+144.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$19.97 $24 16% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Air Men's T-Shirt"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/57567e62-14fe-483a-91b4-a19223e33f3d/M+J+JD+AIR+SS+CREW.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$30.97 $35 11% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Flight Men's GORE-TEX Mountainside Jacket"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a563ab23-7a00-426b-a8b0-4cf105af0fb5/M+J+FLT+MTNSIDE+GTX+JKT+AOP.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$325.97 $500 34% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Brooklyn Men's Realtree Hockey Jersey"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0a506275-1729-418c-85ba-0b51a18af743/M+J+BRK+HOCKEY+JSY+RLT.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$70.97 $100 29% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Brooklyn Men's Fleece Realtree Pants"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d111db30-c046-462c-9d8b-f15e41fe3659/M+J+BRK+FLC+PANT+RLT.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$48.97 $75 34% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Sport Men's Dri-FIT Woven Diamond Shorts"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/69c4ab11-f3cd-40a8-a1af-d1dbbc532eb1/M+J+DF+SPRT+WVN+DMND+SHORT.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$42.97 $55 21% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Men's Graphic T-Shirt"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2962fb98-bc63-4157-b161-d8362285ef6b/M+J+STAR+GFX+SS+CREW.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$29.97 $45 33% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Brooklyn Dream Dunk Men's Draft Jacket"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/dee0a1c3-1b16-4128-b826-cd9e0c74eff3/M+J+BRK+DRM+DUNK+DRAFT+JKT.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$94.97 $125 24% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Sport JAM Men's Warm-Up Jacket"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/af6d1152-bc67-4e51-857f-ac8b8860899b/M+J+SPRT+JAM+WARM+UP+JACKET.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$91.97 $120 23% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Flight Men's Corduroy Chore Jacket"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9f33bd78-f76f-441e-b3b4-e1574b5ed8f2/M+J+FLT+CORDUROY+CHORE+JKT.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$88.97 $125 28% off'
+[2026-06-10 10:36:09] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] name -> "Jordan Brooklyn Men's Realtree T-Shirt"
+[2026-06-10 10:36:09] Extracting field 'image' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c0ccff1a-f766-4817-be87-d28af7e17a82/M+J+BRK+RLT+AOP+SS+CREW.png'
+[2026-06-10 10:36:09] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] description -> ''
+[2026-06-10 10:36:09] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:09] price -> '$29.97 $45 33% off'
+[2026-06-10 10:36:09] Found 2 missing required fields in https://www.nike.com/w/mens-jordan-clothing-37eefz6ymx6znik1
+[2026-06-10 10:36:10] Extracted 10 chunks from https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100 for record extraction
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> "Nike Pegasus Premium Men's Road Running Shoes - Natural/Natural/Black/Mushroom - Size 3.5"
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> 'https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ec2d1e2-1a08-46a4-a8f1-857b5ec5b210/PEGASUS+PREMIUM+SP.png'
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> 'Three stacks of responsive cushioning delivers the ultimate energized ride. The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It’s our most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly fast.'
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> '220'
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> "Nike Pegasus Premium Men's Road Running Shoes - Natural/Natural/Black/Mushroom - Size 4.5"
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> 'https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ec2d1e2-1a08-46a4-a8f1-857b5ec5b210/PEGASUS+PREMIUM+SP.png'
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> 'Three stacks of responsive cushioning delivers the ultimate energized ride. The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It’s our most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly fast.'
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> '220'
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> "Nike Pegasus Premium Men's Road Running Shoes - Natural/Natural/Black/Mushroom - Size 5"
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> 'https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ec2d1e2-1a08-46a4-a8f1-857b5ec5b210/PEGASUS+PREMIUM+SP.png'
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> 'Three stacks of responsive cushioning delivers the ultimate energized ride. The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It’s our most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly fast.'
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> '220'
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> "Nike Pegasus Premium Men's Road Running Shoes - Natural/Natural/Black/Mushroom - Size 7"
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> 'https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ec2d1e2-1a08-46a4-a8f1-857b5ec5b210/PEGASUS+PREMIUM+SP.png'
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> 'Three stacks of responsive cushioning delivers the ultimate energized ride. The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It’s our most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly fast.'
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> '220'
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> "Nike Pegasus Premium Men's Road Running Shoes - Natural/Natural/Black/Mushroom - Size 7.5"
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> 'https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ec2d1e2-1a08-46a4-a8f1-857b5ec5b210/PEGASUS+PREMIUM+SP.png'
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> 'Three stacks of responsive cushioning delivers the ultimate energized ride. The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It’s our most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly fast.'
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> '220'
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> "Nike Pegasus Premium Men's Road Running Shoes - Natural/Natural/Black/Mushroom - Size 8"
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> 'https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ec2d1e2-1a08-46a4-a8f1-857b5ec5b210/PEGASUS+PREMIUM+SP.png'
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> 'Three stacks of responsive cushioning delivers the ultimate energized ride. The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It’s our most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly fast.'
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> '220'
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> "Nike Pegasus Premium Men's Road Running Shoes - Natural/Natural/Black/Mushroom - Size 8.5"
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> 'https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ec2d1e2-1a08-46a4-a8f1-857b5ec5b210/PEGASUS+PREMIUM+SP.png'
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> 'Three stacks of responsive cushioning delivers the ultimate energized ride. The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It’s our most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly fast.'
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> '220'
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> "Nike Pegasus Premium Men's Road Running Shoes - Natural/Natural/Black/Mushroom - Size 10.5"
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> 'https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ec2d1e2-1a08-46a4-a8f1-857b5ec5b210/PEGASUS+PREMIUM+SP.png'
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> 'Three stacks of responsive cushioning delivers the ultimate energized ride. The Pegasus Premium supercharges responsive cushioning with a triple stack of our most powerful running technologies: ZoomX foam, a sculpted Air Zoom unit and ReactX foam. It’s our most responsive Pegasus ever, providing high energy return unlike any other. With a lighter-than-air upper, it decreases weight and increases breathability so you can fly fast.'
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> '220'
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> ''
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> 'https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ec2d1e2-1a08-46a4-a8f1-857b5ec5b210/PEGASUS+PREMIUM+SP.png'
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> ''
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> ''
+[2026-06-10 10:36:10] Extracting field 'name' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] name -> "Nike Pegasus Premium Men's Road Running Shoes"
+[2026-06-10 10:36:10] Extracting field 'image' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] image -> ''
+[2026-06-10 10:36:10] Extracting field 'description' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] description -> ''
+[2026-06-10 10:36:10] Extracting field 'price' from chunk for https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:10] price -> ''
+[2026-06-10 10:36:10] Found 4 missing required fields in https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/IQ5691-100
+[2026-06-10 10:36:36] batch=2 pages_processed=3 max_pages=3 visited=3 queue=868

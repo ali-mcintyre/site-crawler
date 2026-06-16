@@ -21,6 +21,7 @@ Then open: http://localhost:5000
 """
 
 import asyncio
+import csv
 import io
 import os
 import re
@@ -29,15 +30,31 @@ import uuid
 from urllib.parse import urlparse
 import json
 import aiohttp
-from flask import Flask, jsonify, request, send_file
+from flask import Flask, jsonify, request, send_file, Response
 from lxml import etree
 from lxml import html as lhtml
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment
 from record_extraction_utils import *
+from jobs_db import *
+import pandas as pd
 
 app = Flask(__name__)
+
+# ──────────────────────────────────────────────
+# CORS: allow other local frontends (e.g. the injection project's
+# field-builder.html, served from a different origin/port) to call
+# this API and load static assets. This does not change anything
+# about how the bundled UI at "/" works.
+# ──────────────────────────────────────────────
+@app.after_request
+def add_cors_headers(response):
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+    return response
+
 
 # In-memory job store
 jobs = {}
@@ -167,10 +184,9 @@ async def fetch_via_claude(url: str, custom_fields: list,
         },{"name": "content", "description": "The main text content of the page",
          "type": "string", "required": True}
     ]
-    if custom_fields:
-        api_fields.append(custom_fields)
 
-    payload = {"url": url, "fields": api_fields}
+
+    payload = {"url": url, "basic_fields": api_fields, "record_fields": custom_fields}
     try:
         async with session.post(
             claude_api_url,
@@ -308,36 +324,94 @@ async def fetch_page(url: str, crawler: AsyncWebCrawler, config: CrawlerRunConfi
 # Sitemap fetching
 # ──────────────────────────────────────────────
 
-async def fetch_sitemap_urls(sitemap_url: str, session: aiohttp.ClientSession) -> list:
+async def fetch_sitemap_urls(source: str, session: aiohttp.ClientSession,
+                             raw_content: str = None) -> list[str]:
+    """
+    Fetch URLs from:
+      - Raw file content passed directly (raw_content)
+      - XML sitemap URL
+      - TXT file URL containing URLs
+      - CSV file URL containing URLs
+    """
     headers = {"User-Agent": "Mozilla/5.0 (compatible; SitemapCrawler/1.0)"}
-    try:
-        async with session.get(sitemap_url, headers=headers,
-                               timeout=aiohttp.ClientTimeout(total=30)) as resp:
-            resp.raise_for_status()
-            content = await resp.read()
-    except Exception as e:
-        raise RuntimeError(f"Could not fetch sitemap: {e}")
 
+    if raw_content is not None:
+        # Content already provided — parse directly without fetching
+        text = raw_content.strip()
+        content = text.encode("utf-8")
+        content_type = ""
+    else:
+        try:
+            async with session.get(source, headers=headers, timeout=aiohttp.ClientTimeout(total=30)) as resp:
+                resp.raise_for_status()
+                content_type = resp.headers.get("Content-Type", "").lower()
+                content = await resp.read()
+        except Exception as e:
+            raise RuntimeError(f"Could not fetch URL source: {e}")
+        text = content.decode("utf-8", errors="ignore").strip()
+
+    # Detect format for uploaded content (no filename/content-type available)
+    is_uploaded = raw_content is not None
+    first_nonblank = text.lstrip()
+    looks_like_xml = first_nonblank.startswith("<")
+    first_line = text.splitlines()[0] if text else ""
+    looks_like_csv = "," in first_line and not first_nonblank.startswith("<")
+
+    # TXT
+    if (
+        source.lower().endswith(".txt")
+        or "text/plain" in content_type
+        or (is_uploaded and not looks_like_xml and not looks_like_csv)
+    ):
+        return [
+            line.strip()
+            for line in text.splitlines()
+            if line.strip()
+            and line.startswith(("http://", "https://"))
+            and not should_skip_url(line.strip())
+        ]
+    # CSV
+    if (
+        source.lower().endswith(".csv")
+        or "csv" in content_type
+        or (is_uploaded and looks_like_csv)
+    ):
+        urls = []
+        reader = csv.reader(io.StringIO(text))
+        for row in reader:
+            for value in row:
+                value = value.strip()
+                if (
+                    value.startswith(("http://", "https://"))
+                    and not should_skip_url(value)
+                ):
+                    urls.append(value)
+        return urls
+    # XML sitemap
     try:
         root = etree.fromstring(content)
     except etree.XMLSyntaxError as e:
-        raise RuntimeError(f"Could not parse sitemap XML: {e}")
-
-    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    urls = []
-
-    child_sitemaps = root.findall(".//sm:sitemap/sm:loc", ns)
+        raise RuntimeError(
+            f"Could not parse XML sitemap: {e}"
+        )
+    # Sitemap index
+    child_sitemaps = root.xpath(
+        "//*[local-name()='sitemap']/*[local-name()='loc']/text()"
+    )
     if child_sitemaps:
-        for loc_el in child_sitemaps:
-            child_urls = await fetch_sitemap_urls(loc_el.text.strip(), session)
+        urls = []
+        for child_sitemap in child_sitemaps:
+            child_urls = await fetch_sitemap_urls(child_sitemap.strip(), session)
             urls.extend(child_urls)
-    else:
-        page_urls = root.findall(".//sm:url/sm:loc", ns)
-        urls = [el.text.strip() for el in page_urls if el.text and not should_skip_url(el.text.strip())]
-
-    return urls
-
-
+        return urls
+    # Regular sitemap
+    page_urls = root.xpath("//*[local-name()='url']/*[local-name()='loc']/text()")
+    return [
+        url.strip()
+        for url in page_urls
+        if url.strip()
+        and not should_skip_url(url.strip())
+    ]
 # ──────────────────────────────────────────────
 # Spider: discover URLs by following internal links
 # ──────────────────────────────────────────────
@@ -365,7 +439,7 @@ async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
                        max_pages: int, api_key: str, claude_api_url: str = "") -> list:
     write_log(job_id, f"Starting spider crawl at {start_url} with max_pages={max_pages} and custom_fields={[f['name'] for f in custom_fields]}")
     job = jobs[job_id]
-    job["status"] = "crawling"
+    job["status"] = "Crawling"
     job["log"] = [f"Spider starting at: {start_url}"]
     if api_key:
         job["log"].append("ScrapingBee fallback ENABLED (premium → stealth escalation)")
@@ -385,12 +459,15 @@ async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
     queue = [start_url.rstrip('/')]
     rows = []
     semaphore = asyncio.Semaphore(5)
-
+    job["total"] = max_pages
     async with AsyncWebCrawler() as crawler:
         async with aiohttp.ClientSession() as session:
 
             async def crawl_one(url):
                 async with semaphore:
+                    if job.get("stop_requested"):
+                        job["progress"] = job.get("progress", 0) + 1
+                        return None, []
                     try:
                         row={}
                         result = await fetch_page(url, crawler, config, api_key, session, job, claude_api_url, custom_fields)
@@ -447,11 +524,13 @@ async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
                                 #if no chunks extracted, still want to try claude if available, send the whole html as context--or send whole url and have it process it
                                 write_log(job_id, f"No content chunks extracted from {url}")
                                 if claude_api_url:
+                                    write_log(job_id, f"Trying Claude API for {url} since no chunks extracted")
                                     extracted = await fetch_via_claude(url, custom_fields, claude_api_url, session)  # fire and forget — we just want the log info if it works, but won't block on it
                                     row["records"] = extracted.get("records", [])
                         new_links = extract_internal_links(result.html, url) if result.html else []
                         job["progress"] = job.get("progress", 0) + 1
                         job["log"].append(f"OK {url}")
+                        update_job(job_id, status="Crawling", progress=job["progress"], total=job["total"], log=job["log"])
                         return row, new_links
                     except Exception as e:
                         job["progress"] = job.get("progress", 0) + 1
@@ -459,6 +538,10 @@ async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
                         return None, []
 
             while queue and pages_processed < max_pages:
+                if job.get("stop_requested"):
+                    job["log"].append("Spider stopped by user.")
+                    break
+
                 batch = []
                 while queue and len(batch) < 10 and pages_processed + len(batch) < max_pages:
                     url = queue.pop(0)
@@ -469,7 +552,6 @@ async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
                 if not batch:
                     break
 
-                job["total"] = len(visited) + len(queue)
                 tasks = [crawl_one(url) for url in batch]
                 results = await asyncio.gather(*tasks)
 
@@ -490,9 +572,12 @@ async def spider_crawl(job_id: str, start_url: str, custom_fields: list,
                     f"queue={len(queue)}"
                 )
 
-                job["total"] = len(visited) + len(queue)
+                #job["total"] = len(visited) + len(queue)
 
-    job["log"].append(f"Spider complete. {len(rows)} pages crawled.")
+    if job.get("stop_requested"):
+        job["log"].append(f"Spider stopped early. {len(rows)} pages crawled.")
+    else:
+        job["log"].append(f"Spider complete. {len(rows)} pages crawled.")
     return rows
 
 
@@ -588,7 +673,7 @@ async def cleanup_via_claude(
     payload = {
         "text": row.get("content", ""),           # skip re-fetch, use what crawler already has
         "url": url if not row.get("content") else None,
-        "fields": missing_fields,
+        "record_fields": missing_fields,
         "content": {"existing_records": row.get("records", [])},  # just the records for context
     }
     #clean up none keys
@@ -675,7 +760,7 @@ def build_excel(rows: list[dict],custom_fields: list[dict],filename: str) -> byt
         cell = ws.cell(row=row_idx, column=3, value=content)
         cell.fill = fill
         cell.alignment = Alignment(vertical="top")
-        
+
         image_url = page.get("hero_image_url", "")
         cell = ws.cell(row=row_idx, column=4, value=image_url)
         cell.fill = fill
@@ -691,15 +776,15 @@ def build_excel(rows: list[dict],custom_fields: list[dict],filename: str) -> byt
         )
         cell.fill = fill
         cell.alignment = Alignment(
-            wrap_text=True,
+            wrap_text=False,
             vertical="top"
         )
     # column widths
-    ws.column_dimensions["A"].width = 50
-    ws.column_dimensions["B"].width = 50
-    ws.column_dimensions["C"].width = 50
-    ws.column_dimensions["D"].width = 50
-    ws.column_dimensions["E"].width = 50
+    ws.column_dimensions["A"].width = 40
+    ws.column_dimensions["B"].width = 40
+    ws.column_dimensions["C"].width = 40
+    ws.column_dimensions["D"].width = 40
+    ws.column_dimensions["E"].width = 60
     ws.freeze_panes = "A2"
     buf = io.BytesIO()
     wb.save(buf)
@@ -712,10 +797,11 @@ def build_excel(rows: list[dict],custom_fields: list[dict],filename: str) -> byt
 # ──────────────────────────────────────────────
 
 async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[dict],
-                             filename: str, api_key: str, claude_api_url: str = ""):
+                             filename: str, api_key: str, claude_api_url: str = "",
+                             sitemap_content: str = None):
     job = jobs[job_id]
-    job["status"] = "fetching_sitemap"
-    job["log"] = [f"Fetching sitemap: {sitemap_url}"]
+    job["status"] = "Fetching_Sitemap"
+    job["log"] = [f"Fetching sitemap: {sitemap_url}" if not sitemap_content else "Parsing uploaded sitemap file"]
     if api_key:
         job["log"].append("ScrapingBee fallback ENABLED (premium → stealth escalation)")
     else:
@@ -725,19 +811,19 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[d
 
     try:
         async with aiohttp.ClientSession() as session:
-            urls = await fetch_sitemap_urls(sitemap_url, session)
+            urls = await fetch_sitemap_urls(sitemap_url or "", session, raw_content=sitemap_content)
     except Exception as e:
-        job["status"] = "error"
+        job["status"] = "Error"
         job["error"] = str(e)
         return
 
     if not urls:
-        job["status"] = "error"
+        job["status"] = "Error"
         job["error"] = "No URLs found in sitemap."
         return
 
     job["total"] = len(urls)
-    job["status"] = "crawling"
+    job["status"] = "Crawling"
     job["log"].append(f"Found {len(urls)} URLs")
     if api_key:
         job["log"].append("ScrapingBee fallback enabled — will activate on blocked pages only")
@@ -757,13 +843,16 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[d
 
             async def crawl_one(url):
                 async with semaphore:
+                    if job.get("stop_requested"):
+                        job["progress"] = job.get("progress", 0) + 1
+                        return None
                     try:
                         row={}
                         result = await fetch_page(url, crawler, config, api_key, session, job, claude_api_url, custom_fields)
                         if not result.success:
                             job["log"].append(f"SKIP {url}: {result.error_message}")
                             job["progress"] = job.get("progress", 0) + 1
-                            return None, []
+                            return None
                         if hasattr(result, "_extracted") and result._extracted:
                             # This means the Claude API returned a successful response with extracted fields
                             extracted = result._extracted
@@ -790,7 +879,7 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[d
                                     for field in custom_fields:
                                         record[field["name"]] = extract_custom_field(field, chunk)
                                     row["records"].append(record)
-                                row["records"] = clean_records(row["records"], required_fields)
+                                row["records"] = clean_records(row, required_fields)
                                 ##if fields are not populated, resort to claude want to send all fields (populated and not populated)
                                 missing_fields = find_missing_fields(row, required_fields)
                                 job["log"].append(f"  ↳ {len(missing_fields)} incomplete fields")
@@ -811,6 +900,7 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[d
                         #new_links = extract_internal_links(result.html, url) if result.html else []
                         job["progress"] = job.get("progress", 0) + 1
                         job["log"].append(f"OK {url}")
+                        update_job(job_id, status="Crawling", progress=job["progress"], total=job["total"], log=job["log"])
                         return row
                     except Exception as e:
                         job["progress"] = job.get("progress", 0) + 1
@@ -821,29 +911,47 @@ async def run_sitemap_crawl(job_id: str, sitemap_url: str, custom_fields: list[d
             raw = await asyncio.gather(*tasks)
             rows = [r for r in raw if r is not None]
 
-    job["status"] = "building_excel"
+    job["status"] = "Building_Excel"
     excel_bytes = build_excel(rows, custom_fields, filename)
     job["excel"] = excel_bytes
-    job["filename"] = filename if filename.endswith(".xlsx") else filename + ".xlsx"
-    job["status"] = "done"
-    job["log"].append(f"Done. {len(rows)} pages crawled.")
+    xlsx_filename = filename if filename.endswith(".xlsx") else filename + ".xlsx"
+    job["filename"] = filename
+    save_excel(job_id, excel_bytes, xlsx_filename)
+    update_job(job_id, status="Done", log=job["log"])
+    if job.get("stop_requested"):
+        job["status"] = "Stopped"
+        job["log"].append(f"Stopped by user. {len(rows)} pages crawled.")
+        update_job(job_id, status="Stopped", log=job["log"])
+    else:
+        job["status"] = "done"
+        job["log"].append(f"Done. {len(rows)} pages crawled.")
+        update_job(job_id, status="Done", log=job["log"])
 
 
 async def run_spider_job(job_id: str, start_url: str, custom_fields: list,
                           filename: str, max_pages: int, api_key: str, claude_api_url: str = ""):
     rows = await spider_crawl(job_id, start_url, custom_fields, max_pages, api_key, claude_api_url)
     job = jobs[job_id]
-    job["status"] = "building_excel"
+    job["status"] = "Building_Excel"
     excel_bytes = build_excel(rows, custom_fields, filename)
     job["excel"] = excel_bytes
-    job["filename"] = filename if filename.endswith(".xlsx") else filename + ".xlsx"
-    job["status"] = "done"
-    job["log"].append(f"Done. {len(rows)} pages crawled.")
+    xlsx_filename = filename if filename.endswith(".xlsx") else filename + ".xlsx"
+    job["filename"] = filename
+    save_excel(job_id, excel_bytes, xlsx_filename)
+    update_job(job_id, status="Done", log=job["log"])
+    if job.get("stop_requested"):
+        job["status"] = "Stopped"
+        job["log"].append(f"Stopped by user. {len(rows)} pages crawled.")
+        update_job(job_id, status="Stopped", log=job["log"])
+    else:
+        job["status"] = "Done"
+        job["log"].append(f"Done. {len(rows)} pages crawled.")
+        update_job(job_id, status="Done", log=job["log"])
 
 
-def run_async_job(job_id, mode, url, custom_fields, filename, max_pages, api_key, claude_api_url):
+def run_async_job(job_id, mode, url, custom_fields, filename, max_pages, api_key, claude_api_url, sitemap_content=None):
     if mode == "sitemap":
-        asyncio.run(run_sitemap_crawl(job_id, url, custom_fields, filename, api_key, claude_api_url))
+        asyncio.run(run_sitemap_crawl(job_id, url, custom_fields, filename, api_key, claude_api_url, sitemap_content=sitemap_content))
     else:
         asyncio.run(run_spider_job(job_id, url, custom_fields, filename, max_pages, api_key, claude_api_url))
 
@@ -872,27 +980,33 @@ def start_crawl():
     filename = data.get("output_filename", "crawl_results").strip() or "crawl_results"
     custom_fields  = data.get("custom_fields", [])
     max_pages = int(data.get("max_pages", 300))
+    sitemap_content = data.get("sitemap_content")  # raw file content from frontend upload
     # Use server-side env var if set (deployed mode), otherwise accept from UI (local mode)
     api_key = os.environ.get("SCRAPINGBEE_API_KEY")
     claude_api_url = os.environ.get("CLAUDE_API_URL")
 
-    if not url:
+    if not url and mode == "spider":
         return jsonify({"error": "URL is required"}), 400
+    if not sitemap_content and not url and mode == "sitemap":
+        return jsonify({"error": "A sitemap file or URL is required"}), 400
 
     job_id = str(uuid.uuid4())
+    create_job(job_id, mode, url, filename)
     jobs[job_id] = {
-        "status": "queued",
+        "status": "Queued",
         "progress": 0,
         "total": 0,
         "log": [],
         "excel": None,
         "filename": filename,
         "error": None,
+        "stop_requested": False,
     }
 
     t = threading.Thread(
         target=run_async_job,
         args=(job_id, mode, url, custom_fields, filename, max_pages, api_key, claude_api_url),
+        kwargs={"sitemap_content": sitemap_content},
         daemon=True
     )
     t.start()
@@ -915,15 +1029,52 @@ def job_status(job_id):
     })
 
 
+@app.route("/api/stop/<job_id>", methods=["POST"])
+def stop_job(job_id):
+    job = jobs.get(job_id)
+    if not job:
+        return jsonify({"error": "Job not found"}), 404
+    if job["status"] in ("Done", "Stopped", "Error"):
+        return jsonify({"ok": True, "status": job["status"]})
+    job["stop_requested"] = True
+    job["log"].append("Stop requested by user - finishing in-flight pages and building output...")
+    return jsonify({"ok": True})
+
+
 @app.route("/api/download/<job_id>")
 def download(job_id):
     job = jobs.get(job_id)
-    if not job or job["status"] != "done" or not job["excel"]:
-        return jsonify({"error": "Not ready"}), 404
+    if not job or job["status"] not in ("Done", "Stopped") or not job["excel"]:
+        #check if its in stored database
+        job = get_job(job_id)
+        if not job:
+            return jsonify({"error": "Not ready"}), 404
     buf = io.BytesIO(job["excel"])
     fname = job["filename"]
+    if not fname.endswith(".xlsx"):
+        fname += ".xlsx"
     return send_file(buf, as_attachment=True, download_name=fname,
                      mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+
+@app.route("/api/format-excel/<job_id>")
+def format_excel(job_id):
+    job = jobs.get(job_id)
+    if not job or job["status"] not in ("done", "stopped") or not job["excel"]:
+        #if there is no job, it means it in database, not stored locally
+        job = get_job(job_id)
+        if not job:
+            return jsonify({"error": "Not ready"}), 404
+    excel_buf = io.BytesIO(job["excel"])
+    df = pd.read_excel(excel_buf)
+    records = []
+    for row in df["records"]:
+        if isinstance(row, str):
+            row = json.loads(row)   # or ast.literal_eval if needed
+
+        records.extend(row)
+    records_df = pd.DataFrame(records)
+    return Response(records_df.to_csv(index=False), mimetype="text/csv")
+
 
 
 @app.route("/api/log/<job_id>")
@@ -938,8 +1089,27 @@ def download_log(job_id):
                      mimetype="text/plain")
 
 
+@app.route("/api/jobs")
+def list_jobs():
+    in_progress = show_jobs(status_in=["Queued", "Fetching_Sitemap", "Crawling", "Building_Excel"])
+    completed = show_jobs(status_in=["Done", "Stopped", "Error", "Interrupted"])
+    # excel is stored as raw bytes (BLOB) and isn't JSON-serializable —
+    # drop it from the response and expose a boolean flag instead.
+    for job in in_progress + completed:
+        job["has_download"] = bool(job.pop("excel", None))
+    return jsonify({"in_progress": in_progress, "completed": completed})
+
+@app.route("/api/remove-job/<job_id>", methods=["POST"])
+def remove_job(job_id):
+    jobs.pop(job_id, None)
+    delete_job(job_id)
+    return ("", 204)
+
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     host = "0.0.0.0"
-    print(f"\n🕷  Crawler UI running at http://{host}:{port}\n")
+    init_db()
+    mark_interrupted_jobs_on_startup()
+    print(f"\nCrawler UI running at http://{host}:{port}\n")
     app.run(debug=False, host=host, port=port)

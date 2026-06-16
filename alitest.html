@@ -154,6 +154,8 @@ h1{
     }
     input[type="text"], input[type="url"], textarea, select{
       width:100%;
+      min-width:0;
+      box-sizing: border-box;
       padding: 10px 11px;
       border-radius: 12px;
       border:1px solid var(--line);
@@ -290,7 +292,7 @@ h1{
           id="docUrl"
           type="url"
           placeholder="https://example.com/image.jpg"
-          style="flex:1;"
+          style="flex:1; min-width:0;"
         />
 
         <button
@@ -463,6 +465,15 @@ h1{
 
       <button
         class="btn secondary"
+        id="stopBtn"
+        type="button"
+        style="display:none;"
+      >
+        Stop Scraping
+      </button>
+
+      <button
+        class="btn secondary"
         id="copyJsonBtn"
         type="button"
       >
@@ -587,6 +598,7 @@ const els = {
       importFieldsFile: document.getElementById("importFieldsFile"),
 
       submitBtn: document.getElementById("submitBtn"),
+      stopBtn: document.getElementById("stopBtn"),
       copyJsonBtn: document.getElementById("copyJsonBtn"),
       clearResultsBtn: document.getElementById("clearResultsBtn"),
 
@@ -1020,10 +1032,27 @@ updateDownloadLabel();
         if (data.job_id) {
           currentJobId = data.job_id;
           startPolling(data.job_id);
+          els.stopBtn.style.display = "";
+          els.stopBtn.disabled = false;
+          els.stopBtn.textContent = "Stop Scraping";
         }
 
       } catch (err) {
         setStatus(err?.message || "Request failed.", "bad");
+      }
+    });
+
+    els.stopBtn.addEventListener("click", async () => {
+      if (!currentJobId) return;
+      els.stopBtn.disabled = true;
+      els.stopBtn.textContent = "Stopping…";
+      try {
+        await fetch(`/api/stop/${currentJobId}`, { method: "POST" });
+        setStatus("Stopping… finishing in-flight pages, then building output.", "warn");
+      } catch (err) {
+        setStatus("Could not send stop request.", "bad");
+        els.stopBtn.disabled = false;
+        els.stopBtn.textContent = "Stop Scraping";
       }
     });
 
@@ -1053,10 +1082,17 @@ updateDownloadLabel();
             clearInterval(pollInterval);
             pollInterval = null;
             setStatus(`Done — ${data.progress} pages in ${elapsed}s. Ready to download.`, "ok");
+            els.stopBtn.style.display = "none";
+          } else if (data.status === "stopped") {
+            clearInterval(pollInterval);
+            pollInterval = null;
+            setStatus(`Stopped — ${data.progress} pages crawled in ${elapsed}s. Ready to download.`, "warn");
+            els.stopBtn.style.display = "none";
           } else if (data.status === "error") {
             clearInterval(pollInterval);
             pollInterval = null;
             setStatus(`Error: ${data.error}`, "bad");
+            els.stopBtn.style.display = "none";
           }
         } catch (err) {
           clearInterval(pollInterval);

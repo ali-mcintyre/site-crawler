@@ -1,0 +1,707 @@
+[2026-06-16 10:54:42] Starting spider crawl at https://7collection.com/collections/t-shirts with max_pages=2 and custom_fields=['name', 'price', 'description', 'ImageUrl', 'Color']
+[2026-06-16 10:54:47] Extracted 50 chunks from https://7collection.com/collections/t-shirts for record extraction
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® City League Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711CityLeagueTEEFRONT_GREEN_1024x1024.jpg?v=1780336161'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® Flags Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711FlagsTEEBACK_WHITE_1024x1024.jpg?v=1780336124'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® 1927 Retro Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/7111927TEEFRONT_NAVY_1024x1024.jpg?v=1780336145'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® Athletics Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711AthleticsTEEFRONT_BLACK_1024x1024.jpg?v=1780336198'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® Big Logo Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711LOGOTEEIVORY_1024x1024.jpg?v=1779216100'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Big Gulp Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/VINTAGEBIGGULPTEECCBLACK_1024x1024.jpg?v=1779216501'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'After Hours Grizzly Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711Snack_SupplyBearTEEBACK_BLACK_1024x1024.jpg?v=1772566334'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Snack & Supply Co. Logo Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711Snack_SupplyCoTEE_IVORY_1024x1024.jpg?v=1772566938'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Cast Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711Snack_SupplyCastTEEBACK_IVORY_1024x1024.jpg?v=1772566623'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® x Lateral Vision Neon Sign Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711Snack_SupplyNeonSignTEEBACK_BLACK_1024x1024.jpg?v=1772566807'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® x Lateral Vision Logo Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711Snack_SupplyLVStripesTEEFRONT_IVORY_1024x1024.jpg?v=1772565764'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® x Toyota Supra Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711xTOYOTASupraTEEFRONT_BLACK_1024x1024.jpg?v=1777324504'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® x Toyota Flag Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711xTOYOTAFlagTEEFRONT_WHITE_1024x1024.jpg?v=1777324242'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® x Toyota Crest Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711xTOYOTACrestTEEFRONT_BLACK_1024x1024.jpg?v=1777324120'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® x Toyota Global Racing Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711xTOYOTAGlobalRacingTEEBACK_IVORY_1024x1024.jpg?v=1777324294'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® x Toyota Racing Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711xTOYOTARacingTEEBACK_CCGREEN_1024x1024.jpg?v=1777324548'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® x Toyota Jersey tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711xTOYOTAJerseyTEEBACK_BLACK_1024x1024.jpg?v=1777324465'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Friendship Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711-FRIENDSHIP-Tee-Front-_BLACK_1024x1024.jpg?v=1775080218'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Browser Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711-Browser-Tee-BACK-_WHITE_1024x1024.jpg?v=1774481748'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Daily Drive Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711-EAT-SLEEP-DRIVE-Tee-BACK-V2-_BLACK_1024x1024.jpg?v=1774482094'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Eat Sleep Drive Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/711-EAT-SLEEP-DRIVE-Tee-BACK-_BLACK_1024x1024.jpg?v=1774481814'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> '7-Eleven® x Lateral Vision Fishing Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/STORECCGRNBCK_1024x1024.jpg?v=1740603328'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Reel Convenience Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/7EE-FISHING-CC-TEE-BACK-BROWN2_1024x1024.jpg?v=1746218597'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Tokyo Haze Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$30.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/7EE-JAPANESE-WHERE-CAR-CC-S2000-HONDA-TEE-FRONT-BLACK_1_1024x1024.jpg?v=1740080632'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] Color -> ''
+[2026-06-16 10:54:47] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] name -> 'Lost Love Tee'
+[2026-06-16 10:54:47] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] price -> '$35.00'
+[2026-06-16 10:54:47] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] description -> ''
+[2026-06-16 10:54:47] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:47] ImageUrl -> '//7collection.com/cdn/shop/files/LOST-LOVE-TEE-BACK-BLACK_de424675-81b2-47be-a85c-801321b8ffb0_1024x1024.jpg?v=1742407391'
+[2026-06-16 10:54:47] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Where Car™ Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$30.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/products/CARSOF7ELEVENTEE_BACK_1024x1024.jpg?v=1658338720'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-Eleven® Icons Pajama Top'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$28.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/NOV9_15_1024x1024.jpg?v=1699576794'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-ELEVEn® Classic Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$25.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/products/711CLASSICTEEWHT_1024x1024.jpg?v=1681860259'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-Eleven Car Club™ Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$25.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/products/7ELEVENCARCLUBGEARTEEWHT_BACK_1024x1024.jpg?v=1658338902'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-Eleven® Burnout Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$25.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/products/711_CARBLK__BACK_1024x1024.png?v=1680122403'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Midnight Driving Club Topographic Jersey Polo'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$50.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/MDC-TOPOGRAPHIC-POLO-FRONT_1024x1024.jpg?v=1760053221'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Midnight Driving Club Technical Polo'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$50.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/MDC-TECHNICAL-POLO-FRONT_1024x1024.jpg?v=1759949652'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-Eleven® Green Pique Stripe Polo'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$50.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/MDC-GREEN-POLO-FRONT_1024x1024.jpg?v=1759949503'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-Eleven® B&W Rugby Shirt'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$40.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/MDC-RUGBY-POLO-FRONT_1024x1024.jpg?v=1759949582'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Hit The Clubs Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$30.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/MDCCARTBACK_1024x1024.jpg?v=1758065764'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Midnight Driving Club Moon Ball Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$30.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/MDCGOLFBALLBACK_1024x1024.jpg?v=1758065846'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-Eleven® x Breezy Golf Breakfast Bites Polo'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$60.00\n \n $89.00 \n Sale'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/Untitleddesign-2025-08-01T165011.664_1024x1024.jpg?v=1754327557'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-Eleven® x Hot Wheels Toyota Supra Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$30.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/HOT-WHEELS-BLACK-TEE-FRONT_1024x1024.jpg?v=1753141376'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Faded Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$30.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/FadedTee_1024x1024.jpg?v=1740711328'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Always Open Logo Lockup Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$25.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/711AlwaysOpenLockupTEEWHT_1024x1024.jpg?v=1736528449'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Always Open Clock Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$30.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/CLOCKBLKBACK_1024x1024.jpg?v=1757732166'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Always Open Gym Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$30.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/711AlwaysOpenGymTEEFRONT_HTR_1024x1024.jpg?v=1757637141'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-Eleven® x Breezy Golf Gimme & Gulp Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$35.00\n \n $42.00 \n Sale'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/Untitleddesign-2025-08-01T164820.751_1024x1024.jpg?v=1754327111'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> '7-Eleven® Classic Long Sleeve'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$27.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/products/7ELEVENCLASSICLSWHT_{width}x.jpg?v=1658337164'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Snack Of The Day Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$30.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/SNACKOFTHEDAYVTGWHTBACK_1024x1024.jpg?v=1746217993'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'The Always Open, Open Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$27.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/THE-2024-ALWAYS-OPEN-POSTER-TEE_GREEN_FRONT-CC_1024x1024.jpg?v=1717445315'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Drift Daily Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$27.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/DRIFTDAILYWSHBLKBCK_fb3d96df-c12d-4bc6-972d-26f1887dbb6d_1024x1024.jpg?v=1698879334'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Race Team Long Sleeve'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$30.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/CARS-OF-711_LONG-SLEEVES-TEE_WHITE_1024x1024.jpg?v=1709157764'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Retro Stripe Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$25.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/files/RETROSTRIPEVTGWHITE_1024x1024.jpg?v=1706647833'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Extracting field 'name' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] name -> 'Big Gulp® Tee'
+[2026-06-16 10:54:48] Extracting field 'price' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] price -> '$25.00'
+[2026-06-16 10:54:48] Extracting field 'description' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] description -> ''
+[2026-06-16 10:54:48] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] ImageUrl -> '//7collection.com/cdn/shop/products/7ELEVENBIGGULPTEERED_1024x1024.jpg?v=1657909378'
+[2026-06-16 10:54:48] Extracting field 'Color' from chunk for https://7collection.com/collections/t-shirts
+[2026-06-16 10:54:48] Color -> ''
+[2026-06-16 10:54:48] Found 2 missing required fields in https://7collection.com/collections/t-shirts
+[2026-06-16 10:55:12] batch=1 pages_processed=1 max_pages=2 visited=1 queue=100
+[2026-06-16 10:55:16] Extracted 20 chunks from https://7collection.com/collections/reel-convenience-fishing-collection for record extraction
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Snack Of The Day Tee'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/SNACKOFTHEDAYVTGWHTBACK_1024x1024.jpg?v=1746217993'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> '7-Eleven® x Lateral Vision Fishing Tee'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/STORECCGRNBCK_1024x1024.jpg?v=1740603328'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Reel Convenience Tee'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/7EE-FISHING-CC-TEE-BACK-BROWN2_1024x1024.jpg?v=1746218597'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Reel Convenience Tech Rope Hat'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/ROPE-HAT-GREEN-FRONT_1024x1024.jpg?v=1742415255'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> '7-Eleven® Long Sleeve Sun Shirt'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00\n \n $60.00 \n Sale'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/REEL-CONVENIENCE-LONG-SLEEVE-FRONT_1024x1024.jpg?v=1742415119'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Reel Convenience Duck Camo Cooler Tote'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$45.00\n \n Coming Soon'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/COOLER-BAG_46e4bf40-a9df-47b5-bf6c-40ba175c5676_1024x1024.jpg?v=1744826773'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> '7-Eleven® x Lateral Vision Waves Logo Tee'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/WAVESTRIPEWHT_1024x1024.jpg?v=1740603260'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> '7-Eleven® x Lateral Vision Waves Hat'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/7-11XLV-HAT-BLACK-FRONT_1024x1024.jpg?v=1742423817'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Reel Convenience Duck Camo Trucker Hat'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/TRUCKER-HAT_f21c0299-e397-4be2-b932-06d51560bfaa_1024x1024.jpg?v=1744826702'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> "Women's Logo Ribbed Tank"
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$27.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/womenstank_9f97cdd4-44cd-4646-bf70-e99117167db7_1024x1024.jpg?v=1743524601'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Snack Of The Day Snapback'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00\n \n Coming Soon'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/SNACK-OF-THE-DAY-HAT-GREEN-FRONT_1024x1024.jpg?v=1750365610'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Reel Convenience Bottle Opener with Carabiner'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$12.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/REELCONVENIENCEkeychain_1024x1024.jpg?v=1742415191'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Speedway® Fishing Tee'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/SPEEDWAYFISHINGVTGWHTTEE_1024x1024.jpg?v=1738088898'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Reel Convenience Hard Enamel Pin'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$12.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/REEL-CONVINIENCE-PIN-PACKAGE_1024x1024.jpg?v=1745269340'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Reel Convenience Patch'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$7.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/REEL-CONVENIENCE-PATCH_1024x1024.jpg?v=1742415321'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Reel Convenience Decal'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$5.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/REELCONVENIENCEDECAL_6dd239d4-d4ed-4e5e-801f-f97edbac1e06_1024x1024.jpg?v=1742415335'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Retro Boonie 7-Eleven® Fishing Hat'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$30.00\n \n Sold Out'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/Untitleddesign_59_1024x1024.jpg?v=1745269430'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> '7-Eleven® Fishing Kids Tee'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$18.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/7EE-FISHING-YOUTH-TEE-FRONT-ORANE_1024x1024.jpg?v=1750277265'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> 'Reel Convenience Kids Tee'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$18.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/7EE-REEL-CONVENIENCE-TEE-FRONT-BLACK_1024x1024.jpg?v=1750277467'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Extracting field 'name' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] name -> '7-Eleven® Tree Camo Cap'
+[2026-06-16 10:55:16] Extracting field 'price' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] price -> '$25.00'
+[2026-06-16 10:55:16] Extracting field 'description' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] description -> ''
+[2026-06-16 10:55:16] Extracting field 'ImageUrl' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] ImageUrl -> '//7collection.com/cdn/shop/files/7_11-CAMO-SNAPBACK-FRONT_1024x1024.jpg?v=1731098172'
+[2026-06-16 10:55:16] Extracting field 'Color' from chunk for https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:16] Color -> ''
+[2026-06-16 10:55:16] Found 2 missing required fields in https://7collection.com/collections/reel-convenience-fishing-collection
+[2026-06-16 10:55:21] batch=1 pages_processed=2 max_pages=2 visited=2 queue=127

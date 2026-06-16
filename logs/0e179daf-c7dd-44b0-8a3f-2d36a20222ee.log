@@ -1,0 +1,580 @@
+[2026-06-09 14:28:20] Starting spider crawl at https://www.nike.com/w/fathers-day-3868o with max_pages=1 and custom_fields=['name', 'image', 'description', 'price']
+[2026-06-09 14:28:30] Extracted 72 chunks from https://www.nike.com/w/fathers-day-3868o for record extraction
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Book 2 "Haven and Hector" Basketball Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/64fd62a1-abe7-46b3-a2d1-8249fff06bde/BOOK+2+HH.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$150'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Giannis Immortality 5 Basketball Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9017df86-25c0-47d5-b9a9-c4bce134d5cd/GIANNIS+IMMORTALITY+5.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$85'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Standard Issue Men's Therma-FIT Brushed Basketball Pullover Hoodie"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b68b5403-6054-4b79-b8b1-0deab75eba74/M+NK+TF+SI+BRSH+PO+HD.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$85'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Nike Standard Issue Men\'s 5" Practice Mesh Basketball Shorts'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/ca80aef1-9ed6-412f-a38a-6edee1f8ef4f/M+NK+DF+SI+PRAC+MESH+5IN+SHORT.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$47'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Air Force 1 '07 LV8 Men's Shoes"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/01ed1ff7-2aeb-405b-85b7-affa5d76167c/AIR+FORCE+1+%2707+LV8.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$125'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Air Force 1 '07 LX Vibram Men's Shoes"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/43dde03e-a557-403f-86b9-6b6302718ae9/AIR+FORCE+1+%2707+LX+VIBRAM.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$140'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike 24.7 PerfectStretch Men's Dri-FIT UV Button-Up Shirt"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6284b8f6-4f5b-4f5f-b9cd-b3f993a805df/M+NK+DF+UV+24.7+PS+SS+BUTTN+UP.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$100'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Nike 24.7 PerfectStretch Men\'s Dri-FIT 6" Shorts'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2d1f6396-71e3-40ee-8698-5939ffb5cd0c/M+NK+DF+24.7+PS+6IN+SHORT.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$100'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'LeBron XXIII "Old Glory" Basketball Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4c7f7ef9-0f0b-4e1c-96bd-12f0859042e6/LEBRON+XXIII.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$210'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'LeBron XXIII "Old Glory" Big Kids\' Basketball Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/23573c6f-7842-451e-a5e1-bf9d5bde6bfe/LEBRON+XXIII+OG+%28GS%29.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$165'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Book Standard Issue Men's Sleeveless Game Top"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8913bded-0761-40a1-a26a-b7dd6fe9f421/DB+M+NK+DF+SI+GAME+TOP+SL.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$75'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Book Standard Issue Men's Shorts"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/44b17511-4618-4474-a351-90b172e4be42/DB+M+NK+TF+SI+BRSH+GM+PRO+SHRT.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$125'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Air Jordan 4 "Toro" Men\'s Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fde2cc9-99ff-469a-81b3-e74ffe5be20f/AIR+JORDAN+4+RETRO.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$220'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Air Jordan 4 "Toro" Big Kids\' Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1aca1a2a-c8fd-4eec-8b22-270b6f283761/AIR+JORDAN+4+RETRO+%28GS%29.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$165'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Jordan 4 "Toro" Little Kids\' Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c96acb90-a1ef-42f4-b364-7e120122528e/JORDAN+4+RETRO+%28PS%29.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$105'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Jordan 4 "Toro" Baby/Toddler Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/78140cc6-2834-439a-b89b-8189479bf50d/JORDAN+4+RETRO+%28TD%29.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$90'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Nike Victory Pro 4 Golf Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/702eee55-6d26-45f2-b7bd-6f9638441620/VICTORY+PRO+4.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$155'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Nike Pegasus 1 G Golf Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1266a3e9-edd8-4484-b45f-d3fe02385cac/PEGASUS+1+G.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$170'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Fairway Fresh Men's Dri-FIT Loose Short-Sleeve Golf Polo"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2b097781-6b44-4fe9-88ae-3da0c6cd5873/M+NK+DF+FF+POLO+SS+LOOSE.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$120'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Velocity Men's Dri-FIT Golf Shorts"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/e7db10c4-f04d-42b8-9855-9009855a8e33/M+NK+DF+VLCTY+SHORT+AT+KNEE.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$70'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Tennis Classic Men's Shoes"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c5ab7f16-6f6e-4dd3-8ce8-4c6919ef2413/TENNIS+CLASSIC+CS+STYLE.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$105'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Tennis Classic Big Kids' Shoes"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4faf830f-4e7a-481d-ade8-20e0cf0addd0/NIKE+TENNIS+CLASSIC+NB+%28GS%29.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$92'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Sportswear Club Men's Oversized Short-Sleeve Polo"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/daa6f481-3da0-4bd1-9925-ef6c114d9ec8/M+NK+CLUB+SS+POLO+FUTBOL.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$60'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Sportswear Club Men's Flow Shorts"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b7df9cf9-5f8a-444a-a439-5b3628f73eda/M+NK+CLUB+FLOW+EMBSS+FUTBOL.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$60'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Jordan Grind Golf Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/949cb6e1-79a5-44fd-93e1-68a9f9124da7/JORDAN+GRIND+GOLF.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$165'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Jordan Air Rev Golf Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/020ce269-ca49-42f0-87b7-b8b00698bdbf/JORDAN+AIR+REV.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$255'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Jordan Sport Men's Dri-FIT Golf Polo"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6120ada5-0d81-4734-b4e0-a14c198493aa/M+J+DF+GOLF+POLO.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$90'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Jordan Sport Men's Golf Pants"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/546f7fbb-fd4c-450e-8547-686c422c1304/M+J+GOLF+PANT.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$110'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'A\'Two "Still Loading" A\'ja Wilson Basketball Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2956a453-86f7-4187-a3d1-5b6cbd108261/A%27TWO.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$145'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'A\'Two "Still Loading" A\'ja Wilson Big Kids\' Basketball Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/61d10a61-a184-420d-a204-7a9d9f3ef7a8/A%27TWO+GS.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$112'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Men's Basketball T-Shirt"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4f98a78c-5ff1-449a-a4a6-f0494842437b/M+NK+TEE+M90+OC2+LOOSE.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$47'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Nike Men\'s Dri-FIT 8" Basketball Shorts'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/88044421-0d2f-4db5-8f97-693f72e09418/M+NK+DF+GM+CLASSIC+8IN+SHORT.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$42'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Nike C1TY "Street" Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5d4ed0e0-7df0-4a31-8a40-aacf8462c39e/NIKE+C1TY.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$105'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Air Max 90 Men's Shoes"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93124a0e-b92a-435a-80b0-2ff8a34a7ad2/AIR+MAX+90.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$135'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Sportswear Premium Essentials Men's Oversized T-Shirt"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a1ea84ba-5b75-4845-9890-d72b22f0ca4e/M+NSW+TEE+OS+PREM+ESS+SUST.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$60'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Club Men's Open-Hem Fleece Pants"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8ef0888e-c680-4d24-aea7-4d908cf1f603/M+NK+CLUB+BB+OH+PANT.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$65'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Free Metcon 7 Men's Training Shoes"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0a4c0e39-d8aa-4af7-9c9d-8cfa5e515419/NIKE+FREE+METCON+7.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$125'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Metcon 10 Men's Workout Shoes"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9d228076-efa1-46dc-99fd-846141d4ee72/M+NIKE+METCON+10.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$155'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Primary NanoKnit Men's Dri-FIT UV Protection Full-Zip Performance Hoodie"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2176af3d-437b-4494-b8c6-f368a3407998/M+NK+DF+UV+PRMRY+NANO+FZ+HD.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$100'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Nike Primary NanoKnit Men\'s Dri-FIT 7" Performance Shorts'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/25d2478b-ec9d-4cf9-bbe6-34d10eac6659/M+NK+DF+PRMRY+NANO+7IN+SHORT.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$80'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Air Jordan 1 Low G Golf Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d970ad2c-272d-4ceb-a1fc-4f499e81a0c7/AIR+JORDAN+1+LOW+G.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$155'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> 'Jordan Spizike G Golf Shoes'
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e010bd2b-843c-4d6e-892d-27fb0c8ae78f/JORDAN+SPIZIKE+G.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$195'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Jordan Sport Men's Dri-FIT Golf Shorts"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9eaa468b-b664-4e07-816f-652db4016333/M+J+DF+GOLF+NVLTY+SHORT.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:30] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] price -> '$100'
+[2026-06-09 14:28:30] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] name -> "Nike Zoom Vomero 5 Men's Shoes"
+[2026-06-09 14:28:30] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e8f1c07d-a7a9-4154-b57d-265ad3b4b446/NIKE+ZOOM+VOMERO+5.png'
+[2026-06-09 14:28:30] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:30] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$170'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Vomero 5 Big Kids' Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d4428a1a-122c-49ff-96c5-c7e78dce712d/VOMERO+5+%28GS%29.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$112'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Tech Men's Woven Full-Zip Windrunner Jacket"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/c4e3def9-ffab-41eb-8261-9fc1137f5820/M+NK+DF+TECH+WVN+FZ+AOP.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$111.97 $145 22% off'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Sportswear Tech Woven Big Kids' (Boys') Full-Zip Top"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/97a88c13-c0e7-41b4-be78-d66835030216/B+NSW+TCH+WVN+FZ+AOP.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$99.97 $110'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike V5 RNR Men's Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2326519c-bc7b-4df4-b721-7c466e18b6d1/NIKE+V5+RNR.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$95'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike V5 RNR Big Kids' Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f4eddbd1-87e9-452b-b247-ddf0744895c6/NIKE+V5+RNR+%28GS%29.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$77'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Tech Men's Dri-FIT Woven Pants"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/9b5cd07a-894b-4ce0-a649-e34d65aa094c/M+NK+DF+TECH+WVN+PANT+AOP.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$103.97 $135 23% off'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Sportswear Tech Woven Big Kids' (Boys') Joggers"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/b6ccdfd6-f520-4e41-9377-345a9189d810/B+NSW+TCH+WVN+JGGR+AOP.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$57.97 $95 39% off'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Pegasus Premium Men's Road Running Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/32a80cda-8466-4e11-a09d-4c106f9fec74/NIKE+PEGASUS+PREMIUM.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$220'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Pegasus 42 Men's Road Running Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/999dffba-5949-4ecd-b5aa-44565e7d93ba/AIR+ZOOM+PEGASUS+42.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$145'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Stride Men's Dri-FIT ADV Short-Sleeve Running Top"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7d1c6648-171e-405d-a45b-66179665dcda/M+NK+DFADV+STRIDE+DST+DRMS+SS.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$70'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> 'Nike Stride Men\'s Dri-FIT 5" Brief-Lined Running Shorts'
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/395126af-ea0c-4d56-bdeb-7d688a774e62/M+NK+DF+STRD+DST+DRMS+5BF+SHRT.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$70'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> 'Kobe IX Elite Low EM Protro Basketball Shoes'
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/15bef01d-7090-4f99-8aaf-6ec3b0b6c258/KOBE+IX+ELITE+LOW+EM+PROTRO.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$190'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Kobe IX Low EM Big Kids' Basketball Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93ed5a17-3908-47e0-9acd-7fe286856946/KOBE+IX+LOW+EM+%28GS%29.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$122'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Kobe Men's Nike Dri-FIT Basketball T-Shirt"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/18dd6d65-f6ff-48c0-89a3-9973a05fa2bf/KB+M+NK+DF+TEE+M90+LBR+SP26.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$47'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Kobe Men's Dri-FIT Fleece Basketball Pants"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/953765fe-c99d-4484-a913-b87e8efe57c4/KB+M+NK+DF+MAMBA+FLC+PANT.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$100'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Air Jordan 1 Low Men's Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d954b919-bc4f-4154-95ce-7d5a32e8a4ee/AIR+JORDAN+1+LOW.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$120'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Air Jordan 1 Low Big Kids' Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5713626e-f966-46c7-bca3-a87d184b3091/AIR+JORDAN+1+LOW+%28GS%29.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$90'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Jordan Men's Graphic T-Shirt"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2e840ce9-7cde-426d-85e0-0f9a72132e1c/M+J+NC+PIZZA+GFX+SS+CREW.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$40'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> 'Jordan Big Kids\' "MJ\'s Pizza" T-Shirt'
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/65aec10e-eee2-4084-b26c-6173798a4f60/MJ+BRAND+PIZZA+SS+TEE.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$32'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Air Max Alpha Trainer 6 Men's Workout Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a0d96508-dcba-4f19-80b9-840273625632/M+AIR+MAX+ALPHA+TRAINER+6.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$100'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Air Monarch IV Men's Workout Shoes (Extra Wide)"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/hakauduofjuvxtltfa6z/AIR+MONARCH+IV+%284E%29.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$85'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> 'Nike 24.7 PerfectStretch Men\'s Dri-FIT UV 10" Shorts'
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/88c524fa-09b6-414c-82bf-ac8523abc4ae/M+NK+DF+UV+24.7+PS+SHORT.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$105'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike 24.7 ImpossiblySoft Men's Dri-FIT Short-Sleeve Top"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e83b2532-daa7-4dea-8022-5de97b269588/M+NK+DF+24.7+IS+SS+TOP.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$95'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> 'Ja 3 "Let Me Be Ja" Basketball Shoes'
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1b97afcd-c7a2-445e-9ca4-c034e23999d2/JA+3.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$125'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Ja 3 Big Kids' Basketball Shoes"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ee8b27b-696e-42f0-911f-8b939c31e644/JA+3+%28GS%29.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$102'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Standard Issue Men's Dri-FIT Sleeveless Basketball Top"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/aa42a957-02cd-4fbf-a65f-23cbfc0a03fe/M+NK+DF+SI+SL+TOP+GFX.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$70'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> "Nike Men's Basketball T-Shirt"
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/64e0c196-3a2d-4624-babd-dbd8f482edc4/M+NK+TEE+M90+SUMMIT+JDI+BB.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$47'
+[2026-06-09 14:28:31] Extracting field 'name' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] name -> 'Air Jordan Mule Golf Shoes'
+[2026-06-09 14:28:31] Extracting field 'image' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] image -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c1cf2f88-55de-4350-8699-ede463aa67a4/AIR+JORDAN+MULE.png'
+[2026-06-09 14:28:31] Extracting field 'description' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] description -> ''
+[2026-06-09 14:28:31] Extracting field 'price' from chunk for https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:28:31] price -> '$115'
+[2026-06-09 14:28:31] Found 1 missing required fields in https://www.nike.com/w/fathers-day-3868o
+[2026-06-09 14:29:05] batch=1 pages_processed=1 max_pages=1 visited=1 queue=512

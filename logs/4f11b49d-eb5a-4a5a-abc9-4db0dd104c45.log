@@ -1,0 +1,80 @@
+[2026-06-11 12:29:20] Starting spider crawl at https://www.hp.com/us-en/shop/slp/weekly-deals/laptops with max_pages=1 and custom_fields=['name', 'price']
+[2026-06-11 12:29:45] Extracted 19 chunks from https://www.hp.com/us-en/shop/slp/weekly-deals/laptops for record extraction
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 7 Laptop Next Gen AI 17-dc0037nr 17.3",\xa0Touch screen,\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 5,\xa016GB RAM,\xa0512GB SSD,\xa0FHD,\xa0Glacier silver'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '879.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP Laptop 15t-fd000, 15.6"'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '449.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 5 Laptop Next Gen AI 16z-ag100, 16"'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '609.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 7 Laptop Next Gen AI PC 17t-dc000, 17.3" Touch Screen'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '949.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP Laptop 17t-cn300, 17.3"'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '398.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 5 Laptop 16-bc1047nr 16",\xa0Windows 11 Home, \xa0AMD Ryzen™ 7,\xa016GB RAM,\xa0512GB SSD,\xa02K,\xa0Glacier silver'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '649.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook X Flip 2-in-1 Laptop Next Gen AI 14t-fm000, 14"'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '949.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'OMEN MAX Gaming Laptop 16-ah0097nr 16",\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 9,\xa032GB RAM,\xa01TB SSD,\xa0NVIDIA® GeForce RTX™ 5080,\xa0WQXGA,\xa0Shadow black'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '2699.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP Laptop AI 15-fd2077nr 15.6",\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa0512GB SSD,\xa0FHD,\xa0Natural silver'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '699.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook X Laptop Next Gen AI 17-dd0047nr 17.3",\xa0Touch screen,\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa0512GB SSD,\xa0FHD,\xa0Glacier silver'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '1049.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 5 Laptop AI 16t-af100, 16"'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '679.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook X Laptop Next Gen AI 17,\xa0Windows 11 Home,\xa017.3",\xa0Touch screen,\xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa01TB SSD,\xa0FHD,\xa0Glacier silver'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '1249.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 7 Flip 2-in-1 Next Gen AI 16t-au000, 16" Touch screen'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '949.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 7 Laptop AI 16t-ay000, 16"'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '849.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 5 Laptop 16-cf0582nr 16",\xa0Windows 11 Home, Windows Laptop,\xa0Intel® Core™ 5,\xa08GB RAM,\xa0512GB SSD,\xa02K,\xa0Meteor silver'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '499.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 7 Flip 2-in-1 Laptop Next Gen AI 16-au0047nr 16",\xa0Touch screen,\xa0Windows 11 Home, \xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa01TB SSD,\xa03K,\xa0Glacier silver'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '1199.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 5 Laptop Next Gen AI 16-fb0027nr 16",\xa0Windows 11 Home, Snapdragon®,\xa016GB RAM,\xa0512GB SSD,\xa02K,\xa0Glacier silver'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '549.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> 'HP OmniBook 5 Laptop Next Gen AI 14-he0027nr 14",\xa0Windows 11 Home, Snapdragon® X,\xa016GB RAM,\xa0512GB SSD,\xa02K,\xa0Glacier silver'
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> '599.99'
+[2026-06-11 12:29:45] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] name -> ''
+[2026-06-11 12:29:45] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:45] price -> ''
+[2026-06-11 12:29:45] Found 2 missing required fields in https://www.hp.com/us-en/shop/slp/weekly-deals/laptops
+[2026-06-11 12:29:48] batch=1 pages_processed=1 max_pages=1 visited=1 queue=260

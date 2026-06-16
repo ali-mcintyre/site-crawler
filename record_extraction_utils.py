@@ -383,8 +383,18 @@ def extract_custom_field(field, html, parsed_jsonld=None):
         for alias in aliases:
             value = search_jsonld(parsed_jsonld, alias)
             if value not in (None, "", [], {}):
-                return value if isinstance(value, str) else json.dumps(value, ensure_ascii=False)
+                if isinstance(value, str):
+                    return value
+                if isinstance(value, list) and field_name in ("image", "image_url", "img", "imageurl"):
+                    first = value[0]
+                    return first if isinstance(first, str) else json.dumps(first, ensure_ascii=False)
+                return json.dumps(value, ensure_ascii=False)
 
+        # 6. Image src — for image fields, grab the first <img> src in the chunk
+    if field_name in ("image", "image_url", "img", "imageurl"):
+        m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', html, re.I)
+        if m:
+            return m.group(1)
     # 2. Meta tags — try aliases then original name
     for name in aliases + [field_name]:
         value = search_meta(html, name)
@@ -408,16 +418,11 @@ def extract_custom_field(field, html, parsed_jsonld=None):
     if value:
         return value
 
-    # 6. Image src — for image fields, grab the first <img> src in the chunk
-    if field_name in ("image", "image_url", "img"):
-        m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', html, re.I)
-        if m:
-            return m.group(1)
 
     write_log("extract_custom_field", f"Could not find value for field '{field['name']}' in chunk {html}.")
     return ""
 
-def clean_records(row:dict, required_fields:list[dict]) -> dict:
+def clean_records(row:dict, required_fields:list[dict]) -> list:
     '''delete empty records'''
     # required_fields = [
     #     field
