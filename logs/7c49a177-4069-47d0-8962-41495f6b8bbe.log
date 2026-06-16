@@ -1,0 +1,1297 @@
+[2026-06-15 12:08:06] Starting spider crawl at https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok with max_pages=2 and custom_fields=['name', 'price', 'description', 'ImageUrl', 'Color']
+[2026-06-15 12:08:14] Extracted 114 chunks from https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok for record extraction
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> "Jordan Trunner O/S Men's Shoes"
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$115'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1c940454-6d98-421d-a43f-485c27d71eae/JORDAN+TRUNNER+O%2FS.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> "+ 7 Just In Jordan Trunner O/S Men's Shoes $115"
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Air Jordan 1 Retro Low OG "Phantom and Pine Green" Men\'s Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$150'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e510b44b-9802-458a-b2ee-9e550148a50e/AIR+JORDAN+1+RETRO+LOW+OG.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> 'Just In'
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> "Jordan Sixty Plus Low Men's Shoes"
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$160'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5c822c99-09e6-46c1-8356-0ff13f780353/JORDAN+SIXTY+PLUS+LOW.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> "Best Seller Jordan Sixty Plus Low Men's Shoes $160"
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> "Jordan Trunner Flow Men's Shoes"
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$95'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4cfa9dde-9d54-4a8f-a787-704131eb6aba/JORDAN+TRUNNER+FLOW.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> "Jordan Trunner Flow Men's Shoes $95"
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Air Jordan 4 "Toro" Men\'s Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$220'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fde2cc9-99ff-469a-81b3-e74ffe5be20f/AIR+JORDAN+4+RETRO.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> ''
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Air Jordan 5 "Black Carolina" Men\'s Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$220'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/330d2663-0a26-4f9d-a78a-bc5302c1c08a/AIR+JORDAN+5+RETRO.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> 'Coming Soon'
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Luka 5 "Slovenian Glow" Basketball Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$135'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/431b77de-eb6a-4933-9125-c686189b3a48/JORDAN+LUKA+5+EDGE.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> ''
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Jordan Tiempo Maestro Elite SE Firm-Ground Low-Top Soccer Cleats'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$275'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/16efd4f1-0df7-4075-bbd6-ad1f4e02b52a/TIEMPO+MAESTRO+ELITE+FG+SE.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> 'Jordan Tiempo Maestro Elite SE Firm-Ground Low-Top Soccer Cleats $275'
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Jordan Tiempo Streetgato SE Indoor/Court Low-Top Soccer Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$125'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c274d855-ce57-4744-9f46-d4659cfaa020/TIEMPO+STREETGATO+SE.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> ''
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Air Jordan 3 "World\'s Best" Men\'s Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$215'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31313d8b-c313-4270-91d8-f03d8078f960/AIR+JORDAN+3+RETRO+OG.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> ''
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> "Jordan Legacy 312 Low TD Men's Shoes"
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$135'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5069c52e-3f0e-4a99-b1e1-59da445e7883/JORDAN+LEGACY+312+LOW+TD.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> "Jordan Legacy 312 Low TD Men's Shoes $135 See Price in Bag"
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> "Air Jordan 1 Low SE Men's Shoes"
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$130'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/86744a39-0361-487a-a6a6-4b6397aa29f4/AIR+JORDAN+1+LOW+SE.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> "+ 3 Best Seller Air Jordan 1 Low SE Men's Shoes $130"
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Jordan Triangle Basketball Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$145'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3dd68493-aee1-415c-9ef6-fa6897a42b9a/JORDAN+TRIANGLE.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> 'Coming Soon Jordan Triangle Basketball Shoes $145'
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> "Air Jordan 1 Low Men's Shoes"
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$120'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f7b47121-11f6-4a32-bc5f-e0161d61dfad/AIR+JORDAN+1+LOW.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> "+ 2 Air Jordan 1 Low Men's Shoes $120"
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> "Air Jordan 1 Low EasyOn Men's Shoes"
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$135'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/eb8e8a25-5582-461c-9d16-1dfb2e7f75aa/AIR+JORDAN+1+LOW+EASYON.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> ''
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Air Jordan 1 High OG "Khaki" Women\'s Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$185'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0264677b-c726-4a85-9def-a6082a1768ad/WMNS+AIR+JORDAN+1+RETRO+HI+OG.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> 'Air Jordan 1 High OG "Khaki" Women\'s Shoes $185'
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> "Jordan Spizike Low Women's Shoes"
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$165'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c5da086e-1d72-4dd4-bc3c-36a693899a31/WMNS+JORDAN+SPIZIKE+LOW.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> "Best Seller Jordan Spizike Low Women's Shoes $165"
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Jordan Spizike G Golf Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$195'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/271086cd-9b7a-46b9-a565-198c368b922e/JORDAN+SPIZIKE+G.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> 'Best Seller Jordan Spizike G Golf Shoes $195'
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Air Jordan 6 "Cap and Gown" Men\'s Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$215'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a75d9b6b-31ad-4272-8b7b-6a8114ab32a0/AIR+JORDAN+6+RETRO.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> 'Best Seller'
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] name -> 'Air Jordan 5 Retro OG "White Metallic" Men\'s Shoes'
+[2026-06-15 12:08:14] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] price -> '$215'
+[2026-06-15 12:08:14] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] description -> ''
+[2026-06-15 12:08:14] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1239e8e9-f586-46f3-b9dc-cb67d029368c/AIR+JORDAN+5+RETRO+OG.png'
+[2026-06-15 12:08:14] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:14] Color -> ''
+[2026-06-15 12:08:14] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 3 Retro "White and Orange Peel" Women\'s Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$205'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/01f84eae-cfb0-43cb-b8c2-b353bd399fd9/WMNS+AIR+JORDAN+3+RETRO.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Jordan Spizike Low Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$165'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a5cb8cc0-adff-444e-a945-8ab9107b690b/JORDAN+SPIZIKE+LOW.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+ 5 Best Seller Jordan Spizike Low Men's Shoes $165"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Mid Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$130'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/98c828e6-cd7e-4775-b143-176fdfbf7b56/AIR+JORDAN+1+MID.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "Best Seller Air Jordan 1 Mid Men's Shoes $130"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 4 Retro "Pearl Pink and Iced Carmine" Women\'s Shoe'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$220'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d317631a-bb0e-4a04-9e93-eef0133d8f09/WMNS+AIR+JORDAN+4+RETRO+TEX.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'See Price in Bag'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Jordan Son of Mars Low Men's Shoe"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$165'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ae0c862d-19a3-4085-be30-583490970fd9/JORDAN+SON+OF+MARS+LOW.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "Best Seller Jordan Son of Mars Low Men's Shoe $165"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 11 Low "Mother\'s Day" Women\'s Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$195'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8dd04efe-4caa-4279-a0ae-2188dc0764ec/WMNS+AIR+JORDAN+11+RETRO+LOW.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Jordan Spizike Low SE Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$165'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70382b26-42f4-420d-8551-ec74c4032faf/JORDAN+SPIZIKE+LOW+SE.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'Best Seller'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Mid SE Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$140'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5d4927d2-bf9c-409a-a6b5-0f85254da665/AIR+JORDAN+1+MID+SE.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+4 Air Jordan 1 Mid SE Men's Shoes $140"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 11 Retro Low "University Blue" Men\'s Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$195'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7b368064-2bbe-4034-9400-a8a60730667d/AIR+JORDAN+11+RETRO+LOW.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Luka 5 Basketball Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$135'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7c13d62f-b0ed-4407-b9a3-9db20032a873/JORDAN+LUKA+5+FAM.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'See Price in Bag'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Low Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$115'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/064afac6-d5c0-4be2-aa48-1ecebae0cf7d/AIR+JORDAN+1+LOW.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Retro High OG Flight Club Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$185'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6d7bc0e0-8782-45c9-b2e2-3b54eee22b02/AIR+JORDAN+1+RETRO+HIGH+OG+FC.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 17 x Doernbecher Freestyle "Zach" Men\'s Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$230'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5f2dc1e7-4406-4f82-b9f4-49e4cc1138c7/AIR+JORDAN+17+RETRO+DB21.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan MVP 92 Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$82.97 $145 42% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fd7aa98b-e14f-4248-ba2c-f5319fcbab18/JORDAN+MVP+92.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+10 Best Seller Air Jordan MVP 92 Men's Shoes $82.97 $145 42% off"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 1 Retro Low OG "Banned" Men\'s Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$145'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ba9c1273-c857-431c-8ec7-f97aa861ed69/AIR+JORDAN+1+RETRO+LOW+OG.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Luka 77 Basketball Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$105'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e203303f-d03a-4cef-9835-06ca012878d9/JORDAN+LUKA+77.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> '+1 Best Seller Luka 77 Basketball Shoes $105 Extra 20% w/ SUMMER'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan Skyline Low Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$100'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f185a4e5-38f1-4cd5-96a3-3f3231ca0842/AIR+JORDAN+SKYLINE+LOW.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "Best Seller Air Jordan Skyline Low Men's Shoes $100"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 1 Low G Golf Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$155'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/85c936b0-7264-472f-b10a-26a4aecab0de/AIR+JORDAN+1+LOW+G.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> '+1 Best Seller Air Jordan 1 Low G Golf Shoes $155 See Price in Bag'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 1 Mid Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$130'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9666574d-f12c-46c8-b04b-fc50b3581e91/AIR+JORDAN+1+MID.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan Mule Golf Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$115'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c1cf2f88-55de-4350-8699-ede463aa67a4/AIR+JORDAN+MULE.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'Best Seller Air Jordan Mule Golf Shoes $115 Extra 20% w/ SUMMER'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Low Women's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$120'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a43a0292-b616-4d5c-9ee6-9a2bcc118db1/WMNS+AIR+JORDAN+1+LOW.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+5 Best Seller Air Jordan 1 Low Women's Shoes $120"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Mid Women's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$130'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/90c26241-ba8e-48be-bd16-30c1cbc8e95b/WMNS+AIR+JORDAN+1+MID.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+3 Air Jordan 1 Mid Women's Shoes $130"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Jordan Franchise Slides'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$35'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9d61194f-36de-48ea-b2b7-60b51e52b6e2/JORDAN+FRANCHISE+SLIDE.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'Best Seller Jordan Franchise Slides $35'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Jordan Hydro VI Retro Slides'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$70'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9f493cd8-94fb-4ea5-9bc3-c10b61132f8b/JORDAN+HYDRO+VI+RETRO.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'Best Seller'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Luka 5 "Luka Lifestyle" Basketball Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$135'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/07b47be3-a57e-41ec-82fa-e20e9a81e3f0/JORDAN+LUKA+5+LIFE.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'See Price in Bag'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Jordan Franchise Shower Slides'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$33.97 $35'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8131989e-e48b-49ca-a2d9-0b5cf6f9fbd7/JORDAN+FRANCHISE+SLIDE+SH.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'Jordan Franchise Shower Slides $33.97 $35 Extra 20% w/ SUMMER'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan Skyline Low LE Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$105'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e7a074ad-b801-4f5d-9a85-d15c35566ff5/AIR+JORDAN+SKYLINE+LOW+LE.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 4 RM Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$87.97 $155 43% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/051d764d-4203-4064-ba24-504416b35693/AIR+JORDAN+4+RM.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+4 Best Seller Air Jordan 4 RM Men's Shoes $87.97 $155 43% off"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 1 Low G Spiked Golf Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$175'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c72948fa-c0d9-4cb7-b009-8cf94b1f5fae/AIR+JORDAN+1+LOW+G+SPK.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'Best Seller Air Jordan 1 Low G Spiked Golf Shoes $175'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Nike Digital Gift Card Emailed in Approximately 2 Hours or Less'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> ''
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/21d662f0-ddba-4549-825f-c86199b77a9d/GiftCard.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> '+5 Nike Digital Gift Card Emailed in Approximately 2 Hours or Less'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Jordan Hydro 4 Retro Men's Slides"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$70'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/23f3f87d-c2c0-4d36-b49a-db0f25bae796/JORDAN+HYDRO+IV+RETRO.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'Best Seller'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Jordan Flight Court Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$77.97 $105 25% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/82194957-260c-44fb-bec4-77097dbc1238/JORDAN+FLIGHT+COURT.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+3 Best Seller Jordan Flight Court Men's Shoes $77.97 $105 25% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Jordan 11 Low TD Men's Cleats"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$195'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e5124261-2a7f-475f-9d8d-fe69d354f9c3/JORDAN+11+LOW+TD.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Jordan Session Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$71.97 $95 24% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4f16d727-76d9-4937-a8d0-670670e2f715/JORDAN+SESSION.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+3 Jordan Session Men's Shoes $71.97 $95 24% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Jordan 6 Rings Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$148.97 $175 14% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2cf7906d-93e9-4fd0-91b6-f49d225190e5/JORDAN+6+RINGS.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "Jordan 6 Rings Men's Shoes $148.97 $175 14% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Low SE Women's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$97.97 $130 24% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f51aea4b-e45b-4fd8-8a8d-f9391c2bdeae/WMNS+AIR+JORDAN+1+LOW+SE.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+5 Air Jordan 1 Low SE Women's Shoes $97.97 $130 24% off"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Air Jordan 40 "Infrared" Basketball Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$174.97 $205 14% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/94dde898-fe71-4ae9-8cfc-794f2a21b9cd/AIR+JORDAN+40+ASW.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'Air Jordan 40 "Infrared" Basketball Shoes $174.97 $205 14% off Extra 20% w/ SUMMER'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Mid SE Edge Women's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$98.97 $140 29% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/025e7260-f757-4b85-b1f8-267840725bd3/WMNS+AIR+JORDAN+1+MID+SE+EDG.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> ''
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Jordan City Men's Boots"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$123.97 $165 24% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/35af5132-c00a-4d47-8065-7251ac67934c/JORDAN+CITY+BOOT.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Mid SE Women's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$98.97 $140 29% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5400326a-fb30-477f-a8b2-0eb3727bf591/WMNS+AIR+JORDAN+1+MID+SE.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "+2 Air Jordan 1 Mid SE Women's Shoes $98.97 $140 29% off"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Tatum 4 Basketball Shoes'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$97.97 $130 24% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b06413d9-208c-4c4d-b5fe-a40991d29bc2/JORDAN+TATUM+4.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> '+3 Tatum 4 Basketball Shoes $97.97 $130 24% off Extra 20% w/ SUMMER'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Element Low A/T Men's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$164.97 $205 19% off'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/29aa2e2c-7e4d-46e9-8dcb-c3f773761c97/AIR+JORDAN+1+ELEMENT+LOW+A%2FT.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> "Air Jordan 1 Element Low A/T Men's Shoes $164.97 $205 19% off"
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> "Air Jordan 1 Low Women's Shoes"
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> '$140'
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/41734a9a-06d5-40b0-aee7-eeb25cd4e435/WMNS+AIR+JORDAN+1+LOW.png'
+[2026-06-15 12:08:15] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] Color -> 'See Price in Bag'
+[2026-06-15 12:08:15] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] name -> 'Nike Gift Card Mailed in a Mini Nike Shoebox'
+[2026-06-15 12:08:15] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] price -> ''
+[2026-06-15 12:08:15] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] description -> ''
+[2026-06-15 12:08:15] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:15] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f1811412-9714-46ff-a4c7-47108e36aa4e/GiftCard.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> '+3 Nike Gift Card Mailed in a Mini Nike Shoebox'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Tatum 4 SE Basketball Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$130'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d6e99963-bb3a-4088-8f1e-0197bc72125d/JORDAN+TATUM+4+SE.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Jordan Grind Golf Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$165'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cd21a44e-dd17-4108-9fc1-d9edbca44217/JORDAN+GRIND+GOLF.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Best Seller Jordan Grind Golf Shoes $165'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 11 Retro MCS Men's Baseball Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$225'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/516f7c2e-dbfb-4ad8-9676-8828434d946a/JORDAN+11+RETRO+MCS.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan Jumpman Pro Men's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$150'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/84364b70-3185-4b14-b2c8-9dcc54ca757b/JORDAN+JUMPMAN+PRO.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "Best Seller Jordan Jumpman Pro Men's Shoes $150"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Luka 5 "Matador" Basketball Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$145'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/321a5891-7b40-4a5e-bfa2-266b98198f3a/JORDAN+LUKA+5+ASW.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Retro MCS SE Men's Baseball Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$121.97 $175 30% off'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1d03a488-3749-4564-b5c2-e74cd6c73e16/JORDAN+1+RETRO+MCS+SE.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Retro MCS Low SE Men's Baseball Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$115.97 $165 29% off'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8d602ef5-521d-45ea-91df-c76b46f9f095/JORDAN+1+RETRO+MCS+LOW+SE.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Retro MCS Low Men's Baseball Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$123.97 $145 14% off'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/72041765-9a44-4ca1-a40a-748feef8b905/JORDAN+1+RETRO+MCS+LOW.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "+2 Best Seller Jordan 1 Retro MCS Low Men's Baseball Cleats $123.97 $145 14% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Retro MCS Men's Baseball Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$131.97 $155 14% off'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/14c9afd8-da33-411e-ac1b-cb8d28969288/JORDAN+1+RETRO+MCS.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "+2 Best Seller Jordan 1 Retro MCS Men's Baseball Cleats $131.97 $155 14% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan Trunner LX Women's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$108.97 $135 19% off'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/13829c8d-5da7-4104-825e-d05b436d4c16/WMNS+JORDAN+TRUNNER+LX.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "+3 Best Seller Jordan Trunner LX Women's Shoes $108.97 $135 19% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Air Jordan 1 Low SE Men's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$130'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e131e5f6-3674-4892-85e0-14dffc35b380/AIR+JORDAN+1+LOW+SE.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Jordan Heir Series 2 "Oh Sheila" Basketball Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$120'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c971ed2d-5b91-4c38-aae6-873d9c1c01c8/WMNS+JORDAN+HEIR+SERIES+2+WNBA.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> '+2 Jordan Heir Series 2 "Oh Sheila" Basketball Shoes $120 See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 11 Mid TD Men's Football Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$225'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7f427e9-ac44-48f4-82c1-f93268376a9b/JORDAN+11+MID+TD.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Low TD Men's Football Cleat"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$145'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bd96215e-b60f-47b1-820c-4545dc567b1a/JORDAN+1+LOW+TD.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "+2 Best Seller Jordan 1 Low TD Men's Football Cleat $145 See Price in Bag"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Mid TD Men's Football Cleat"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$109.97 $155 29% off'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fd3e8682-ebda-463b-bfb4-23df515a3851/JORDAN+1+MID+TD.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "+3 Best Seller Jordan 1 Mid TD Men's Football Cleat $109.97 $155 29% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan CMFT Era Men's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$120'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93e8eba4-3a2f-4a9e-9678-7e5e82c44e47/JORDAN+CMFT+ERA.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Luka 5 Basketball Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$135'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5373eb0d-c4cf-48ed-8660-e5f9d4dc3035/JORDAN+LUKA+5.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Luka 5 Basketball Shoes $135 See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Air Jordan OG Women's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$155'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/20db18e7-cc76-4af9-8c7a-fa170c40d385/WMNS+AIR+JORDAN+OG.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "Air Jordan OG Women's Shoes $155 See Price in Bag"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Jordan 1 Retro Low Metal Baseball Cleats'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$145'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/531fadc7-ed5c-454d-bcb7-ff49380abb43/JORDAN+1+RETRO+LOW+METAL.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Air Jordan Skyline Low Women's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$100'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/655c46d0-a62f-4c43-b3c2-1ae99e1a7997/WMNS+AIR+JORDAN+SKYLINE+LOW.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "Air Jordan Skyline Low Women's Shoes $100 See Price in Bag"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Retro Metal Men's Baseball Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$155'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/22e5f719-42f0-433c-9f6a-cd651c326c01/JORDAN+1+RETRO+METAL.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "Jordan 1 Retro Metal Men's Baseball Cleats $155 Extra 20% w/ SUMMER"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan Sixty Plus Low Women's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$160'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d0967477-0e21-432c-a781-4035251c1c4a/WMNS+JORDAN+SIXTY+PLUS+LOW.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "Jordan Sixty Plus Low Women's Shoes $160 See Price in Bag"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan Trunner O/S Women's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$115'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cbf96de0-99fe-4a5d-8198-4a27b2c3d252/WMNS+JORDAN+TRUNNER+O%2FS.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "Jordan Trunner O/S Women's Shoes $115 See Price in Bag"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Air Jordan 14 G Golf Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$235'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/87ca6163-cea1-4f9e-b769-b244501978a6/AIR+JORDAN+14+G.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Air Jordan 14 G Golf Shoes $235 Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Jordan Air Rev Golf Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$255'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/020ce269-ca49-42f0-87b7-b8b00698bdbf/JORDAN+AIR+REV.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Jordan Air Rev Golf Shoes $255 Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Air Jordan 3 Retro "Medium Olive" Men\'s Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$215'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70d8e188-f230-4118-9e41-1a16168156b1/AIR+JORDAN+3+RETRO+OG.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Jordan Stadium 90 Low TD Football Cleats'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$130'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3d6eef0f-d7d5-4e8d-a5b1-db3546d304ab/JORDAN+STADIUM+90+LOW+TD.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Air Jordan 4 Retro Women's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$220'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3ec6ce6a-e0c8-48dc-ae6c-98954d22918a/WMNS+AIR+JORDAN+4+RETRO.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Air Jordan 3 Retro "Sail and Pale Ivory" Women\'s Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$205'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ef5084e1-3d06-42f5-bfc2-a8d429a9af0d/WMNS+AIR+JORDAN+3+RETRO.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Retro MCS Men's Baseball Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$131.97 $155 14% off'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/14c9afd8-da33-411e-ac1b-cb8d28969288/JORDAN+1+RETRO+MCS.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "+2 Best Seller Jordan 1 Retro MCS Men's Baseball Cleats $131.97 $155 14% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan Trunner LX Women's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$108.97 $135 19% off'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/13829c8d-5da7-4104-825e-d05b436d4c16/WMNS+JORDAN+TRUNNER+LX.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "+3 Best Seller Jordan Trunner LX Women's Shoes $108.97 $135 19% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Air Jordan 1 Low SE Men's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$130'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e131e5f6-3674-4892-85e0-14dffc35b380/AIR+JORDAN+1+LOW+SE.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Jordan Heir Series 2 "Oh Sheila" Basketball Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$120'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c971ed2d-5b91-4c38-aae6-873d9c1c01c8/WMNS+JORDAN+HEIR+SERIES+2+WNBA.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> '+2 Jordan Heir Series 2 "Oh Sheila" Basketball Shoes $120 See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 11 Mid TD Men's Football Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$225'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7f427e9-ac44-48f4-82c1-f93268376a9b/JORDAN+11+MID+TD.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Low TD Men's Football Cleat"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$145'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bd96215e-b60f-47b1-820c-4545dc567b1a/JORDAN+1+LOW+TD.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "+2 Best Seller Jordan 1 Low TD Men's Football Cleat $145 See Price in Bag"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Mid TD Men's Football Cleat"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$109.97 $155 29% off'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fd3e8682-ebda-463b-bfb4-23df515a3851/JORDAN+1+MID+TD.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "+3 Best Seller Jordan 1 Mid TD Men's Football Cleat $109.97 $155 29% off Extra 20% w/ SUMMER"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan CMFT Era Men's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$120'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93e8eba4-3a2f-4a9e-9678-7e5e82c44e47/JORDAN+CMFT+ERA.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Luka 5 Basketball Shoes'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$135'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5373eb0d-c4cf-48ed-8660-e5f9d4dc3035/JORDAN+LUKA+5.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Luka 5 Basketball Shoes $135 See Price in Bag'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Air Jordan OG Women's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$155'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/20db18e7-cc76-4af9-8c7a-fa170c40d385/WMNS+AIR+JORDAN+OG.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "Air Jordan OG Women's Shoes $155 See Price in Bag"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> 'Jordan 1 Retro Low Metal Baseball Cleats'
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$145'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/531fadc7-ed5c-454d-bcb7-ff49380abb43/JORDAN+1+RETRO+LOW+METAL.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Air Jordan Skyline Low Women's Shoes"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] price -> '$100'
+[2026-06-15 12:08:16] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] description -> ''
+[2026-06-15 12:08:16] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/655c46d0-a62f-4c43-b3c2-1ae99e1a7997/WMNS+AIR+JORDAN+SKYLINE+LOW.png'
+[2026-06-15 12:08:16] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] Color -> "Air Jordan Skyline Low Women's Shoes $100 See Price in Bag"
+[2026-06-15 12:08:16] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:16] name -> "Jordan 1 Retro Metal Men's Baseball Cleats"
+[2026-06-15 12:08:16] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] price -> '$155'
+[2026-06-15 12:08:17] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] description -> ''
+[2026-06-15 12:08:17] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/22e5f719-42f0-433c-9f6a-cd651c326c01/JORDAN+1+RETRO+METAL.png'
+[2026-06-15 12:08:17] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] Color -> "Jordan 1 Retro Metal Men's Baseball Cleats $155 Extra 20% w/ SUMMER"
+[2026-06-15 12:08:17] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] name -> "Jordan Sixty Plus Low Women's Shoes"
+[2026-06-15 12:08:17] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] price -> '$160'
+[2026-06-15 12:08:17] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] description -> ''
+[2026-06-15 12:08:17] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d0967477-0e21-432c-a781-4035251c1c4a/WMNS+JORDAN+SIXTY+PLUS+LOW.png'
+[2026-06-15 12:08:17] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] Color -> "Jordan Sixty Plus Low Women's Shoes $160 See Price in Bag"
+[2026-06-15 12:08:17] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] name -> "Jordan Trunner O/S Women's Shoes"
+[2026-06-15 12:08:17] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] price -> '$115'
+[2026-06-15 12:08:17] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] description -> ''
+[2026-06-15 12:08:17] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cbf96de0-99fe-4a5d-8198-4a27b2c3d252/WMNS+JORDAN+TRUNNER+O%2FS.png'
+[2026-06-15 12:08:17] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] Color -> "Jordan Trunner O/S Women's Shoes $115 See Price in Bag"
+[2026-06-15 12:08:17] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] name -> 'Air Jordan 14 G Golf Shoes'
+[2026-06-15 12:08:17] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] price -> '$235'
+[2026-06-15 12:08:17] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] description -> ''
+[2026-06-15 12:08:17] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/87ca6163-cea1-4f9e-b769-b244501978a6/AIR+JORDAN+14+G.png'
+[2026-06-15 12:08:17] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] Color -> 'Air Jordan 14 G Golf Shoes $235 Extra 20% w/ SUMMER'
+[2026-06-15 12:08:17] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] name -> 'Jordan Air Rev Golf Shoes'
+[2026-06-15 12:08:17] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] price -> '$255'
+[2026-06-15 12:08:17] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] description -> ''
+[2026-06-15 12:08:17] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/020ce269-ca49-42f0-87b7-b8b00698bdbf/JORDAN+AIR+REV.png'
+[2026-06-15 12:08:17] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] Color -> 'Jordan Air Rev Golf Shoes $255 Extra 20% w/ SUMMER'
+[2026-06-15 12:08:17] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] name -> 'Air Jordan 3 Retro "Medium Olive" Men\'s Shoes'
+[2026-06-15 12:08:17] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] price -> '$215'
+[2026-06-15 12:08:17] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] description -> ''
+[2026-06-15 12:08:17] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70d8e188-f230-4118-9e41-1a16168156b1/AIR+JORDAN+3+RETRO+OG.png'
+[2026-06-15 12:08:17] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] Color -> 'See Price in Bag'
+[2026-06-15 12:08:17] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] name -> 'Jordan Stadium 90 Low TD Football Cleats'
+[2026-06-15 12:08:17] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] price -> '$130'
+[2026-06-15 12:08:17] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] description -> ''
+[2026-06-15 12:08:17] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3d6eef0f-d7d5-4e8d-a5b1-db3546d304ab/JORDAN+STADIUM+90+LOW+TD.png'
+[2026-06-15 12:08:17] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] Color -> 'Extra 20% w/ SUMMER'
+[2026-06-15 12:08:17] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] name -> "Air Jordan 4 Retro Women's Shoes"
+[2026-06-15 12:08:17] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] price -> '$220'
+[2026-06-15 12:08:17] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] description -> ''
+[2026-06-15 12:08:17] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3ec6ce6a-e0c8-48dc-ae6c-98954d22918a/WMNS+AIR+JORDAN+4+RETRO.png'
+[2026-06-15 12:08:17] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] Color -> 'See Price in Bag'
+[2026-06-15 12:08:17] Extracting field 'name' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] name -> 'Air Jordan 3 Retro "Sail and Pale Ivory" Women\'s Shoes'
+[2026-06-15 12:08:17] Extracting field 'price' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] price -> '$205'
+[2026-06-15 12:08:17] Extracting field 'description' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] description -> ''
+[2026-06-15 12:08:17] Extracting field 'ImageUrl' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] ImageUrl -> 'https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ef5084e1-3d06-42f5-bfc2-a8d429a9af0d/WMNS+AIR+JORDAN+3+RETRO.png'
+[2026-06-15 12:08:17] Extracting field 'Color' from chunk for https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:17] Color -> 'See Price in Bag'
+[2026-06-15 12:08:17] Found 3 missing required fields in https://www.nike.com/w/mens-jordan-shoes-37eefznik1zy7ok
+[2026-06-15 12:08:50] batch=1 pages_processed=1 max_pages=2 visited=1 queue=587
+[2026-06-15 12:08:54] Extracted 15 chunks from https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003 for record extraction
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 7.5'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 8'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 8.5'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 9'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 9.5'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 10'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 10.5'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 11'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 11.5'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 12'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 12.5'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 13'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 14'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> 'Tatum 4 "Smooth Soul Vol.2" Basketball Shoes - Black/Fierce Purple/Racer Blue/Hyper Pink - Size 15'
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> '110.97'
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> '"Smooth Soul Volume 2" is a tribute to the sound of St. Louis. Rooted in rhythm and ever evolving, the sleek black upper features a smooth gradient of Hyper Pink, Fierce Purple and Racer Blue. The Tatum 4 blends lightweight speed with focused control—it’s built to flow, just like JT’s game.'
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> 'https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d41250a9-0390-4f08-958f-bdd6c3933580/JORDAN+TATUM+4+LEA.png'
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'Black/Fierce Purple/Racer Blue/Hyper Pink'
+[2026-06-15 12:08:54] Extracting field 'name' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] name -> ''
+[2026-06-15 12:08:54] Extracting field 'price' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] price -> ''
+[2026-06-15 12:08:54] Extracting field 'description' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] description -> ''
+[2026-06-15 12:08:54] Extracting field 'ImageUrl' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] ImageUrl -> ''
+[2026-06-15 12:08:54] Extracting field 'Color' from chunk for https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:08:54] Color -> 'It should be better for this price.'
+[2026-06-15 12:08:54] Found 4 missing required fields in https://www.nike.com/t/tatum-4-smooth-soul-vol2-basketball-shoes-9hMB5Csj/IR0073-003
+[2026-06-15 12:09:10] batch=1 pages_processed=2 max_pages=2 visited=2 queue=597

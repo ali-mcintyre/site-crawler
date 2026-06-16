@@ -3,3 +3,4 @@ aiohttp
 lxml
 flask
 openpyxl
+beautifulsoup4

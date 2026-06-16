@@ -1,0 +1,1194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://use.typekit.net/lkm2hyi.css">
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<title>AI Content Intelligence – Field Builder</title>
+
+<style>
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:#f5f6f8;
+  font-family:"montserrat", sans-serif;
+  color:#1f2937;
+}
+
+/* TOP NAVBAR */
+header{
+  height:72px;
+  background:white;
+  border-bottom:1px solid #d9dee7;
+
+  display:flex;
+  align-items:center;
+
+  padding:0 24px;
+}
+
+.img1{
+  width:240px;
+}
+
+/* MAIN PAGE */
+.page{
+  display:flex;
+  flex-direction:column;
+}
+
+/* SIDEBAR */
+.sidebar{
+  width:72px;
+  background:white;
+  border-right:1px solid #d9dee7;
+  min-height:calc(100vh - 72px);
+}
+
+/* CONTENT AREA */
+.content{
+  flex:1;
+  padding:10px;
+  margin-left: 10px;
+}
+
+/* PAGE TITLE */
+.hero{
+  margin-bottom:10px;  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin: 20px;
+}
+.pill{
+    display:inline-flex; align-items:center; gap:8px;
+    padding: 7px 10px; border:1px solid var(--line);
+    background: white;
+    border:1px solid #d9dee7;
+  border-radius:10px;
+    font-size: 14px; color: var(--muted);
+}
+.pill b{color:var(--text); font-weight:600}
+
+h1{
+  margin-top:0px;
+  font-size:30px;
+  font-weight:600;
+  color:#132238;
+  margin-bottom:0;
+}
+
+.subtitle{
+  margin-top:0px;
+  max-width:700px;
+  margin-left:20px;
+  font-size:16px;
+  line-height:1.6;
+  color:#5f6b7a;
+}
+.caption{
+  font-size:14px;
+  color:#5f6b7a;
+}
+
+/* CARD GRID */
+.grid{
+    margin-top:24px;
+  display:grid;
+  flex-direction:column;
+  gap:24px;
+}
+
+/* CARDS */
+.card{
+  background:white;
+  border:1px solid #d9dee7;
+  border-radius:10px;
+  padding:24px;
+  margin: 20px;
+}
+
+.card-title{
+  font-size:15px;
+  font-weight:600;
+  margin-bottom:10px;
+}
+    .btn{
+      padding: 7px 10px; border:1px solid var(--line);
+    background: white;
+    border:1px solid #d9dee7;
+  border-radius:10px;
+    font-size: 12px; color: var(--muted);
+    font-family:inherit;
+      color: var(--text); padding: 10px 12px; border-radius: 12px;
+      font-weight: 500; letter-spacing:0.2px;
+      transition: transform .06s ease, border-color .12s ease, background .12s ease;
+      user-select:none;
+    }
+      .btn:hover{border-color: #f57926}
+    .btn:active{transform: translateY(1px);
+      border-color: #f57926;
+      background: rgba(245, 121, 38, 0.1);
+    }
+    .btn.secondary{
+      background: white;
+      font-weight: 500;
+    }
+    .btn.small{padding: 8px 10px; border-radius: 11px; font-size: 12px}
+    .card-title{
+        font-size:25px;
+        color: #f57926
+
+    }
+    .btn.big{
+      padding: 12px 16px;
+      font-size: 15px;
+      border-radius: 12px;
+      background: #f57926;
+      color: white;
+    }
+    input[type="text"], input[type="url"], textarea, select{
+      width:100%;
+      min-width:0;
+      box-sizing: border-box;
+      padding: 10px 11px;
+      border-radius: 12px;
+      border:1px solid var(--line);
+      background: #f5f6f8;
+      color: black;
+      outline:none;
+    }
+    textarea{min-height: 70px; resize: vertical}
+    select{appearance:none}
+    input::placeholder, textarea::placeholder{color: #777b83}
+     .status{
+      margin-top: 10px;
+      font-size: 12px; line-height: 1.35;
+      padding: 9px 7px; border-radius: 12px;
+      border:1px solid ;
+      color: #5f6b7a;
+      border-color: #b2b5b9;
+      background: white;
+    }
+    .status.ok{border-color: rgba(57, 161, 95, 0.8); color: rgba(41, 114, 68, 0.8)}
+    .status.bad{border-color: rgba(255,107,107,0.45); color: rgba(255,107,107,0.45)}
+    .status.warn{border-color: #f57926; color: #f57926}
+    .field {
+  background: white;
+  border: 1px solid #d9dee7;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.placeholder{
+  color:#5f6b7a;
+}
+.field .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.field .title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f57926;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.field .tools {
+  display: flex;
+  gap: 8px;
+}
+
+.field .row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 12px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #5f6b7a;
+  margin-bottom: 5px;
+}
+.tab{
+      padding: 7px 10px; border:1px solid var(--line);
+    background: white;
+    border:1px solid #d9dee7;
+  border-radius:10px;
+    font-size: 12px; color: var(--muted);
+    font-family:inherit;
+      color: var(--text); padding: 10px 12px; border-radius: 12px;
+      font-weight: 500; letter-spacing:0.2px;
+    }
+      .tab:hover{border-color: #f57926}
+    .tab.active{transform: translateY(1px);
+      border-color: #f57926;
+      background: rgba(245, 121, 38, 0.1);
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+  <img
+    class="img1"
+    src="/static/hawksearch_logo.png"
+    alt="hawksearch"
+  />
+</header>
+
+<div class="page">
+
+
+  <div class="content">
+
+    <div class="hero">
+      <h1>AI Content Extractor</h1>
+      <div class="pill">
+        <span>Tip:</span>
+        <span>Use <span style="font-weight:560">Copy Share Link</span> to send your preset to someone.</span>
+      </div>
+    </div>
+          <div class="subtitle">
+        Extract structured data from webpages and documents.
+        Add fields, preview JSON payloads, and run extraction jobs.
+      </div>
+
+    <div class="grid">
+
+  <!-- LEFT CARD -->
+  <div class="card">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
+      <div class="card-title">
+        Field Builder
+      </div>
+
+      <div style="display:flex;gap:10px;">
+        <button class="tab active" id="tabSpider">Spider Mode</button>
+        <button class="tab" id="tabSitemap">Sitemap Mode</button>
+      </div>
+    </div>
+
+    <!-- URL MODE -->
+    <div id="spiderMode">
+
+      <label for="docUrl">Webpage URL</label>
+
+      <div style="display:flex;gap:12px;margin-top:8px;">
+        <input
+          id="docUrl"
+          type="url"
+          placeholder="https://example.com/image.jpg"
+          style="flex:1; min-width:0;"
+        />
+
+        <button
+          class="btn secondary"
+          id="clearUrlBtn"
+          type="button"
+        >
+          Clear
+        </button>
+      </div>
+
+      <div class="caption" style="margin-top:10px;">
+        Paste a public URL.
+      </div>
+
+      <div style="margin-top:16px;">
+      <label for="crawlDepth">
+        Crawl Depth
+      </label>
+
+      <input
+        id="crawlDepth"
+        type="number"
+        value="3"
+        min="1"
+      />
+      </div>
+
+    <div class="caption" style="margin-top:10px;">
+      Maximum number of pages to crawl. Start smaller to test.
+    </div>
+
+  </div>
+
+
+    <!-- FILE MODE -->
+    <div id="sitemapMode" style="display:none;margin-top:20px;">
+
+  <label for="fileInput">
+    Upload Sitemap File
+  </label>
+
+  <div style="display:flex;gap:12px;margin-top:8px;">
+    <input
+      id="fileInput"
+      type="file"
+      accept=".txt,.csv,.xml"
+    />
+
+    <button
+      class="btn secondary"
+      id="clearFileBtn"
+      type="button"
+    >
+      Clear
+    </button>
+  </div>
+
+  <div class="caption" style="margin-top:10px;">
+    Upload a TXT, CSV, or XML sitemap containing URLs to crawl.
+  </div>
+
+</div>
+
+    <div style="height:1px;background:#e5e7eb;margin:28px 0;"></div>
+
+    <!-- FIELDS -->
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;">
+
+      <div>
+        <div style="font-size:18px;font-weight:700;">
+          Fields
+        </div>
+
+        <div class="caption" style="margin-top:6px;">
+          Configure fields to extract.
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FIELD BUTTONS -->
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px;">
+
+      <button class="btn small" id="addFieldBtn">
+        + Add Field
+      </button>
+
+      <button class="btn small" id="loadExampleBtn">
+        Load Example
+      </button>
+
+      <button class="btn small" id="clearFieldsBtn">
+        Clear
+      </button>
+
+      <button class="btn small" id="exportFieldsBtn">
+        Export
+      </button>
+
+      <button class="btn small" id="importFieldsBtn">
+        Import
+      </button>
+
+      <button class="btn small" id="copyShareLinkBtn">
+        Copy Share Link
+      </button>
+
+      <input
+        id="importFieldsFile"
+        type="file"
+        accept="application/json"
+        style="display:none;"
+      />
+
+    </div>
+
+    <!-- DYNAMIC FIELDS -->
+    <div id="fieldsContainer"></div>
+
+    <div style="height:1px;background:#e5e7eb;margin:28px 0;"></div>
+
+    <!-- HEADERS -->
+    <label for="headers">
+      Optional Headers JSON
+    </label>
+
+    <textarea
+      id="headers"
+      placeholder='{"Content-Type":"application/json"}'
+      style="
+        width:100%;
+        margin-top:8px;
+        min-height:120px;
+      "
+    ></textarea>
+
+    <div class="caption" style="margin-top:8px;">
+      Leave blank to use default JSON headers.
+    </div>
+
+    <div class="card">
+  <label for="outputFilename">
+    Output File Name
+  </label>
+
+  <input
+    id="outputFilename"
+    type="text"
+    placeholder="crawl_results"
+    value="crawl_results"
+    style="margin-top:8px;"
+  />
+
+  <div class="caption" style="margin-top:8px;">
+    XLSX file name to download after extraction
+  </div>
+</div>
+
+    <!-- ACTION BUTTONS -->
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
+
+      <button
+        class="btn big"
+        id="submitBtn"
+        type="button"
+      >
+        Run Extraction
+      </button>
+
+      <button
+        class="btn secondary"
+        id="stopBtn"
+        type="button"
+        style="display:none;"
+      >
+        Stop Scraping
+      </button>
+
+      <button
+        class="btn secondary"
+        id="copyJsonBtn"
+        type="button"
+      >
+        Copy Request JSON
+      </button>
+
+      <button
+        class="btn secondary"
+        id="clearResultsBtn"
+        type="button"
+      >
+        Clear Results
+      </button>
+
+    </div>
+
+    <!-- STATUS -->
+    <div
+      class="status"
+      id="status"
+    >
+      Ready.
+    </div>
+
+  </div>
+
+  <!-- RIGHT CARD -->
+  <div class="card">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
+
+      <div class="card-title">
+        Preview & Results
+      </div>
+    <div style="display:flex;gap:10px;">
+    <button class="btn" id="downloadXlsxBtn">
+      Download XLSX
+    </button>
+
+    <button class="btn" id="downloadLogBtn">
+      Download Log
+    </button>
+</div>
+    </div>
+
+    <!-- RESPONSE -->
+    <label>
+      Response
+    </label>
+
+    <pre
+      id="results"
+      style="
+        background:#f8fafc;
+        border:1px solid #e5e7eb;
+        border-radius:10px;
+        padding:18px;
+        min-height:40px;
+        white-space:pre-wrap;
+        overflow-wrap:break-word;
+      "
+    ></pre>
+
+    <div style="height:1px;background:#e5e7eb;margin:28px 0;"></div>
+
+    <!-- REQUEST -->
+    <label>
+      Request JSON Preview
+    </label>
+
+    <pre
+      id="rawJson"
+      style="
+        background:#f8fafc;
+        border:1px solid #e5e7eb;
+        border-radius:10px;
+        padding:18px;
+        min-height:200px;
+        overflow:auto;
+        color:black;
+      "
+    ></pre>
+
+  </div>
+
+</div>
+
+
+</div>
+
+</body>
+<script>
+
+    const ENDPOINT ="http://10.7.2.98:5000"
+    //"http://127.0.0.1:3000/process";
+    //"https://978c4e5fa9.execute-api.us-east-1.amazonaws.com/Prod/process";
+    let latestWorkbookBlob = null;
+    let currentJobId = null;
+    let pollInterval = null;
+    let startTime = null;
+
+    let currentMode = "spider";
+const els = {
+      tabSpider: document.getElementById("tabSpider"),
+      tabSitemap: document.getElementById("tabSitemap"),
+      spiderMode: document.getElementById("spiderMode"),
+      sitemapMode: document.getElementById("sitemapMode"),
+
+      docUrl: document.getElementById("docUrl"),
+      clearUrlBtn: document.getElementById("clearUrlBtn"),
+
+      fileInput: document.getElementById("fileInput"),
+      clearFileBtn: document.getElementById("clearFileBtn"),
+
+      fieldsContainer: document.getElementById("fieldsContainer"),
+      addFieldBtn: document.getElementById("addFieldBtn"),
+      loadExampleBtn: document.getElementById("loadExampleBtn"),
+      clearFieldsBtn: document.getElementById("clearFieldsBtn"),
+      exportFieldsBtn: document.getElementById("exportFieldsBtn"),
+      importFieldsBtn: document.getElementById("importFieldsBtn"),
+      copyShareLinkBtn: document.getElementById("copyShareLinkBtn"),
+      importFieldsFile: document.getElementById("importFieldsFile"),
+
+      submitBtn: document.getElementById("submitBtn"),
+      stopBtn: document.getElementById("stopBtn"),
+      copyJsonBtn: document.getElementById("copyJsonBtn"),
+      clearResultsBtn: document.getElementById("clearResultsBtn"),
+
+      headers: document.getElementById("headers"),
+      status: document.getElementById("status"),
+
+      resultsSection: document.getElementById("resultsSection"),
+      rawJson: document.getElementById("rawJson"),
+      results: document.getElementById("results"),
+      outputFilename: document.getElementById("outputFilename"),
+
+      maxPages: document.getElementById("maxPages"),
+      crawlDepth: document.getElementById("crawlDepth"),
+
+      downloadXlsxBtn: document.getElementById("downloadXlsxBtn"),
+      downloadLogBtn: document.getElementById("downloadLogBtn")
+    };
+
+    const exampleFields = [
+      {
+        name: "longdescription",
+        description: "thorough description of the product described in the document. including use cases. Optimize for embedding-based search",
+        type: "string",
+        required: true
+      },
+      {
+        name: "colors",
+        description: "colors of the product in the image",
+        type: "array",
+        enum: ["red", "blue", "light blue", "green", "yellow"],
+        required: true
+      }
+    ];
+
+    function setStatus(msg, type){
+      els.status.className = "status" + (type ? (" " + type) : "");
+      els.status.textContent = msg;
+    }
+
+    function setMode(mode){
+      currentMode = mode;
+      const isSpider = mode === "spider";
+
+      els.tabSpider.classList.toggle("active", isSpider);
+      els.tabSitemap.classList.toggle("active", !isSpider);
+
+      els.spiderMode.style.display = isSpider ? "" : "none";
+      els.sitemapMode.style.display = isSpider ? "none" : "";
+    }
+    function fileToDataUrl(file){
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onerror = () => reject(new Error("Could not read the selected file."));
+        reader.onload = () => resolve(String(reader.result || ""));
+        reader.readAsDataURL(file);
+      });
+    }
+
+    function parseHeaders(){
+      const raw = (els.headers.value || "").trim();
+      if (!raw) return { "Content-Type": "application/json" };
+      try {
+        const obj = JSON.parse(raw);
+        if (obj && typeof obj === "object") return obj;
+      } catch {}
+      return { "Content-Type": "application/json" };
+    }
+
+function makeFieldRow(field = {}) {
+  const f = {
+    name: field.name ?? "",
+    description: field.description ?? "",
+    type: field.type ?? "string",
+    required: !!field.required,
+    enum: Array.isArray(field.enum) ? field.enum.join(", ") : (field.enum ?? "")
+  };
+
+  const wrap = document.createElement("div");
+  wrap.className = "field";
+
+  // Generate a display label for the card header
+  const fieldLabel = f.name ? `Field: ${f.name}` : "New Field";
+
+  wrap.innerHTML = `
+    <div class="top">
+      <div class="title" id="fieldLabel_${Date.now()}">${escapeHtml(fieldLabel)}</div>
+      <div class="tools">
+        <button class="btn small secondary moveUpBtn" type="button">↑</button>
+        <button class="btn small secondary moveDownBtn" type="button">↓</button>
+        <button class="btn small danger removeBtn" type="button">Remove</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label>Name</label>
+        <input type="text" class="nameInput" placeholder="e.g. longdescription" value="${escapeHtml(f.name)}" />
+      </div>
+      <div>
+        <label>Type</label>
+        <select class="typeSelect">
+          <option value="string"  ${f.type === "string"  ? "selected" : ""}>string</option>
+          <option value="array"   ${f.type === "array"   ? "selected" : ""}>array</option>
+          <option value="number"  ${f.type === "number"  ? "selected" : ""}>number</option>
+          <option value="boolean" ${f.type === "boolean" ? "selected" : ""}>boolean</option>
+          <option value="object"  ${f.type === "object"  ? "selected" : ""}>object</option>
+        </select>
+      </div>
+      <div>
+        <label>Required</label>
+        <select class="requiredSelect">
+          <option value="true"  ${f.required  ? "selected" : ""}>true</option>
+          <option value="false" ${!f.required ? "selected" : ""}>false</option>
+        </select>
+      </div>
+    </div>
+
+    <div style="margin-top:12px;">
+      <label>Description</label>
+      <textarea class="descInput" placeholder="What should the model extract?">${escapeHtml(f.description)}</textarea>
+    </div>
+
+    <div style="margin-top:12px;">
+      <label>Enum (comma-separated, optional)</label>
+      <input type="text" class="enumInput" placeholder="red, blue, green" value="${escapeHtml(f.enum)}" />
+    </div>
+  `;
+
+  // Live-update the card header label as the user types the name
+  const nameInput = wrap.querySelector(".nameInput");
+  const titleEl = wrap.querySelector(".title");
+  nameInput.addEventListener("input", () => {
+    titleEl.textContent = nameInput.value.trim() ? `Field: ${nameInput.value.trim()}` : "New Field";
+  });
+
+  wrap.querySelector(".removeBtn").addEventListener("click", () => {
+    wrap.remove();
+    updatePreviewFromUrl();
+  });
+
+  wrap.querySelector(".moveUpBtn").addEventListener("click", () => {
+    const prev = wrap.previousElementSibling;
+    if (prev) prev.before(wrap);
+    updatePreviewFromUrl();
+  });
+
+  wrap.querySelector(".moveDownBtn").addEventListener("click", () => {
+    const next = wrap.nextElementSibling;
+    if (next) next.after(wrap);
+    updatePreviewFromUrl();
+  });
+
+  wrap.addEventListener("input", () => updatePreviewFromUrl());
+  wrap.addEventListener("change", () => updatePreviewFromUrl());
+
+  return wrap;
+}
+
+    function escapeHtml(s){
+      return String(s ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function getFieldsFromUI(){
+      const out = [];
+      const nodes = els.fieldsContainer.querySelectorAll(".field");
+      nodes.forEach(n => {
+        const name = (n.querySelector(".nameInput")?.value || "").trim();
+        const description = (n.querySelector(".descInput")?.value || "").trim();
+        const type = (n.querySelector(".typeSelect")?.value || "string").trim();
+        const requiredRaw = (n.querySelector(".requiredSelect")?.value || "false").trim();
+        const required = requiredRaw === "true";
+
+        const enumRaw = (n.querySelector(".enumInput")?.value || "").trim();
+        const enumArr = enumRaw
+          ? enumRaw.split(",").map(x => x.trim()).filter(Boolean)
+          : null;
+
+        if (!name) return;
+
+        const obj = { name, description, type, required };
+        if (enumArr && enumArr.length) obj.enum = enumArr;
+        out.push(obj);
+      });
+      return out;
+    }
+
+    const FIELDS_STORAGE_KEY = "aici_fields_v1";
+
+    function setFieldsToUI(fields) {
+      els.fieldsContainer.innerHTML = "";
+      const safe = Array.isArray(fields) ? fields : [];
+      for (const f of safe) els.fieldsContainer.appendChild(makeFieldRow(f));
+    }
+
+    function exportFieldsJson() {
+      const fields = getFieldsFromUI();
+      const payload = {
+        version: 1,
+        fields,
+        createdAt: new Date().toISOString()
+      };
+      return JSON.stringify(payload, null, 2);
+    }
+
+    function downloadTextFile(filename, text) {
+      const blob = new Blob([text], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    function encodeForUrl(obj) {
+      const json = JSON.stringify(obj);
+      const b64 = btoa(unescape(encodeURIComponent(json)));
+      return b64.replaceAll("+", "-").replaceAll("/", "_").replaceAll("=", "");
+    }
+
+    function decodeFromUrl(str) {
+      const b64 = str.replaceAll("-", "+").replaceAll("_", "/") + "===".slice((str.length + 3) % 4);
+      const json = decodeURIComponent(escape(atob(b64)));
+      return JSON.parse(json);
+    }
+
+    function makeShareLink() {
+      const fields = getFieldsFromUI();
+      const data = { v: 1, fields };
+      const encoded = encodeForUrl(data);
+      const url = new URL(window.location.href);
+      url.searchParams.set("custom_fields", encoded);
+      return url.toString();
+    }
+function updateDownloadLabel() {
+  const raw = els.outputFilename.value || "crawl_results";
+
+  const name = raw
+    .trim()
+    .replace(/\s+/g, "_")
+    .replace(/</g, "")
+    .replace(/>/g, "");
+
+  els.downloadXlsxBtn.innerHTML = `Download <b>${name}.xlsx</b>`;
+}
+els.outputFilename.addEventListener("input", updateDownloadLabel);
+updateDownloadLabel();
+
+    function saveFieldsToLocalStorage() {
+      try {
+        const fields = getFieldsFromUI();
+        localStorage.setItem(FIELDS_STORAGE_KEY, JSON.stringify({ v: 1, fields }));
+      } catch { /* ignore */ }
+    }
+
+    function loadFieldsFromLocalStorage() {
+      try {
+        const raw = localStorage.getItem(FIELDS_STORAGE_KEY);
+        if (!raw) return false;
+        const obj = JSON.parse(raw);
+        if (obj && Array.isArray(obj.fields)) {
+          setFieldsToUI(obj.fields);
+          return true;
+        }
+      } catch {}
+      return false;
+    }
+
+    function buildRequestJson(){
+
+      const custom_fields = getFieldsFromUI();
+
+      if(currentMode === "spider"){
+
+        return {
+          mode: "spider",
+          url: els.docUrl.value.trim(),
+          max_pages: Number(els.crawlDepth.value || 3),
+          output_filename: els.outputFilename.value.trim(),
+          custom_fields: custom_fields
+        };
+      }
+
+      return {
+        mode: "sitemap",
+        output_filename: els.outputFilename.value.trim(),
+        custom_fields: custom_fields
+      };
+    }
+
+    function updatePreviewFromUrl(){
+      // Preview-only: show a lightweight representation in File mode
+      if (currentMode === "file") {
+        const f = els.fileInput?.files && els.fileInput.files[0] ? els.fileInput.files[0] : null;
+        const custom_fields = getFieldsFromUI();
+        const req = f
+          ? { data: `data:${f.type || "application/octet-stream"};base64,<<${f.name} (${f.size} bytes) omitted>>`, custom_fields }
+          : { data: "", custom_fields };
+        els.rawJson.textContent = JSON.stringify(req, null, 2);
+        return;
+      }
+
+      const req = buildRequestJson();
+      els.rawJson.textContent = JSON.stringify(req, null, 2);
+    }
+
+    els.tabSpider.addEventListener("click", () => {
+      setMode("spider");
+      updatePreviewFromUrl();
+    });
+
+    els.tabSitemap.addEventListener("click", () => {
+      setMode("sitemap");
+      updatePreviewFromUrl();
+    });
+
+    els.addFieldBtn.addEventListener("click", () => {
+      els.fieldsContainer.appendChild(makeFieldRow({}));
+      updatePreviewFromUrl();
+    });
+
+    els.loadExampleBtn.addEventListener("click", () => {
+      els.fieldsContainer.innerHTML = "";
+      for (const f of exampleFields) els.fieldsContainer.appendChild(makeFieldRow(f));
+      updatePreviewFromUrl();
+      setStatus("Loaded example fields.", "ok");
+    });
+
+    els.clearFieldsBtn.addEventListener("click", () => {
+      els.fieldsContainer.innerHTML = "";
+      updatePreviewFromUrl();
+      setStatus("Cleared fields.", "warn");
+    });
+
+    els.clearUrlBtn.addEventListener("click", () => {
+      els.docUrl.value = "";
+      updatePreviewFromUrl();
+    });
+
+    els.clearFileBtn.addEventListener("click", async () => {
+      els.fileInput.value = "";
+      updatePreviewFromUrl();
+    });
+
+    els.copyJsonBtn.addEventListener("click", async () => {
+      const json = els.rawJson.textContent || "";
+      if (!json) return;
+      try {
+        await navigator.clipboard.writeText(json);
+        setStatus("Copied request JSON to clipboard.", "ok");
+      } catch {
+        setStatus("Could not copy to clipboard (browser blocked).", "warn");
+      }
+    });
+
+    els.clearResultsBtn.addEventListener("click", () => {
+      els.results.textContent = "";
+      setStatus("Results cleared.", "warn");
+    });
+
+    els.docUrl.addEventListener("input", updatePreviewFromUrl);
+    els.fileInput.addEventListener("change", updatePreviewFromUrl);
+    els.headers.addEventListener("input", () => {});
+
+    els.submitBtn.addEventListener("click", async () => {
+
+      let req = buildRequestJson();
+
+      if (req.mode === "sitemap") {
+          const file = els.fileInput.files[0];
+
+          if (!file) {
+              setStatus("Please upload a sitemap file.", "warn");
+              return;
+          }
+
+          const sitemapContent = await file.text();
+
+          req.sitemap_content = sitemapContent;
+      }
+      else if (req.mode === "spider") {
+          if (!req.url) {
+              setStatus("Please enter a starting URL.", "warn");
+              return;
+          }
+
+          // #req.mode = "spider";
+      }
+
+      if (!req.custom_fields.length) {
+        setStatus("Please add at least one field.", "warn");
+        return;
+      }
+
+      setStatus("Calling endpoint…", "");
+      els.results.textContent = "";
+
+      try {
+        const headers = parseHeaders();
+        if (!headers["Content-Type"] && !headers["content-type"]) {
+          headers["Content-Type"] = "application/json";
+        }
+
+        const res = await fetch('/api/crawl', {
+          method: "POST",
+          headers,
+          body: JSON.stringify(req)
+        });
+
+        const contentType = res.headers.get("content-type") || "";
+        let data;
+        if (contentType.includes("application/json")) {
+          data = await res.json();
+        } else {
+          data = await res.text();
+        }
+
+        if (!res.ok) {
+          setStatus(`Request failed (${res.status}). See response.`, "bad");
+          els.results.textContent = typeof data === "string" ? data : JSON.stringify(data, null, 2);
+          return;
+        }
+
+        if (data.job_id) {
+          currentJobId = data.job_id;
+          startPolling(data.job_id);
+          els.stopBtn.style.display = "";
+          els.stopBtn.disabled = false;
+          els.stopBtn.textContent = "Stop Scraping";
+        }
+
+      } catch (err) {
+        setStatus(err?.message || "Request failed.", "bad");
+      }
+    });
+
+    els.stopBtn.addEventListener("click", async () => {
+      if (!currentJobId) return;
+      els.stopBtn.disabled = true;
+      els.stopBtn.textContent = "Stopping…";
+      try {
+        await fetch(`/api/stop/${currentJobId}`, { method: "POST" });
+        setStatus("Stopping… finishing in-flight pages, then building output.", "warn");
+      } catch (err) {
+        setStatus("Could not send stop request.", "bad");
+        els.stopBtn.disabled = false;
+        els.stopBtn.textContent = "Stop Scraping";
+      }
+    });
+
+    function startPolling(jobId) {
+      if (pollInterval) clearInterval(pollInterval);
+      startTime = Date.now();
+      els.results.textContent = `Job ID: ${jobId}\n\n`;
+
+      pollInterval = setInterval(async () => {
+        try {
+          const res = await fetch(`/api/status/${jobId}`);
+          const data = await res.json();
+
+          // Show log lines, preserving the Job ID header
+          els.results.textContent = `Job ID: ${jobId}\n\n` + (data.log || []).join("\n");
+          els.results.scrollTop = els.results.scrollHeight;
+
+          // Update status bar with progress
+          const elapsed = Math.round((Date.now() - startTime) / 1000);
+          if (data.total > 0) {
+            setStatus(`Crawling… ${data.progress} / ${data.total} pages (${elapsed}s)`);
+          } else {
+            setStatus(`Crawling… ${elapsed}s`);
+          }
+
+          if (data.status === "done") {
+            clearInterval(pollInterval);
+            pollInterval = null;
+            setStatus(`Done — ${data.progress} pages in ${elapsed}s. Ready to download.`, "ok");
+            els.stopBtn.style.display = "none";
+          } else if (data.status === "stopped") {
+            clearInterval(pollInterval);
+            pollInterval = null;
+            setStatus(`Stopped — ${data.progress} pages crawled in ${elapsed}s. Ready to download.`, "warn");
+            els.stopBtn.style.display = "none";
+          } else if (data.status === "error") {
+            clearInterval(pollInterval);
+            pollInterval = null;
+            setStatus(`Error: ${data.error}`, "bad");
+            els.stopBtn.style.display = "none";
+          }
+        } catch (err) {
+          clearInterval(pollInterval);
+          pollInterval = null;
+          setStatus("Lost connection to server.", "bad");
+        }
+      }, 1500);
+    }
+
+    // --- Fields sharing (export/import/share link) + autosave ---
+    els.exportFieldsBtn.addEventListener("click", () => {
+      const text = exportFieldsJson();
+      const ts = new Date().toISOString().slice(0, 19).replaceAll(":", "-");
+      downloadTextFile(`fields-preset-${ts}.json`, text);
+      setStatus("Exported fields preset.", "ok");
+    });
+
+    els.importFieldsBtn.addEventListener("click", () => {
+      els.importFieldsFile.value = "";
+      els.importFieldsFile.click();
+    });
+
+    els.importFieldsFile.addEventListener("change", async (e) => {
+      const file = e.target.files && e.target.files[0] ? e.target.files[0] : null;
+      if (!file) return;
+
+      try {
+        const text = await file.text();
+        const obj = JSON.parse(text);
+
+        const fields = Array.isArray(obj?.fields) ? obj.fields : null;
+        if (!fields) throw new Error("That file doesn't look like a fields preset.");
+
+        setFieldsToUI(fields);
+        saveFieldsToLocalStorage();
+        setStatus("Imported fields preset.", "ok");
+      } catch (err) {
+        setStatus(err?.message || "Could not import that file.", "bad");
+      }
+    });
+
+    els.copyShareLinkBtn.addEventListener("click", async () => {
+      const link = makeShareLink();
+      try {
+        await navigator.clipboard.writeText(link);
+        setStatus("Copied share link to clipboard.", "ok");
+      } catch {
+        setStatus(`Copy this link: ${link}`, "warn");
+      }
+    });
+
+    // Auto-save any time someone edits the fields area
+    els.fieldsContainer.addEventListener("input", () => saveFieldsToLocalStorage());
+    els.fieldsContainer.addEventListener("change", () => saveFieldsToLocalStorage());
+
+    els.downloadXlsxBtn.addEventListener("click", () => {
+      if (!currentJobId) {
+        setStatus("No completed extraction available.", "warn");
+        return;
+      }
+
+      window.location.href =
+        `/api/download/${currentJobId}`;
+    });
+
+    els.downloadLogBtn.addEventListener("click", () => {
+      if (currentJobId) window.location.href = `/api/log/${currentJobId}`;
+    });
+
+    (function init(){
+      // 1) If URL contains a fields preset, load it
+      const url = new URL(window.location.href);
+      const preset = url.searchParams.get("fields");
+      if (preset) {
+        try {
+          const obj = decodeFromUrl(preset);
+          if (obj && Array.isArray(obj.fields)) {
+            setFieldsToUI(obj.fields);
+          } else {
+            for (const f of exampleFields) els.fieldsContainer.appendChild(makeFieldRow(f));
+          }
+        } catch {
+          for (const f of exampleFields) els.fieldsContainer.appendChild(makeFieldRow(f));
+        }
+      } else {
+        // 2) Else load last local fields if present
+        const loaded = loadFieldsFromLocalStorage();
+        if (!loaded) {
+          // 3) Else default examples
+          for (const f of exampleFields) els.fieldsContainer.appendChild(makeFieldRow(f));
+        }
+      }
+
+      setMode("url");
+      updatePreviewFromUrl();
+    })();
+  </script>
+</body>
+</html>

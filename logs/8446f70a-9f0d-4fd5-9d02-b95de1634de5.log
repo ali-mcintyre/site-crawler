@@ -1,0 +1,814 @@
+[2026-06-16 11:50:14] Starting spider crawl at https://www.hp.com/us-en/shop/slp/weekly-deals/desktops with max_pages=5 and custom_fields=['name', 'price', 'description', 'ImageUrl', 'Color']
+[2026-06-16 11:50:22] Extracted 18 chunks from https://www.hp.com/us-en/shop/slp/weekly-deals/desktops for record extraction
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'HP OmniStudio X All-in-One Desktop Next Gen AI 27-cs0000t PC 27"'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '1279.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'Take on demanding tasks with lightning speed with the HP OmniStudio X 27-inch All-in-One Desktop Next Gen AI PC, featuring the AI accelerating Intel® Core™ Ultra Processor with up to 47 TOPS NPU[1] that boosts your productivity. Enjoy immersive visuals, cinema-quality audio and AI-powered wellness features that help you take on the day your way.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/uaozmrtodg/webp/uaozmrtodg.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'HP OmniDesk Desktop AI  M03-0000t PC'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '729.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> "The HP OmniDesk Desktop AI PC delivers optimal efficiency and performance for the most demanding daily tasks. Powered by the Intel® Core™ Ultra Processor[1] with built-in AI technology, it's set to power daily productivity with the latest ports, plenty of storage and DDR5 memory for faster boot times."
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/zudehdceyf/webp/zudehdceyf.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'OMEN 35L Gaming Desktop GT16-1085m PC'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '2559.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'The OMEN 35L Gaming Desktop PC unlocks your performance potential. It features the latest AMD Ryzen™ Processor[1] and advanced graphics, with OMEN branded components optimized for peak thermal capabilities and power. Designed for easy tool-less upgradeability and personalization to suit your gaming needs.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/b3jsfuhi0f/webp/b3jsfuhi0f.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'OMEN HP 45L Gaming Desktop GT22-3000t PC'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '2749.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'Built for extreme performance, the OMEN 45L Gaming Desktop PC is designed for gaming from the ground up. Powered by the latest Intel® Processor,[1] the OMEN by HP gaming desktop takes cooling to incredible heights with a unique cooling chamber. Created for easy tool-less upgradeability with industry standard components to meet your gaming needs.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/lxh30uhyhx/webp/lxh30uhyhx.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'HP OmniStudio 27 inch All-in-One Desktop Next Gen AI PC'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '969.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'Navigate your day with the HP OmniStudio 27-inch All-in-One Desktop, powered by Intel® Core™ Ultra[1]. Multitask smoothly, enjoy an expansive HD display that brings work and entertainment to life, and stay connected with adaptive audio and AI wellness features designed for comfort and focus.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/4mmrpltvap/webp/4mmrpltvap.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'HP OmniStudio All-in-One Desktop Next Gen AI 27-cy0067t PC, Windows 11 Home,\xa027",\xa0Touch screen,\xa0Intel® Core™ Ultra 7,\xa032GB RAM,\xa01TB SSD,\xa0FHD,\xa0Cotton white'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '1499.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'Navigate your day with the HP OmniStudio 27-inch All-in-One Desktop, powered by Intel® Core™ Ultra[1]. Multitask smoothly, enjoy an expansive HD display that brings work and entertainment to life, and stay connected with adaptive audio and AI wellness features designed for comfort and focus.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/34pb5nfo54/webp/34pb5nfo54.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'OMEN 16L Gaming Desktop TG03-0085t PC, Windows 11 Home,\xa0Intel® Core™ Ultra 7,\xa032GB RAM,\xa01TB SSD,\xa0NVIDIA® GeForce RTX™ 5060,\xa0Snow white'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '1829.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'Step into your gaming era with the OMEN 16L. Powered by an Intel® Processor[1] and high-performance graphics, it delivers elevated performance in a compact form. Great for unwinding after a busy day or gaming during your downtime.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/ursbsayuck/webp/ursbsayuck.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'HP OmniStudio All-in-One Desktop Next Gen AI 27-cw0100m'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '1009.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'Navigate your day with the HP OmniStudio 27-inch All-in-One Desktop, powered by AMD Ryzen™ AI[1]. Multitask smoothly, enjoy an expansive HD display that brings work and entertainment to life, and stay connected with adaptive audio and AI wellness features designed for comfort and focus.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/y89m5rd2bm/webp/y89m5rd2bm.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'HP OmniDesk Desktop M02-0000t PC'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '609.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'The HP OmniDesk PC merges trusted technology with enhanced performance in a modern design. Easily maximize productivity on your home PC with the latest ports, fast and responsive Intel® Processor[1], reliable Wi-Fi technology and DDR5 memory for fast boot times and effortless multitasking.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/8xq4kbk4i9/webp/8xq4kbk4i9.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'OMEN 35L Gaming Desktop GT16-0107t PC, Windows 11 Home,\xa0Intel® Core™ Ultra 7,\xa032GB RAM,\xa01TB SSD,\xa0NVIDIA® GeForce RTX™ 5070,\xa0Black'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '2449.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'The OMEN 35L Gaming Desktop PC unlocks your performance potential. It features the latest Intel® Core™ Processor[1] and advanced graphics, with OMEN branded components optimized for peak thermal capabilities and power. Designed for easy tool-less upgradability and personalization to suit your gaming needs.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/624dc3bnwf/webp/624dc3bnwf.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:22] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] name -> 'HP All-in-One 27-cr0000m, 27"'
+[2026-06-16 11:50:22] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] price -> '809.99'
+[2026-06-16 11:50:22] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] description -> 'This slim, HP 27" All-in-One Desktop PC empowers you to do more while using less. Responsibly manufactured using post-consumer recycled and ocean-bound plastics[1] and is EPEAT® Gold Registered and ENERGY STAR® Certified[2]. With a powerful processor, upgraded memory and enhanced multitasking features, there’s no compromise for heightened performance.'
+[2026-06-16 11:50:22] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] ImageUrl -> 'https://hp.widen.net/content/gfcqulxgup/webp/gfcqulxgup.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:22] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:22] Color -> ''
+[2026-06-16 11:50:23] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] name -> 'HP OmniStudio X All-in-One Desktop Next Gen AI 32-c1075t PC, Windows 11 Home,\xa031.5",\xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa01TB SSD,\xa04K UHD,\xa0Meteor silver'
+[2026-06-16 11:50:23] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] price -> '1749.99'
+[2026-06-16 11:50:23] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] description -> 'Conquer your demanding tasks with the HP OmniStudio X 31.5-inch All-in-One Desktop Next Gen AI PC  with an AI-accelerating Intel® Core™ Ultra Processor[1] and the productivity boosting Copilot+[4]. Enjoy immersive visuals on a 4K[2] UHD[3] display, AI-powered wellness features and ultrafast connectivity to effortlessly transition between work and play.'
+[2026-06-16 11:50:23] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] ImageUrl -> 'https://hp.widen.net/content/tc3sjy32fc/webp/tc3sjy32fc.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:23] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] Color -> ''
+[2026-06-16 11:50:23] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] name -> 'HP 23.8 inch All-in-One Desktop AI PC 24-cr2000t'
+[2026-06-16 11:50:23] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] price -> '749.99'
+[2026-06-16 11:50:23] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] description -> 'Boost productivity with the HP All-in-One Desktop, powered by Intel® Core™ Ultra Processor[2] with built-in AI for fast multitasking. Store files with up to 2TB storage[3], enjoy fast load times with DDR5 memory, and get instant AI help with the Copilot[1] key. Intel® UHD graphics[4] enhance visuals, while WiFi 6[5] ensures seamless connections.'
+[2026-06-16 11:50:23] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] ImageUrl -> 'https://hp.widen.net/content/wplvtazi5j/webp/wplvtazi5j.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:23] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] Color -> ''
+[2026-06-16 11:50:23] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] name -> 'HP OmniStudio All-in-One Desktop 24-cv0000m PC 24"'
+[2026-06-16 11:50:23] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] price -> '619.99'
+[2026-06-16 11:50:23] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] description -> 'The HP OmniStudio 24-inch All-in-One Desktop keeps up with your family’s busy day, powered by AMD processors[1] for smooth, reliable performance. Featuring a vibrant Full HD display[2] and ample storage[3], it’s perfect for home, work, and entertainment.'
+[2026-06-16 11:50:23] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] ImageUrl -> 'https://hp.widen.net/content/k9syzcllmw/webp/k9syzcllmw.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:23] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] Color -> ''
+[2026-06-16 11:50:23] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] name -> 'HP OmniStudio All-in-One Desktop 27-cv0565m PC'
+[2026-06-16 11:50:23] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] price -> '989.99'
+[2026-06-16 11:50:23] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] description -> 'Navigate your day with the HP OmniStudio 27-inch All-in-One Desktop, powered by AMD Ryzen™[1]. Multitask smoothly, enjoy an expansive HD display that brings work and entertainment to life, and stay connected with adaptive audio and wellness features designed for comfort and focus.'
+[2026-06-16 11:50:23] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] ImageUrl -> 'https://hp.widen.net/content/dgejeirq15/webp/dgejeirq15.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:23] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] Color -> ''
+[2026-06-16 11:50:23] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] name -> 'HP OmniDesk Desktop M02-0085m PC, Windows 11 Home,\xa0AMD Ryzen™ 7,\xa016GB RAM,\xa01TB SSD,\xa0Gray wood'
+[2026-06-16 11:50:23] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] price -> '1029.99'
+[2026-06-16 11:50:23] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] description -> 'Get balanced performance and responsive graphics with the HP OmniDesk Desktop PC, powered by AMD Ryzen™ Processors[1]. Optional AI capabilities support smooth multitasking, while DDR5 memory reduces load times. Stay productive with the latest ports, including USB-C®[4] and optional graphics for immersive visuals.'
+[2026-06-16 11:50:23] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] ImageUrl -> 'https://hp.widen.net/content/jcbhiph7dv/webp/jcbhiph7dv.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:23] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] Color -> ''
+[2026-06-16 11:50:23] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] name -> 'OMEN 16L Gaming Desktop TG03-0200t PC'
+[2026-06-16 11:50:23] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] price -> '1049.99'
+[2026-06-16 11:50:23] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] description -> 'Step into your gaming era with the OMEN 16L. Powered by an Intel® Processor[1] and high-performance graphics, it delivers elevated performance in a compact form. Great for unwinding after a busy day or gaming during your downtime.'
+[2026-06-16 11:50:23] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] ImageUrl -> 'https://hp.widen.net/content/cmqpkcmk9y/webp/cmqpkcmk9y.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:23] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] Color -> ''
+[2026-06-16 11:50:23] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] name -> 'OMEN 16L Gaming Desktop PC TG03-0000m'
+[2026-06-16 11:50:23] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] price -> '1039.99'
+[2026-06-16 11:50:23] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] description -> 'Step into the world of gaming with the OMEN 16L. Powered by an AMD Ryzen™ Processor[1][2] and high-performance graphics, it delivers elevated performance in a compact form. Great for unwinding after a busy day or gaming during your downtime.'
+[2026-06-16 11:50:23] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] ImageUrl -> 'https://hp.widen.net/content/tkow4wojfs/webp/tkow4wojfs.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:50:23] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:23] Color -> ''
+[2026-06-16 11:50:23] Found 1 missing required fields in https://www.hp.com/us-en/shop/slp/weekly-deals/desktops
+[2026-06-16 11:50:58] batch=1 pages_processed=1 max_pages=5 visited=1 queue=254
+[2026-06-16 11:51:02] Extracted 1 chunks from https://www.hp.com/ec-es/home.html for record extraction
+[2026-06-16 11:51:02] No content chunks extracted from https://www.hp.com/ec-es/home.html
+[2026-06-16 11:51:02] Trying Claude API for https://www.hp.com/ec-es/home.html since no chunks extracted
+[2026-06-16 11:51:07] Extracted 11 chunks from https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB for record extraction
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'HP OmniStudio 27 inch All-in-One Desktop Next Gen AI PC'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '969.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Navigate your day with the HP OmniStudio 27-inch All-in-One Desktop, powered by Intel® Core™ Ultra[1]. Multitask smoothly, enjoy an expansive HD display that brings work and entertainment to life, and stay connected with adaptive audio and AI wellness features designed for comfort and focus.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/4mmrpltvap/webp/4mmrpltvap.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'HP OmniStudio All-in-One Desktop Next Gen AI 27-cw0100m'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '1009.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Navigate your day with the HP OmniStudio 27-inch All-in-One Desktop, powered by AMD Ryzen™ AI[1]. Multitask smoothly, enjoy an expansive HD display that brings work and entertainment to life, and stay connected with adaptive audio and AI wellness features designed for comfort and focus.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/y89m5rd2bm/webp/y89m5rd2bm.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'HP OmniStudio All-in-One Desktop 27-cv0565m PC'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '989.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Navigate your day with the HP OmniStudio 27-inch All-in-One Desktop, powered by AMD Ryzen™[1]. Multitask smoothly, enjoy an expansive HD display that brings work and entertainment to life, and stay connected with adaptive audio and wellness features designed for comfort and focus.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/dgejeirq15/webp/dgejeirq15.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'OMEN 16L Gaming Desktop TG03-0200t PC'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '1049.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Step into your gaming era with the OMEN 16L. Powered by an Intel® Processor[1] and high-performance graphics, it delivers elevated performance in a compact form. Great for unwinding after a busy day or gaming during your downtime.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/cmqpkcmk9y/webp/cmqpkcmk9y.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'OMEN 16L Gaming Desktop PC TG03-0000m'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '1039.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Step into the world of gaming with the OMEN 16L. Powered by an AMD Ryzen™ Processor[1][2] and high-performance graphics, it delivers elevated performance in a compact form. Great for unwinding after a busy day or gaming during your downtime.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/tkow4wojfs/webp/tkow4wojfs.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'OMEN 16L Gaming Desktop PC TG03-0000t'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '1269.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Step into your gaming era with the OMEN 16L. Powered by an Intel® Processor[1] and high-performance graphics, it delivers elevated performance in a compact form. Great for unwinding after a busy day or gaming during your downtime.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/vrafs9bpso/webp/vrafs9bpso.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'HP 27 inch All-in-One Desktop Next Gen AI PC 27-ct0000m'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '1279.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Boost productivity and entertainment with the HP All-in-One, powered by AMD Ryzen™ AI 300 series Processors with up to 50 TOPS NPU[1] for fast multitasking and AI-driven performance. The intuitive AI tools and assistant allow you to work smart, while AMD Radeon™ 800M graphics deliver stunning visuals for light gaming, streaming, and more.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/es1gqvvaas/webp/es1gqvvaas.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'HP All-in-One Desktop Next Gen AI 24-ct2055m PC, Windows 11 Home, 23.8", AMD Ryzen™ AI 5, 16GB RAM, 512GB SSD, FHD, Shell white'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '879.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Boost productivity and entertainment with the HP All-in-One, powered by AMD Ryzen™ AI 300 series processors with up to 50 TOPS NPU[1] for fast multitasking and AI-driven performance. The intuitive AI tools and assistant allow you to work smarter, while AMD Radeon™ 800M graphics deliver stunning visuals for light gaming, streaming, and more.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/hf2hk3xgpe/webp/hf2hk3xgpe.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'HP OmniStudio All-in-One Desktop 24-cu0027t PC, Windows 11 Home,\xa023.8",\xa0Intel® N-series,\xa016GB RAM,\xa0512GB SSD,\xa0FHD,\xa0Jet black'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '819.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'The HP OmniStudio 24-inch All-in-One Desktop keeps up with your family’s busy day, powered by Intel® processors[1] for smooth, reliable performance. Featuring a vibrant Full HD display[2] and ample storage[3], it’s the perfect all-in-one for home, work, and entertainment.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/twki66wd1t/jpeg/twki66wd1t.jpg?w=1500&dpi=300&imwidth=270&imdensity=1'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'HP OmniDesk Desktop M02-0065m PC, Windows 11 Home,\xa0AMD Ryzen™ 5,\xa016GB RAM,\xa0512GB SSD,\xa0Gray wood'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '949.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Get balanced performance and responsive graphics with the HP OmniDesk Desktop PC, powered by AMD Ryzen™ Processors[1]. Optional AI capabilities support smooth multitasking, while DDR5 memory reduces load times. Stay productive with the latest ports, including USB-C®[4] and optional graphics for immersive visuals.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/jcbhiph7dv/webp/jcbhiph7dv.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] name -> 'OMEN 16L Gaming Desktop TG03-0055m PC, Windows 11 Home,\xa0AMD Ryzen™ 5,\xa016GB RAM,\xa0512GB SSD,\xa0AMD Radeon™ RX 7600,\xa0Black'
+[2026-06-16 11:51:07] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] price -> '1349.99'
+[2026-06-16 11:51:07] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] description -> 'Step into the world of gaming with the OMEN 16L. Powered by an AMD Ryzen™ Processor[1][2] and high-performance graphics, it delivers elevated performance in a compact form. Great for unwinding after a busy day or gaming during your downtime.'
+[2026-06-16 11:51:07] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] ImageUrl -> 'https://hp.widen.net/content/tkow4wojfs/webp/tkow4wojfs.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:07] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:07] Color -> ''
+[2026-06-16 11:51:07] Found 1 missing required fields in https://www.hp.com/us-en/shop/slp/weekly-deals/desktops&storage=512GB
+[2026-06-16 11:51:13] Extracted 3 chunks from https://www.hp.com/us-en/shop/cat/business-solutions for record extraction
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] name -> ''
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] price -> 'MSRP'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] description -> ''
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/msaniswk8a/webp/msaniswk8a.png?w=573&amp;h=430&amp;dpi=72&amp;color=ffffff00'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] name -> ''
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] price -> 'MSRP $4,709.00'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] description -> ''
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/estuzcj3jp/webp/estuzcj3jp.png?w=573&amp;h=430&amp;dpi=72&amp;color=ffffff00'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] name -> ''
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] price -> 'MSRP $3,858.00'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] description -> ''
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/idwjtbjdvu/webp/idwjtbjdvu.png?w=573&amp;h=430&amp;dpi=72&amp;color=ffffff00'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Found 3 missing required fields in https://www.hp.com/us-en/shop/cat/business-solutions
+[2026-06-16 11:51:13] Extracted 48 chunks from https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC for record extraction
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP EliteStudio 8 27 G1i All in One AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '2759'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["Featuring AI-enhanced performance with the latest Intel Core Ultra processor[2] and an up to 13 TOPS NPU.[3] The HP EliteStudio 8 AiO G1i AI PC offers advanced security, up to 4 TB of M.2 storage[4], and a sensational design, making it ideal for modern workspaces."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/l44q8zxqf0/webp/l44q8zxqf0.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP OmniDesk Desktop AI M03-0173t PC, Windows 11 Home,\xa0Intel® Core™ Ultra 7,\xa016GB RAM,\xa02TB SSD,\xa0Dark wood'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '1599.99'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["The HP OmniDesk Desktop AI PC delivers optimal efficiency and performance for the most demanding daily tasks. Powered by the Intel® Core™ Ultra Processor[1] with built-in AI technology, it\'s set to power daily productivity with the latest ports, plenty of storage and DDR5 memory for faster boot times."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/zudehdceyf/webp/zudehdceyf.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP Z2 SFF G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '3899'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["Re-engineered to get all the power of a full-size tower at a fraction of the size.  The Z2 SFF AI workstation delivers high performance for intensive workflows—from 3D design to real time ray tracing—now and in the future.  When demands change, you have the impressive ability to upgrade and expand."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-SFF-G1i-JetBlack-Horizontal-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP OmniDesk Desktop M02-0085m PC, Windows 11 Home,\xa0AMD Ryzen™ 7,\xa016GB RAM,\xa01TB SSD,\xa0Gray wood'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '1029.99'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["Get balanced performance and responsive graphics with the HP OmniDesk Desktop PC, powered by AMD Ryzen™ Processors[1]. Optional AI capabilities support smooth multitasking, while DDR5 memory reduces load times. Stay productive with the latest ports, including USB-C®[4] and optional graphics for immersive visuals."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/jcbhiph7dv/webp/jcbhiph7dv.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP EliteStudio 8 27 G1i All in One AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '2299'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["Featuring AI-enhanced performance with the latest Intel Core Ultra processor[2] and an up to 13 TOPS NPU.[3] The HP EliteStudio 8 AiO G1i AI PC offers advanced security, up to 4 TB of M.2 storage[4], and a sensational design, making it ideal for modern workspaces."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/l44q8zxqf0/webp/l44q8zxqf0.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP EliteDesk 8 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '2874'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["Delivering exceptional AI-enhanced performance with the latest Intel® Core™ Ultra processor[2] with an up to 13 TOPS NPU[3], the HP EliteDesk 8 Mini G1i AI PC\'s compact design, versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/lprmejrgdj/webp/lprmejrgdj.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'OMEN 16L Gaming Desktop TG03-0085t PC, Windows 11 Home,\xa0Intel® Core™ Ultra 7,\xa032GB RAM,\xa01TB SSD,\xa0NVIDIA® GeForce RTX™ 5060,\xa0Snow white'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '1829.99'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["Step into your gaming era with the OMEN 16L. Powered by an Intel® Processor[1] and high-performance graphics, it delivers elevated performance in a compact form. Great for unwinding after a busy day or gaming during your downtime."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/ursbsayuck/webp/ursbsayuck.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'OMEN 35L Gaming Desktop GT16-0066m PC, Windows 11 Home,\xa0AMD Ryzen™ 7,\xa016GB RAM,\xa01TB SSD,\xa0NVIDIA® GeForce RTX™ 4060,\xa0Black'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '1479.99'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["The OMEN 35L Gaming Desktop PC unlocks your performance potential. It features the latest AMD Ryzen™ Processor[1] and advanced graphics, with OMEN branded components optimized for peak thermal capabilities and power. Designed for easy tool-less upgradability and personalization to suit your gaming needs."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/tbaccoydwm/webp/tbaccoydwm.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP EliteStudio 8 24 G1i All in One AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '3825'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["Featuring AI-enhanced performance with the latest Intel Core Ultra processor[2] and an up to 13 TOPS NPU.[3] The HP EliteStudio 8 AiO G1i AI PC offers advanced security, up to 4 TB of M.2 storage[4], and a sensational design, making it ideal for modern workspaces."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/iutyfozdpm/webp/iutyfozdpm.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP EliteStudio 8 24 G1i All in One AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '3334'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["Featuring AI-enhanced performance with the latest Intel Core Ultra processor[2] and an up to 13 TOPS NPU.[3] The HP EliteStudio 8 AiO G1i AI PC offers advanced security, up to 4 TB of M.2 storage[4], and a sensational design, making it ideal for modern workspaces."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/iutyfozdpm/webp/iutyfozdpm.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP OmniDesk Desktop AI M03-0155t PC, Windows 11 Home,\xa0Intel® Core™ Ultra 5,\xa016GB RAM,\xa01TB SSD,\xa0Dark wood'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '1349.99'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["The HP OmniDesk Desktop AI PC delivers optimal efficiency and performance for the most demanding daily tasks. Powered by the Intel® Core™ Ultra Processor[1] with built-in AI technology, it\'s set to power daily productivity with the latest ports, plenty of storage and DDR5 memory for faster boot times."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/zudehdceyf/webp/zudehdceyf.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] Color -> ''
+[2026-06-16 11:51:13] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] name -> 'HP EliteDesk 8 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:13] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] price -> '1552'
+[2026-06-16 11:51:13] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] description -> '["Delivering exceptional AI-enhanced performance with the latest Intel® Core™ Ultra processor[2] with an up to 13 TOPS NPU[3], the HP EliteDesk 8 Mini G1i AI PC\'s compact design, versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:13] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:13] ImageUrl -> 'https://hp.widen.net/content/kpbimjifp9/webp/kpbimjifp9.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:13] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteStudio 8 24 G1i All in One AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '3105'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Featuring AI-enhanced performance with the latest Intel Core Ultra processor[2] and an up to 13 TOPS NPU.[3] The HP EliteStudio 8 AiO G1i AI PC offers advanced security, up to 4 TB of M.2 storage[4], and a sensational design, making it ideal for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/iutyfozdpm/webp/iutyfozdpm.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1724'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Delivering exceptional AI-enhanced performance with the latest Intel® Core™ Ultra processor[2] with an up to 13 TOPS NPU[3], the HP EliteDesk 8 Mini G1i AI PC\'s compact design, versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/kpbimjifp9/webp/kpbimjifp9.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'OMEN 35L Gaming Desktop GT16-0107t PC, Windows 11 Home,\xa0Intel® Core™ Ultra 7,\xa032GB RAM,\xa01TB SSD,\xa0NVIDIA® GeForce RTX™ 5070,\xa0Black'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2449.99'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["The OMEN 35L Gaming Desktop PC unlocks your performance potential. It features the latest Intel® Core™ Processor[1] and advanced graphics, with OMEN branded components optimized for peak thermal capabilities and power. Designed for easy tool-less upgradability and personalization to suit your gaming needs."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/624dc3bnwf/webp/624dc3bnwf.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Tower G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '3119'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Experience new levels of performance for professional workflows. The HP Z2 Tower AI workstation is reengineered to support high-end graphics and seamlessly run both single and multi-threaded apps for fast modeling, simulation, and rendering. Enjoy easy expandability to upgrade, when needs evolve."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Tower-G1i-TWR-Desktop-JetBlack-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1897'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Delivering exceptional AI-enhanced performance with the latest Intel® Core™ Ultra processor[2] with an up to 13 TOPS NPU[3], the HP EliteDesk 8 Mini G1i AI PC\'s compact design, versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/lprmejrgdj/webp/lprmejrgdj.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Tower G1i Workstation Desktop PC  Wolf Pro Security Edition'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '5969'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Experience new levels of performance for professional workflows. The HP Z2 Tower AI workstation is reengineered to support high-end graphics and seamlessly run both single and multi-threaded apps for fast modeling, simulation, and rendering. Enjoy easy expandability to upgrade, when needs evolve."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/zansv3yslk/webp/zansv3yslk.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteStudio 8 27 G1i All in One AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2184'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Featuring AI-enhanced performance with the latest Intel Core Ultra processor[2] and an up to 13 TOPS NPU.[3] The HP EliteStudio 8 AiO G1i AI PC offers advanced security, up to 4 TB of M.2 storage[4], and a sensational design, making it ideal for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/l44q8zxqf0/webp/l44q8zxqf0.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Tower G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2469'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Experience new levels of performance for professional workflows. The HP Z2 Tower AI workstation is reengineered to support high-end graphics and seamlessly run both single and multi-threaded apps for fast modeling, simulation, and rendering. Enjoy easy expandability to upgrade, when needs evolve."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Tower-G1i-TWR-Desktop-JetBlack-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP ProDesk 4 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1552'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["The HP ProDesk 4 Mini G1i Desktop AI PC delivers commercial-grade performance, security,\u202fand flexible deployment capabilities, with just a single-cable, for businesses of all sizes.\u202fThis\u202freliable, one-liter PC\u202fprovides the power to handle mainstream enterprise and SMBs with a powerful Intel®\u202fCPU[2]\u202ffeaturing a 13 TOPS NPU.[5] See where AI can take you!"]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/xkoaoyvb3t/webp/xkoaoyvb3t.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1782'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Delivering exceptional AI-enhanced performance with the latest Intel® Core™ Ultra processor[2] with an up to 13 TOPS NPU[3], the HP EliteDesk 8 Mini G1i AI PC\'s compact design, versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/lprmejrgdj/webp/lprmejrgdj.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Mini G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '4929'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Get incredible high performance packed into an insanely petite Z2 Mini G1i AI workstation to tackle 3D design, real-time rendering, and basic model development. Fitting on a desk or behind a monitor, conveniently access ports. When your demands change, you have impressive expandability to upgrade."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Mini-G1i-ShadowBlack-Horizontal-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1379'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Delivering exceptional AI-enhanced performance with the latest Intel® Core™ Ultra processor[2] with an up to 13 TOPS NPU[3], the HP EliteDesk 8 Mini G1i AI PC\'s compact design, versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/kpbimjifp9/webp/kpbimjifp9.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP All-in-One Desktop AI 27-cr2075t PC, Windows 11 Home, 27", Touch screen, Intel® Core™ Ultra 7, 16GB RAM, 1TB SSD, FHD, Jet black'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1779.99'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Boost productivity with the HP All-in-One Desktop, powered by Intel® Core Ultra Processors[2] with built-in AI for fast multitasking. Store files with up to 1TB storage[3], enjoy fast load times with DDR5 memory, and get instant AI help with the Copilot[1] key. Intel® UHD[4] graphics enhance visuals, while WiFi 6 ensures smooth connections."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/jig8ctybho/webp/jig8ctybho.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2529'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Delivering exceptional AI-enhanced performance with the latest Intel® Core™ Ultra processor[2] with an up to 13 TOPS NPU[3], the HP EliteDesk 8 Mini G1i AI PC\'s compact design, versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/lprmejrgdj/webp/lprmejrgdj.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 SFF G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1655'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Exceed demanding expectations with the HP EliteDesk 8 SFF G1i AI PC is the perfect choice for small workspaces. Powered by the latest Intel® Core™ Ultra processor[2] with a 13 TOPS NPU[3], this secure, scalable, and powerful AI PC tackles your multitasking needs."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/6x2h8ppbxa/webp/6x2h8ppbxa.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Tower G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2969'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Experience new levels of performance for professional workflows. The HP Z2 Tower AI workstation is reengineered to support high-end graphics and seamlessly run both single and multi-threaded apps for fast modeling, simulation, and rendering. Enjoy easy expandability to upgrade, when needs evolve."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Tower-G1i-TWR-Desktop-JetBlack-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Mini G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '3128'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Get incredible high performance packed into an insanely petite Z2 Mini G1i AI workstation to tackle 3D design, real-time rendering, and basic model development. Fitting on a desk or behind a monitor, conveniently access ports. When your demands change, you have impressive expandability to upgrade."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Mini-G1i-ShadowBlack-Horizontal-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1954'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Delivering exceptional AI-enhanced performance with the latest Intel® Core™ Ultra processor[2] with an up to 13 TOPS NPU[3], the HP EliteDesk 8 Mini G1i AI PC\'s compact design, versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/lprmejrgdj/webp/lprmejrgdj.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP ProDesk 4 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1356'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["The HP ProDesk 4 Mini G1i Desktop AI PC delivers commercial-grade performance, security,\u202fand flexible deployment capabilities, with just a single-cable, for businesses of all sizes.\u202fThis\u202freliable, one-liter PC\u202fprovides the power to handle mainstream enterprise and SMBs with a powerful Intel®\u202fCPU[2]\u202ffeaturing a 13 TOPS NPU.[5] See where AI can take you!"]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/xkoaoyvb3t/webp/xkoaoyvb3t.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 SFF G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '3187'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Exceed demanding expectations with the HP EliteDesk 8 SFF G1i AI PC is the perfect choice for small workspaces. Powered by the latest Intel® Core™ Ultra processor[2] with a 13 TOPS NPU[3], this secure, scalable, and powerful AI PC tackles your multitasking needs."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/6x2h8ppbxa/webp/6x2h8ppbxa.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteStudio 8 27 G1i All in One AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2184'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Featuring AI-enhanced performance with the latest Intel Core Ultra processor[2] and an up to 13 TOPS NPU.[3] The HP EliteStudio 8 AiO G1i AI PC offers advanced security, up to 4 TB of M.2 storage[4], and a sensational design, making it ideal for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/l44q8zxqf0/webp/l44q8zxqf0.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 Mini G1a Desktop Next-Gen AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1563'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Run multiple AI based applications[4] simultaneously driving productivity with uninterrupted workflows on the HP EliteDesk 8 Mini G1a Next Gen AI PC. Versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/yk7st42vce/webp/yk7st42vce.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 SFF G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '3099'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Re-engineered to get all the power of a full-size tower at a fraction of the size.  The Z2 SFF AI workstation delivers high performance for intensive workflows—from 3D design to real time ray tracing—now and in the future.  When demands change, you have the impressive ability to upgrade and expand."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-SFF-G1i-JetBlack-Horizontal-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Tower G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2979'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Experience new levels of performance for professional workflows. The HP Z2 Tower AI workstation is reengineered to support high-end graphics and seamlessly run both single and multi-threaded apps for fast modeling, simulation, and rendering. Enjoy easy expandability to upgrade, when needs evolve."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Tower-G1i-TWR-Desktop-JetBlack-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP ProDesk 4 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1494'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["The HP ProDesk 4 Mini G1i Desktop AI PC delivers commercial-grade performance, security,\u202fand flexible deployment capabilities, with just a single-cable, for businesses of all sizes.\u202fThis\u202freliable, one-liter PC\u202fprovides the power to handle mainstream enterprise and SMBs with a powerful Intel®\u202fCPU[2]\u202ffeaturing a 13 TOPS NPU.[5] See where AI can take you!"]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/xkoaoyvb3t/webp/xkoaoyvb3t.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Tower G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1599'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Experience new levels of performance for professional workflows. The HP Z2 Tower AI workstation is reengineered to support high-end graphics and seamlessly run both single and multi-threaded apps for fast modeling, simulation, and rendering. Enjoy easy expandability to upgrade, when needs evolve."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Tower-G1i-TWR-Desktop-JetBlack-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Mini G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2879'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Get incredible high performance packed into an insanely petite Z2 Mini G1i AI workstation to tackle 3D design, real-time rendering, and basic model development. Fitting on a desk or behind a monitor, conveniently access ports. When your demands change, you have impressive expandability to upgrade."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Mini-G1i-ShadowBlack-Horizontal-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Tower G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2329'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Experience new levels of performance for professional workflows. The HP Z2 Tower AI workstation is reengineered to support high-end graphics and seamlessly run both single and multi-threaded apps for fast modeling, simulation, and rendering. Enjoy easy expandability to upgrade, when needs evolve."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Tower-G1i-TWR-Desktop-JetBlack-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP EliteDesk 8 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1368'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Delivering exceptional AI-enhanced performance with the latest Intel® Core™ Ultra processor[2] with an up to 13 TOPS NPU[3], the HP EliteDesk 8 Mini G1i AI PC\'s compact design, versatile deployment options, and advanced security features make it the ideal choice for modern workspaces."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/lprmejrgdj/webp/lprmejrgdj.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Tower G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2519'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Experience new levels of performance for professional workflows. The HP Z2 Tower AI workstation is reengineered to support high-end graphics and seamlessly run both single and multi-threaded apps for fast modeling, simulation, and rendering. Enjoy easy expandability to upgrade, when needs evolve."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Tower-G1i-TWR-Desktop-JetBlack-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Tower G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2209'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Experience new levels of performance for professional workflows. The HP Z2 Tower AI workstation is reengineered to support high-end graphics and seamlessly run both single and multi-threaded apps for fast modeling, simulation, and rendering. Enjoy easy expandability to upgrade, when needs evolve."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Tower-G1i-TWR-Desktop-JetBlack-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 SFF G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '3699'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Re-engineered to get all the power of a full-size tower at a fraction of the size.  The Z2 SFF AI workstation delivers high performance for intensive workflows—from 3D design to real time ray tracing—now and in the future.  When demands change, you have the impressive ability to upgrade and expand."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-SFF-G1i-JetBlack-Horizontal-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 SFF G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2429'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Re-engineered to get all the power of a full-size tower at a fraction of the size.  The Z2 SFF AI workstation delivers high performance for intensive workflows—from 3D design to real time ray tracing—now and in the future.  When demands change, you have the impressive ability to upgrade and expand."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-SFF-G1i-JetBlack-Horizontal-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'OMEN 16L Gaming Desktop TG03-0060m PC, Windows 11 Home,\xa0AMD Ryzen™ 7,\xa016GB RAM,\xa01TB SSD,\xa0NVIDIA® GeForce RTX™ 5060,\xa0Snow white'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1799.99'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Step into the world of gaming with the OMEN 16L. Powered by an AMD Ryzen™ Processor[1][2] and high-performance graphics, it delivers elevated performance in a compact form. Great for unwinding after a busy day or gaming during your downtime."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/ygyoadkoap/webp/ygyoadkoap.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP Z2 Mini G1i Desktop Workstation with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '2279'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["Get incredible high performance packed into an insanely petite Z2 Mini G1i AI workstation to tackle 3D design, real-time rendering, and basic model development. Fitting on a desk or behind a monitor, conveniently access ports. When your demands change, you have impressive expandability to upgrade."]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://www.hp.com/wcsstore/hpusstore/Treatment/category/images/HP-Z2-Mini-G1i-ShadowBlack-Horizontal-573x430.png?imwidth=270&imdensity=1'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Extracting field 'name' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] name -> 'HP ProDesk 4 Mini G1i Desktop AI PC with 3 Yr Warranty & Wolf Pro Security'
+[2026-06-16 11:51:14] Extracting field 'price' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] price -> '1322'
+[2026-06-16 11:51:14] Extracting field 'description' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] description -> '["The HP ProDesk 4 Mini G1i Desktop AI PC delivers commercial-grade performance, security,\u202fand flexible deployment capabilities, with just a single-cable, for businesses of all sizes.\u202fThis\u202freliable, one-liter PC\u202fprovides the power to handle mainstream enterprise and SMBs with a powerful Intel®\u202fCPU[2]\u202ffeaturing a 13 TOPS NPU.[5] See where AI can take you!"]'
+[2026-06-16 11:51:14] Extracting field 'ImageUrl' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] ImageUrl -> 'https://hp.widen.net/content/xkoaoyvb3t/webp/xkoaoyvb3t.png?dpi=72&color=ffffff00&w=270'
+[2026-06-16 11:51:14] Extracting field 'Color' from chunk for https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:14] Color -> ''
+[2026-06-16 11:51:14] Found 1 missing required fields in https://www.hp.com/us-en/shop/vwa/desktops/aipc=AI-PC
+[2026-06-16 11:51:19] batch=4 pages_processed=5 max_pages=5 visited=5 queue=495

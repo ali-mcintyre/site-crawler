@@ -1,0 +1,21 @@
+[2026-06-16 12:18:07] Starting spider crawl at https://www.hawksearch.com/ with max_pages=3 and custom_fields=['name']
+[2026-06-16 12:18:18] Extracted 2 chunks from https://www.hawksearch.com for record extraction
+[2026-06-16 12:18:18] Extracting field 'name' from chunk for https://www.hawksearch.com
+[2026-06-16 12:18:18] name -> 'Top 3 Result Matches'
+[2026-06-16 12:18:18] Extracting field 'name' from chunk for https://www.hawksearch.com
+[2026-06-16 12:18:18] name -> '{{html title}}'
+[2026-06-16 12:18:18] Found 0 missing required fields in https://www.hawksearch.com
+[2026-06-16 12:18:18] batch=1 pages_processed=1 max_pages=3 visited=1 queue=90
+[2026-06-16 12:18:26] Extracted 2 chunks from https://www.hawksearch.com/industries/publishers for record extraction
+[2026-06-16 12:18:26] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:18:26] name -> 'Top 3 Result Matches'
+[2026-06-16 12:18:26] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:18:26] name -> '{{html title}}'
+[2026-06-16 12:18:26] Found 0 missing required fields in https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:18:29] Extracted 2 chunks from https://www.hawksearch.com/industries/associations for record extraction
+[2026-06-16 12:18:29] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:18:29] name -> 'Top 3 Result Matches'
+[2026-06-16 12:18:29] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:18:29] name -> '{{html title}}'
+[2026-06-16 12:18:29] Found 0 missing required fields in https://www.hawksearch.com/industries/associations
+[2026-06-16 12:18:29] batch=2 pages_processed=3 max_pages=3 visited=3 queue=93

@@ -1,0 +1,223 @@
+[2026-06-16 12:22:47] Starting spider crawl at https://www.hawksearch.com/ with max_pages=10 and custom_fields=['name', 'price', 'description', 'ImageUrl', 'Color']
+[2026-06-16 12:23:00] Extracted 2 chunks from https://www.hawksearch.com for record extraction
+[2026-06-16 12:23:00] Extracting field 'name' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] name -> 'Top 3 Result Matches'
+[2026-06-16 12:23:00] Extracting field 'price' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] price -> ''
+[2026-06-16 12:23:00] Extracting field 'description' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] description -> ''
+[2026-06-16 12:23:00] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] ImageUrl -> ''
+[2026-06-16 12:23:00] Extracting field 'Color' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] Color -> ''
+[2026-06-16 12:23:00] Extracting field 'name' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] name -> '{{html title}}'
+[2026-06-16 12:23:00] Extracting field 'price' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] price -> ''
+[2026-06-16 12:23:00] Extracting field 'description' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] description -> ''
+[2026-06-16 12:23:00] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:23:00] Extracting field 'Color' from chunk for https://www.hawksearch.com
+[2026-06-16 12:23:00] Color -> ''
+[2026-06-16 12:23:00] Found 4 missing required fields in https://www.hawksearch.com
+[2026-06-16 12:23:39] batch=1 pages_processed=1 max_pages=10 visited=1 queue=89
+[2026-06-16 12:23:49] Extracted 2 chunks from https://www.hawksearch.com/pricing for record extraction
+[2026-06-16 12:23:49] Extracting field 'name' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] name -> 'Top 3 Result Matches'
+[2026-06-16 12:23:49] Extracting field 'price' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] price -> ''
+[2026-06-16 12:23:49] Extracting field 'description' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] description -> ''
+[2026-06-16 12:23:49] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] ImageUrl -> ''
+[2026-06-16 12:23:49] Extracting field 'Color' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] Color -> ''
+[2026-06-16 12:23:49] Extracting field 'name' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] name -> '{{html title}}'
+[2026-06-16 12:23:49] Extracting field 'price' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] price -> ''
+[2026-06-16 12:23:49] Extracting field 'description' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] description -> ''
+[2026-06-16 12:23:49] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:23:49] Extracting field 'Color' from chunk for https://www.hawksearch.com/pricing
+[2026-06-16 12:23:49] Color -> ''
+[2026-06-16 12:23:49] Found 4 missing required fields in https://www.hawksearch.com/pricing
+[2026-06-16 12:23:52] Extracted 2 chunks from https://www.hawksearch.com/integration/roc-commerce for record extraction
+[2026-06-16 12:23:52] Extracting field 'name' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] name -> 'Top 3 Result Matches'
+[2026-06-16 12:23:52] Extracting field 'price' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] price -> ''
+[2026-06-16 12:23:52] Extracting field 'description' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] description -> ''
+[2026-06-16 12:23:52] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] ImageUrl -> ''
+[2026-06-16 12:23:52] Extracting field 'Color' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] Color -> ''
+[2026-06-16 12:23:52] Extracting field 'name' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] name -> '{{html title}}'
+[2026-06-16 12:23:52] Extracting field 'price' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] price -> ''
+[2026-06-16 12:23:52] Extracting field 'description' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] description -> ''
+[2026-06-16 12:23:52] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:23:52] Extracting field 'Color' from chunk for https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:52] Color -> ''
+[2026-06-16 12:23:52] Found 4 missing required fields in https://www.hawksearch.com/integration/roc-commerce
+[2026-06-16 12:23:53] Extracted 2 chunks from https://www.hawksearch.com/book-a-demo for record extraction
+[2026-06-16 12:23:53] Extracting field 'name' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] name -> 'Top 3 Result Matches'
+[2026-06-16 12:23:53] Extracting field 'price' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] price -> ''
+[2026-06-16 12:23:53] Extracting field 'description' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] description -> ''
+[2026-06-16 12:23:53] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] ImageUrl -> ''
+[2026-06-16 12:23:53] Extracting field 'Color' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] Color -> ''
+[2026-06-16 12:23:53] Extracting field 'name' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] name -> '{{html title}}'
+[2026-06-16 12:23:53] Extracting field 'price' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] price -> ''
+[2026-06-16 12:23:53] Extracting field 'description' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] description -> ''
+[2026-06-16 12:23:53] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:23:53] Extracting field 'Color' from chunk for https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:53] Color -> ''
+[2026-06-16 12:23:53] Found 4 missing required fields in https://www.hawksearch.com/book-a-demo
+[2026-06-16 12:23:55] Extracted 2 chunks from https://www.hawksearch.com/industries/associations for record extraction
+[2026-06-16 12:23:55] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] name -> 'Top 3 Result Matches'
+[2026-06-16 12:23:55] Extracting field 'price' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] price -> ''
+[2026-06-16 12:23:55] Extracting field 'description' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] description -> ''
+[2026-06-16 12:23:55] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] ImageUrl -> ''
+[2026-06-16 12:23:55] Extracting field 'Color' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] Color -> ''
+[2026-06-16 12:23:55] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] name -> '{{html title}}'
+[2026-06-16 12:23:55] Extracting field 'price' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] price -> ''
+[2026-06-16 12:23:55] Extracting field 'description' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] description -> ''
+[2026-06-16 12:23:55] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:23:55] Extracting field 'Color' from chunk for https://www.hawksearch.com/industries/associations
+[2026-06-16 12:23:55] Color -> ''
+[2026-06-16 12:23:55] Found 4 missing required fields in https://www.hawksearch.com/industries/associations
+[2026-06-16 12:24:01] Extracted 2 chunks from https://www.hawksearch.com/industries/publishers for record extraction
+[2026-06-16 12:24:01] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] name -> 'Top 3 Result Matches'
+[2026-06-16 12:24:01] Extracting field 'price' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] price -> ''
+[2026-06-16 12:24:01] Extracting field 'description' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] description -> ''
+[2026-06-16 12:24:01] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] ImageUrl -> ''
+[2026-06-16 12:24:01] Extracting field 'Color' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] Color -> ''
+[2026-06-16 12:24:01] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] name -> '{{html title}}'
+[2026-06-16 12:24:01] Extracting field 'price' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] price -> ''
+[2026-06-16 12:24:01] Extracting field 'description' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] description -> ''
+[2026-06-16 12:24:01] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:24:01] Extracting field 'Color' from chunk for https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:01] Color -> ''
+[2026-06-16 12:24:01] Found 4 missing required fields in https://www.hawksearch.com/industries/publishers
+[2026-06-16 12:24:02] Extracted 2 chunks from https://www.hawksearch.com/integration/bigcommerce for record extraction
+[2026-06-16 12:24:02] Extracting field 'name' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] name -> 'Top 3 Result Matches'
+[2026-06-16 12:24:02] Extracting field 'price' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] price -> ''
+[2026-06-16 12:24:02] Extracting field 'description' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] description -> ''
+[2026-06-16 12:24:02] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] ImageUrl -> ''
+[2026-06-16 12:24:02] Extracting field 'Color' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] Color -> ''
+[2026-06-16 12:24:02] Extracting field 'name' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] name -> '{{html title}}'
+[2026-06-16 12:24:02] Extracting field 'price' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] price -> ''
+[2026-06-16 12:24:02] Extracting field 'description' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] description -> ''
+[2026-06-16 12:24:02] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:24:02] Extracting field 'Color' from chunk for https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:02] Color -> ''
+[2026-06-16 12:24:02] Found 4 missing required fields in https://www.hawksearch.com/integration/bigcommerce
+[2026-06-16 12:24:04] Extracted 2 chunks from https://www.hawksearch.com/search-results for record extraction
+[2026-06-16 12:24:04] Extracting field 'name' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] name -> 'Top 3 Result Matches'
+[2026-06-16 12:24:04] Extracting field 'price' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] price -> ''
+[2026-06-16 12:24:04] Extracting field 'description' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] description -> ''
+[2026-06-16 12:24:04] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] ImageUrl -> ''
+[2026-06-16 12:24:04] Extracting field 'Color' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] Color -> ''
+[2026-06-16 12:24:04] Extracting field 'name' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] name -> '{{html title}}'
+[2026-06-16 12:24:04] Extracting field 'price' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] price -> ''
+[2026-06-16 12:24:04] Extracting field 'description' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] description -> ''
+[2026-06-16 12:24:04] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:24:04] Extracting field 'Color' from chunk for https://www.hawksearch.com/search-results
+[2026-06-16 12:24:04] Color -> ''
+[2026-06-16 12:24:04] Found 4 missing required fields in https://www.hawksearch.com/search-results
+[2026-06-16 12:24:08] Extracted 2 chunks from https://www.hawksearch.com/resources/webinars for record extraction
+[2026-06-16 12:24:08] Extracting field 'name' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] name -> 'Top 3 Result Matches'
+[2026-06-16 12:24:08] Extracting field 'price' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] price -> ''
+[2026-06-16 12:24:08] Extracting field 'description' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] description -> ''
+[2026-06-16 12:24:08] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] ImageUrl -> ''
+[2026-06-16 12:24:08] Extracting field 'Color' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] Color -> ''
+[2026-06-16 12:24:08] Extracting field 'name' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] name -> '{{html title}}'
+[2026-06-16 12:24:08] Extracting field 'price' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] price -> ''
+[2026-06-16 12:24:08] Extracting field 'description' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] description -> ''
+[2026-06-16 12:24:08] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:24:08] Extracting field 'Color' from chunk for https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] Color -> ''
+[2026-06-16 12:24:08] Found 4 missing required fields in https://www.hawksearch.com/resources/webinars
+[2026-06-16 12:24:08] Extracted 2 chunks from https://www.hawksearch.com/industries/fasteners for record extraction
+[2026-06-16 12:24:08] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] name -> 'Top 3 Result Matches'
+[2026-06-16 12:24:08] Extracting field 'price' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] price -> ''
+[2026-06-16 12:24:08] Extracting field 'description' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] description -> ''
+[2026-06-16 12:24:08] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] ImageUrl -> ''
+[2026-06-16 12:24:08] Extracting field 'Color' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] Color -> ''
+[2026-06-16 12:24:08] Extracting field 'name' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] name -> '{{html title}}'
+[2026-06-16 12:24:08] Extracting field 'price' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] price -> ''
+[2026-06-16 12:24:08] Extracting field 'description' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] description -> ''
+[2026-06-16 12:24:08] Extracting field 'ImageUrl' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] ImageUrl -> '{{imageUrl}}'
+[2026-06-16 12:24:08] Extracting field 'Color' from chunk for https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:08] Color -> ''
+[2026-06-16 12:24:08] Found 4 missing required fields in https://www.hawksearch.com/industries/fasteners
+[2026-06-16 12:24:15] batch=9 pages_processed=10 max_pages=10 visited=10 queue=169
