@@ -282,7 +282,7 @@ def search_attributes(html, field_name):
                 if text:
                     return text
 
-                value = el.get("content") or el.get("value")
+                value = el.get("href") or el.get("content") or el.get("value")
                 if value:
                     return value
 
@@ -353,6 +353,7 @@ FIELD_ALIASES = {
     "brand":       ["brand", "manufacturer", "publisher"],
     "sku":         ["sku", "productid", "mpn", "gtin13", "gtin12"],
     "url":         ["url", "link"],
+    "itemurl":     ["url", "link"],
     "rating":      ["ratingvalue", "rating"],
     "review_count":["reviewcount", "ratingcount"],
     "availability":["availability", "itemcondition"],
@@ -393,6 +394,12 @@ def extract_custom_field(field, html, parsed_jsonld=None):
         # 6. Image src — for image fields, grab the first <img> src in the chunk
     if field_name in ("image", "image_url", "img", "imageurl"):
         m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', html, re.I)
+        if m:
+            return m.group(1)
+
+    # 6b. href — for URL fields, grab the first <a href> in the chunk
+    if field_name in ("url", "itemurl", "link"):
+        m = re.search(r'<a[^>]+href=["\']([^"\'#][^"\']*)["\']', html, re.I)
         if m:
             return m.group(1)
     # 2. Meta tags — try aliases then original name
